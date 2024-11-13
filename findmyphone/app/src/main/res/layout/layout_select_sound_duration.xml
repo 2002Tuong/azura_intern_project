@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:layout_marginTop="@dimen/margin_12_dp"
+    android:layout_marginBottom="@dimen/margin_12_dp">
+
+    <ImageView
+        android:id="@+id/imgSettingIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/margin_16_dp"
+        android:layout_marginTop="@dimen/margin_16_dp"
+        android:layout_marginBottom="@dimen/margin_16_dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/icon_duration" />
+
+    <TextView
+        android:id="@+id/txtSettingTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/margin_9_dp"
+        android:layout_toStartOf="@id/txtSoundDuration15s"
+        android:layout_toEndOf="@id/imgSettingIcon"
+        android:text="@string/duration"
+        android:textColor="@color/text_color_1"
+        android:textSize="@dimen/text_size_14_sp" />
+
+    <TextView
+        android:id="@+id/txtSoundDuration2m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin_16_dp"
+        android:background="@drawable/button_sound_duration_selector"
+        android:gravity="center"
+        android:text="@string/duration_2m"
+        android:textColor="@drawable/duration_text_color_selector"
+        android:textSize="@dimen/text_size_14_sp"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/txtSoundDuration1m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin_4_dp"
+        android:layout_toStartOf="@id/txtSoundDuration2m"
+        android:background="@drawable/button_sound_duration_selector"
+        android:gravity="center"
+        android:text="@string/duration_1m"
+        android:textColor="@drawable/duration_text_color_selector"
+        android:textSize="@dimen/text_size_14_sp"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/txtSoundDuration30s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin_4_dp"
+        android:layout_toStartOf="@id/txtSoundDuration1m"
+        android:background="@drawable/button_sound_duration_selector"
+        android:gravity="center"
+        android:text="@string/duration_30s"
+        android:textColor="@drawable/duration_text_color_selector"
+        android:textSize="@dimen/text_size_14_sp"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/txtSoundDuration15s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin_4_dp"
+        android:layout_toStartOf="@id/txtSoundDuration30s"
+        android:background="@drawable/button_sound_duration_selector"
+        android:gravity="center"
+        android:text="@string/duration_15s"
+        android:textColor="@drawable/duration_text_color_selector"
+        android:textSize="@dimen/text_size_14_sp"
+        tools:ignore="RelativeOverlap" />
+</RelativeLayout>

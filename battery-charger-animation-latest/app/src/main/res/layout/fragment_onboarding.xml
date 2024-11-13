@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vpTutorial"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_10_dp"
+        android:layout_marginBottom="@dimen/margin_20_dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_20_sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tlTutorial"
+        tools:text="Title" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tlTutorial"
+        android:layout_width="@dimen/size_30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_10_dp"
+        android:layout_marginBottom="@dimen/size_2dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toTopOf="@+id/frAds"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tabBackground="@drawable/tab_selector"
+        app:tabIndicatorHeight="0dp" />
+
+    <TextView
+        android:id="@+id/txtContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_16_dp"
+        android:gravity="end"
+        android:paddingStart="@dimen/margin_10_dp"
+        android:text="@string/next"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_16_sp"
+        android:textAllCaps="true"
+        app:layout_constraintBottom_toBottomOf="@+id/tlTutorial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tlTutorial" />
+
+    <FrameLayout
+        android:id="@+id/frAds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <include
+            android:id="@+id/includeNative"
+            layout="@layout/ads_native_onboarding_shimmer"
+            android:visibility="visible" />
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

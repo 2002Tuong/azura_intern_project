@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.ads.mediation:vungle:6.12.1.1@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/24db0593c38520172d3558cdc6fdf86c/transformed/vungle-6.12.1.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/24db0593c38520172d3558cdc6fdf86c/transformed/vungle-6.12.1.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/24db0593c38520172d3558cdc6fdf86c/transformed/vungle-6.12.1.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.ads.mediation/vungle/6.12.1.1/4712fb98b60889d50b69ddacf207eda3f9cd7f8c/vungle-6.12.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

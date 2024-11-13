@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.pangle.global:ads-sdk:5.1.0.8@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3340068dcd02ab015977e94754dfdce2/transformed/ads-sdk-5.1.0.8/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3340068dcd02ab015977e94754dfdce2/transformed/ads-sdk-5.1.0.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3340068dcd02ab015977e94754dfdce2/transformed/ads-sdk-5.1.0.8/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="search_tag_color">
+        <item>#ffd37b</item>
+        <item>#ffc470</item>
+        <item>#a2eca5</item>
+        <item>#8ce8d4</item>
+        <item>#97c7e7</item>
+        <item>#89b4ff</item>
+        <item>#8f9cee</item>
+        <item>#b783f5</item>
+        <item>#e688c1</item>
+        <item>#e68c8b</item>
+    </array>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cw_next">"తరువాత"</string>
+    <string name="cw_get_started">"ప్రారంభించడానికి"</string>
+    <string name="setting_language">"భాష"</string>
+    <string name="splash_loading_message">"ఈ చర్యలో ప్రకటనలు ఉండవచ్చు"</string>
+    <string name="loading_ads">"ప్రకటనలను లోడ్ చేస్తోంది"</string>
+    <string name="pick_a_style">"ఒక శైలిని ఎంచుకోండి"</string>
+    <string name="crop_photo">"పంట ఫోటో"</string>
+    <string name="text_continue">"కొనసాగించండి"</string>
+    <string name="genart_ai">"జెనార్ట్ ఐ"</string>
+    <string name="policy">"విధానం"</string>
+    <string name="setting">"సెట్టింగులు"</string>
+    <string name="selected_style_title">"ఎంచుకున్న శైలి (%s)"</string>
+    <string name="loading_gen_art_title">"AI మేజిక్ ఆర్ట్ చేస్తోంది"</string>
+    <string name="loading_gen_art_message">"దయచేసి వేచి ఉండండి…"</string>
+    <string name="gen_art_success_title">"అన్నీ పూర్తయ్యాయి! మీ కళ సిద్ధంగా ఉంది"</string>
+    <string name="view_now">"ఇప్పుడే చూడండి"</string>
+    <string name="see_all">"అన్నింటిని చూడు"</string>
+    <string name="input_prompt">"ఇన్పుట్ ప్రాంప్ట్"</string>
+    <string name="ex_beautiful_girl_in_the_dream_world">"ఉదా: కలల ప్రపంచంలో అందమైన అమ్మాయి"</string>
+    <string name="demo_image_optional">"డెమో చిత్రం (ఐచ్ఛికం)"</string>
+    <string name="generate_now">"ఇప్పుడు ఉత్పత్తి చేయండి"</string>
+    <string name="watch_video_ads">"వీడియో ప్రకటనలు చూడండి"</string>
+    <string name="all_styles">"అన్ని శైలులు"</string>
+    <string name="result">"ఫలితం"</string>
+    <string name="skip">"దాటవేయి"</string>
+    <string name="camera">"కెమెరా"</string>
+    <string name="save">"సేవ్ చేయండి"</string>
+    <string name="create_more">"మరిన్ని సృష్టించండి"</string>
+    <string name="re_generate">"తిరిగి జనరేట్"</string>
+    <string name="generate_more_style">"మరింత శైలిని రూపొందించండి"</string>
+    <string name="save_image_success">"చిత్ర విజయాన్ని సేవ్ చేయండి"</string>
+    <string name="explore_various_styles">"వివిధ శైలులను అన్వేషించండి"</string>
+    <string name="advanced_ai_technology">"అధునాతన AI టెక్నాలజీ"</string>
+    <string name="modern_trends">"ఆధునిక పోకడలు"</string>
+    <string name="update_now">"ఇప్పుడే నవీకరించండి"</string>
+    <string name="later">"తరువాత"</string>
+</resources>

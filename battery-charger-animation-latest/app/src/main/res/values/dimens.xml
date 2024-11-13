@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="margin_48_dp">48dp</dimen>
+    <dimen name="margin_16_dp">16dp</dimen>
+    <dimen name="text_size_14_sp">14sp</dimen>
+    <dimen name="margin_20_dp">20dp</dimen>
+    <dimen name="margin_12_dp">12dp</dimen>
+    <dimen name="text_size_16_sp">16sp</dimen>
+    <dimen name="margin_10_dp">10dp</dimen>
+    <dimen name="size_1dp">1dp</dimen>
+    <dimen name="space_12dp">12dp</dimen>
+    <dimen name="design_fab_image_size" tools:override="true">56dp</dimen>
+    <dimen name="size_5_dp">5dp</dimen>
+    <dimen name="size_30dp">30dp</dimen>
+    <dimen name="text_size_12_sp">12sp</dimen>
+    <dimen name="size_2dp">2dp</dimen>
+    <dimen name="size_8dp">8dp</dimen>
+    <dimen name="text_size_18_sp">18sp</dimen>
+    <dimen name="text_size_24_sp">24sp</dimen>
+    <dimen name="space_24dp">24dp</dimen>
+    <dimen name="space_16">16dp</dimen>
+    <dimen name="space_large">36dp</dimen>
+    <dimen name="space_medium">8dp</dimen>
+    <dimen name="popup_icon_size">56dp</dimen>
+    <dimen name="space_small">4dp</dimen>
+    <dimen name="text_size_20_sp">20sp</dimen>
+    <dimen name="margin_8_dp">8dp</dimen>
+    <dimen name="size_12_dp">12dp</dimen>
+</resources>

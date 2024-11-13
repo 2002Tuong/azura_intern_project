@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="water_info_title_avoid_drink_mistake">หลีกเลี่ยงข้อผิดพลาดในการดื่มน้ำเหล่านี้</string>
+    <string name="water_info_title_best_time_to_drink">เวลาที่ดีที่สุดในการดื่มน้ำ</string>
+    <string name="water_info_title_replace_with_water">การเปลี่ยนเครื่องดื่มด้วยน้ำเพื่อสุขภาพ</string>
+    <string name="water_info_title_drink_on_empty_stomach">ดื่มน้ำตอนท้องว่าง?</string>
+    <string name="water_info_title_benefit_lemon_water">ประโยชน์ของการดื่มน้ำมะนาว</string>
+    <string name="water_info_title_is_ok_drink_during_meal">เป็นไปได้ไหมที่จะดื่มน้ำระหว่างมื้ออาหาร?</string>
+    <string name="water_info_title_benefit_for_health">ดื่มน้ำ: ประโยชน์ต่อสุขภาพ</string>
+    <string name="water_info_title_danger_of_overhydration">อันตรายจากภาวะขาดน้ำ</string>
+    <string name="water_info_title_why_should_give_baby_water">ทำไมคุณไม่ควรให้น้ำแก่ทารก?</string>
+</resources>

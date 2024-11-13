@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mbridge.msdk.oversea:interstitialvideo:16.4.91@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d3f3242dc273ff3c58d19b123d9f7cdc/transformed/interstitialvideo-16.4.91/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d3f3242dc273ff3c58d19b123d9f7cdc/transformed/interstitialvideo-16.4.91/jars/libs/classes-2.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d3f3242dc273ff3c58d19b123d9f7cdc/transformed/interstitialvideo-16.4.91/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

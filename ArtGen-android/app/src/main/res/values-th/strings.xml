@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cw_next">"ต่อไป"</string>
+    <string name="cw_get_started">"เริ่ม"</string>
+    <string name="setting_language">"ภาษา"</string>
+    <string name="splash_loading_message">"การกระทำนี้อาจมีโฆษณา"</string>
+    <string name="loading_ads">"กำลังโหลดโฆษณา"</string>
+    <string name="pick_a_style">"เลือกสไตล์"</string>
+    <string name="crop_photo">"ภาพถ่ายพืชผล"</string>
+    <string name="text_continue">"ดำเนินการต่อ"</string>
+    <string name="genart_ai">"Genart AI"</string>
+    <string name="policy">"นโยบาย"</string>
+    <string name="setting">"การตั้งค่า"</string>
+    <string name="selected_style_title">"สไตล์ที่เลือก (%s)"</string>
+    <string name="loading_gen_art_title">"AI กำลังสร้างงานศิลปะเวทมนตร์"</string>
+    <string name="loading_gen_art_message">"โปรดรอ…"</string>
+    <string name="gen_art_success_title">"ทุกอย่างเสร็จเรียบร้อย! งานศิลปะของคุณพร้อมแล้ว"</string>
+    <string name="view_now">"ดูตอนนี้"</string>
+    <string name="see_all">"ดูทั้งหมด"</string>
+    <string name="input_prompt">"พรอมต์อินพุต"</string>
+    <string name="ex_beautiful_girl_in_the_dream_world">"Ex: สาวสวยในโลกแห่งความฝัน"</string>
+    <string name="demo_image_optional">"ภาพสาธิต (ไม่บังคับ)"</string>
+    <string name="generate_now">"สร้างตอนนี้"</string>
+    <string name="watch_video_ads">"ดูโฆษณาวิดีโอ"</string>
+    <string name="all_styles">"ทุกสไตล์"</string>
+    <string name="result">"ผลลัพธ์"</string>
+    <string name="skip">"ข้าม"</string>
+    <string name="camera">"กล้อง"</string>
+    <string name="save">"บันทึก"</string>
+    <string name="create_more">"สร้างมากขึ้น"</string>
+    <string name="re_generate">"สร้างใหม่"</string>
+    <string name="generate_more_style">"สร้างสไตล์มากขึ้น"</string>
+    <string name="save_image_success">"บันทึกความสำเร็จของภาพ"</string>
+    <string name="explore_various_styles">"สำรวจสไตล์ที่หลากหลาย"</string>
+    <string name="advanced_ai_technology">"เทคโนโลยี AI ขั้นสูง"</string>
+    <string name="modern_trends">"แนวโน้มที่ทันสมัย"</string>
+    <string name="update_now">"อัพเดทเลย"</string>
+    <string name="later">"ภายหลัง"</string>
+</resources>

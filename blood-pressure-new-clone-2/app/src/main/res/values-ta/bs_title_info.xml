@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="bs_info_title_normal_blood_sugar_level">சாதாரண இரத்த சர்க்கரை அளவு</string>
+    <string name="bs_info_title_diabetes">நீரிழிவு நோய்</string>
+    <string name="bs_info_title_how_common_is_diabetes">நீரிழிவு நோய் எவ்வளவு பொதுவானது?</string>
+    <string name="bs_info_title_diabetes_symptoms">நீரிழிவு நோய் அறிகுறிகள்</string>
+    <string name="bs_info_title_diabetes_types">நீரிழிவு வகைகள்</string>
+</resources>

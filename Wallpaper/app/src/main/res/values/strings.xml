@@ -1,0 +1,346 @@
+<resources>
+    <string name="unknown" translatable="false">unknown error</string>
+    <string name="app_name"><![CDATA[4D Wallpapers]]></string>
+    <string name="add_to_playlist"><![CDATA[Add to playlist]]></string>
+    <string name="add_wallpaper_favorite_successfully"><![CDATA[Added wallpaper to favorites successfully]]></string>
+    <string name="added_playlist_successfully"><![CDATA[Added to wallpaper list successfully]]></string>
+    <string name="allowed"><![CDATA[Allow]]></string>
+    <string name="start_use_app"><![CDATA[Start the experience]]></string>
+    <string name="contact"><![CDATA[Contact]]></string>
+    <string name="deny"><![CDATA[Deny]]></string>
+    <string name="discover_wallpaper"><![CDATA[Discovery Wallpapers]]></string>
+    <string name="do_not_show_popup"><![CDATA[Do not show this popup again]]></string>
+    <string name="download"><![CDATA[Download]]></string>
+    <string name="download_wallpaper_fail"><![CDATA[Failed to download wallpaper]]></string>
+    <string name="download_wallpaper_successfully"><![CDATA[Downloaded wallpaper successfully!]]></string>
+    <string name="faq"><![CDATA[FAQ]]></string>
+    <string name="favorite"><![CDATA[Favorite]]></string>
+    <string name="live_wallpapers"><![CDATA[Live wallpapers]]></string>
+    <string name="more_app"><![CDATA[More Apps]]></string>
+    <string name="ask_confirm_reset_wallpaper"><![CDATA[Are you sure you want to reset the default wallpaper?]]></string>
+    <string name="message_down_wallpaper_success"><![CDATA[Let\'s see your downloaded wallpapers.]]></string>
+    <string name="message_toast_checking_network"><![CDATA[Please double check your Internet connection!]]></string>
+    <string name="message_toast_connect_network"><![CDATA[Please connect to the Internet]]></string>
+    <string name="new_wallpaper"><![CDATA[New Wallpapers]]></string>
+    <string name="no_record_error"><![CDATA[Sorry! No results found.]]></string>
+    <string name="off"><![CDATA[Off]]></string>
+    <string name="on"><![CDATA[On]]></string>
+    <string name="one_day"><![CDATA[1 day]]></string>
+    <string name="deny_permission"><![CDATA[Permission denied!\n You need to approve all required permissions for this application]]></string>
+    <string name="require_permission"><![CDATA[Application needs some permissions for this feature:]]></string>
+    <string name="storage_permission"><![CDATA[To store your ringtone file on your phone and its SD card]]></string>
+    <string name="storage_title_permission"><![CDATA[Storage:]]></string>
+    <string name="preview"><![CDATA[Preview]]></string>
+    <string name="privacy_policy"><![CDATA[Privacy Policy]]></string>
+    <string name="reset_all_wallpaper_menu"><![CDATA[Reset all wallpapers to default]]></string>
+    <string name="reset_all_wallpaper_success"><![CDATA[Reset all wallpapers to default successfully]]></string>
+    <string name="search"><![CDATA[Search]]></string>
+    <string name="set_wallpapers"><![CDATA[Set wallpaper]]></string>
+    <string name="setting"><![CDATA[Settings]]></string>
+    <string name="ask_setting_confirm_wallpaper"><![CDATA[Are you sure you want to set this wallpaper?]]></string>
+    <string name="setting_wallpaper_error"><![CDATA[Failed to set wallpaper]]></string>
+    <string name="setting_wallpaper_successfully"><![CDATA[Set wallpaper successfully]]></string>
+    <string name="share"><![CDATA[Share]]></string>
+    <string name="show_notification"><![CDATA[Show notification]]></string>
+    <string name="six_hours"><![CDATA[6 hours]]></string>
+    <string name="thanks_for_using"><![CDATA[Thank you for using this application]]></string>
+    <string name="three_days"><![CDATA[3 days]]></string>
+    <string name="top_download"><![CDATA[Top Downloads]]></string>
+    <string name="two_hours"><![CDATA[2 hours]]></string>
+    <string name="twelve_hours"><![CDATA[12 hours]]></string>
+    <string name="fifteen_minutes"><![CDATA[15 minutes]]></string>
+    <string name="thirty_minutes"><![CDATA[30 minutes]]></string>
+    <string name="one_hour"><![CDATA[1 hour]]></string>
+    <string name="unfavorite_action"><![CDATA[Unfavorite]]></string>
+    <string name="unfavorite_wallpaper_successfully"><![CDATA[Unfavorited wallpaper successfully]]></string>
+    <string name="wallpaper_is_already_downloaded"><![CDATA[This wallpaper is already downloaded]]></string>
+    <string name="feature_not_supported"><![CDATA[This feature is being developed]]></string>
+    <string name="title_favorite"><![CDATA[Favorites]]></string>
+    <string name="title_wallpaper_automatically_change_time"><![CDATA[Wallpapers will automatically change after]]></string>
+    <string name="fullscreen"><![CDATA[Fullscreen]]></string>
+    <string name="delete"><![CDATA[Delete]]></string>
+    <string name="ask_confirm_delete_wall"><![CDATA[Do you want to delete this wallpaper?]]></string>
+    <string name="update"><![CDATA[Update]]></string>
+    <string name="title_msg_dialog_app_die"><![CDATA[We`ve stopped providing services for this app, please click here to continue using!]]></string>
+    <string name="title_msg_dialog_update_app"><![CDATA[For more exciting experiences, kindly update to the latest version of %s!]]></string>
+    <string name="activity_not_support"><![CDATA[Your device doesn\'t support this feature]]></string>
+    <string name="ad_attribution_keyword" translatable="false">Ad</string>
+    <string name="contact_email" translatable="false">hiade.lux@gmail.com</string>
+    <string name="empty" translatable="false" />
+
+    <string name="ironsrc_app_id" translatable="false">9e20337d</string>
+    <string name="applovin_key" translatable="false">iUUlRZ8EThL9DGJyR26U0qrleLAr6h8IrlnMaaNR8TFABMxTSNlMaB2px5Q2v-enM50ioPTQP0S1a1Qo6ashBh</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-2057867305416948~4687724041</string>
+    <string name="admod_banner_unit_id" translatable="false">ca-app-pub-7419471344239141/7918956962</string>
+    <string name="admod_inter_unit_id" translatable="false">ca-app-pub-4294231575465742/2933807957</string>
+    <string name="admod_native_id" translatable="false">ca-app-pub-4294231575465742/9492882411</string>
+    <string name="admod_detail_native_id" translatable="false">ca-app-pub-4294231575465742/6866719077</string>
+    <string name="admod_rewarded_video_unit_id" translatable="false">ca-app-pub-4294231575465742/8518959510</string>
+    <string name="admod_open" translatable="false">ca-app-pub-4294231575465742/8371372437</string>
+
+    <string name="ask_msg_confirm_turn_on_playlist"><![CDATA[Do you want to activate Auto Change Wallpaper mode?]]></string>
+    <string name="ask_msg_confirm_turn_off_playlist"><![CDATA[Do you want to turn off auto change wallpaper?]]></string>
+    <string name="ask_msg_confirm_remove_item_playlist"><![CDATA[Are you sure you want to remove this wallpaper from the Auto Change list?]]></string>
+    <string name="ask_msg_warning_empty_playlist"><![CDATA[Oops! You don\'t have any wallpaper in auto change wallpaper list!]]></string>
+    <string name="auto_change_wallpaper"><![CDATA[Auto change wallpaper]]></string>
+    <string name="turn_on_action"><![CDATA[Turn on]]></string>
+    <string name="turn_off_action"><![CDATA[Turn off]]></string>
+    <string name="ok" translatable="false"><![CDATA[OK]]></string>
+    <string name="msg_requested_permission_title"><![CDATA[To save wallpapers to device, we need permission to access to photos and files on your device.  ]]></string>
+    <string name="accept_action"><![CDATA[Accept]]></string>
+    <string name="skip_action"><![CDATA[Skip]]></string>
+    <!-- Rate app -->
+    <string name="popup_invite_rate_title"><![CDATA[We hope you could choose the wallpaper you like. Are you satisfied with %s? ]]></string>
+    <string name="popup_invite_rate_like_txt"><![CDATA[LIKE!]]></string>
+    <string name="popup_invite_rate_dislike"><![CDATA[NOT REALLY]]></string>
+    <string name="popup_rate_msg"><![CDATA[We are trying our best to bring users better experience.]]></string>
+    <string name="popup_rate_msg_2"><![CDATA[We highly appreciate your rating!]]></string>
+    <string name="rating_hate_status"><![CDATA[Hate]]></string>
+    <string name="rating_dislike_status"><![CDATA[Dislike]]></string>
+    <string name="rating_just_ok_status"><![CDATA[Just OK]]></string>
+    <string name="rating_like_status"><![CDATA[Like!]]></string>
+    <string name="rating_very_like_status"><![CDATA[Love!]]></string>
+    <string name="popup_rate_play_store_msg"><![CDATA[Your comment would be helpful to other users.]]></string>
+    <string name="popup_rate_play_store_msg_2"><![CDATA[Kindly leave your rating & review on Google Play.]]></string>
+    <string name="rating_dialog_rate_store_msg"><![CDATA[RATE THE APP ON GOOGLE PLAY]]></string>
+    <string name="popup_feedback_app_title"><![CDATA[Your feedback was helpful.]]></string>
+    <string name="rating_dialog_rate_msg"><![CDATA[RATE]]></string>
+    <string name="close_popup_rate_msg"><![CDATA[Not now]]></string>
+    <string name="popup_feedback_app_others"><![CDATA[Others]]></string>
+    <string name="popup_feedback_app_send"><![CDATA[SUBMIT]]></string>
+    <string name="feedback_form" translatable="false"><![CDATA[Feedback to %s V%s VersionCode:%d\n%s %s\n%s\n%s]]></string>
+
+    <string name="feedback_default_1"><![CDATA[I do not like the design]]></string>
+    <string name="feedback_default_2"><![CDATA[It does not have the features I need]]></string>
+    <string name="feedback_detail_2"><![CDATA[Please tell us the features you would like to have]]></string>
+    <string name="feedback_default_3"><![CDATA[It is hard to use]]></string>
+    <string name="feedback_detail_3"><![CDATA[Please tell us about the difficulties you experienced]]></string>
+    <string name="feedback_default_4"><![CDATA[It is too complicated]]></string>
+    <string name="feedback_default_5"><![CDATA[The translation is not good]]></string>
+    <string name="feedback_default_6"><![CDATA[I can\'t find my favorite wallpaper]]></string>
+
+
+    <string-array name="feedback_list">
+        <item>@string/feedback_default_1</item>
+        <item>@string/feedback_default_2</item>
+        <item>@string/feedback_default_3</item>
+        <item>@string/feedback_default_4</item>
+        <item>@string/feedback_default_5</item>
+    </string-array>
+
+    <string name="msg_title_gender"><![CDATA[You prefer wallpapers for males or females?]]></string>
+    <string name="boy"><![CDATA[Boy]]></string>
+    <string name="girl"><![CDATA[Girl]]></string>
+    <string name="name_native_ads"><![CDATA[Sponsored]]></string>
+
+    <string name="yes_action"><![CDATA[Yes]]></string>
+    <string name="no_action"><![CDATA[No]]></string>
+    <string name="discover_more_app"><![CDATA[Discovery games and apps]]></string>
+    <string name="ask_cancel_message"><![CDATA[Are you sure you want to exit?]]></string>
+    <string name="download_and_set">Download and set wallpaper</string>
+    <string name="collection_keyword">Collection</string>
+    <string name="retry"><![CDATA[Retry]]></string>
+    <string name="using_device">Use device\'s service</string>
+    <string name="remove_wallpaper_successfully"><![CDATA[Delete wallpaper successfully]]></string>
+    <string name="remove_wallpaper_failed"><![CDATA[Delete wallpaper failed]]> </string>
+    <string name="set_wallpaper_lock_and_home_screen"><![CDATA[Lock screen and Home screen]]></string>
+    <string name="set_wallpaper_lock_screen"><![CDATA[Lock screen]]></string>
+    <string name="set_wallpaper_home_screen"><![CDATA[Home screen]]></string>
+    <string name="set_wallpaper"><![CDATA[Set wallpaper]]></string>
+    <string name="remove_wallpaper_fromlist"><![CDATA[Remove wallpaper from list]]></string>
+    <string name="wallpaper_list"><![CDATA[Wallpaper list]]></string>
+    <string name="autoplay_videos"><![CDATA[Autoplay video]]></string>
+    <string name="for_you"><![CDATA[For You]]></string>
+    <string name="discover_keyword"><![CDATA[Discover]]></string>
+    <string name="ideas_for_you"><![CDATA[Ideas For You]]></string>
+    <string name="cancel_keyword"><![CDATA[Cancel]]></string>
+    <string name="title_playlists"><![CDATA[Playlists]]></string>
+    <string name="title_downloads"><![CDATA[Downloads]]></string>
+    <string name="detail_introduce"><![CDATA[Swipe Left or Right to view more wallpapers]]></string>
+    <string name="download_now_keyword"><![CDATA[Download Now]]></string>
+    <string name="more_interest_apps"><![CDATA[Other interesting apps]]></string>
+    <string name="empty_playlist_item"><![CDATA[You have no wallpapers in the playlist]]></string>
+    <string name="choose_new_wallpaper"><![CDATA[Choose wallpaper]]></string>
+    <string name="request_new_wallpaper">Request new wallpapers</string>
+    <string name="entering_email_label" translatable="false"><![CDATA[Email]]></string>
+    <string name="entering_email_hint"><![CDATA[Enter your email address]]></string>
+    <string name="entering_subject_hint"><![CDATA[Enter your favorite subject]]></string>
+    <string name="entering_subject_label"><![CDATA[Subject]]></string>
+    <string name="entering_details_hint"><![CDATA[Add your favorite pictures]]></string>
+    <string name="entering_details_label"><![CDATA[Details]]></string>
+    <string name="submit_keyword"><![CDATA[SUBMIT]]></string>
+    <string name="enter_email_invalid_message"><![CDATA[Your email address is invalid or empty]]></string>
+    <string name="enter_subject_empty_error_message"><![CDATA[Subject can not be empty]]></string>
+    <string name="requested_thank_you"><![CDATA[Thank you for your contribution!]]></string>
+    <string name="requested_title"><![CDATA[Request new wallpapers]]></string>
+    <string name="no_used_notification_title"><![CDATA[New wallpapers for phone]]></string>
+    <string name="no_used_notification_description"><![CDATA[Adorn your phone with unique wallpapers as you wish]]></string>
+    <string name="no_used_in_days_notification_title"><![CDATA[It has been %d days …]]></string>
+    <string name="no_used_in_days_notification_description"><![CDATA[Have you chosen your favorite wallpaper yet?.\n10000+ Free Wallpapers are waiting for you]]></string>
+    <string name="no_used_in_days_notification_alternative_title"><![CDATA[You haven\'t changed wallpaper for &d days]]></string>
+    <string name="no_used_in_days_notification_alternative_description"><![CDATA[-> Click now to have the trendiest wallpapers]]></string>
+    <string name="no_used_notification_second_title"><![CDATA[It has been a long time ....]]></string>
+    <string name="no_used_notification_second_description"><![CDATA[Trending wallpapers are updated daily\nChange wallpaper now to keep up with the trend]]></string>
+    <string name="no_used_notification_third_title"><![CDATA[Are you bored with the old wallpapers?]]></string>
+    <string name="no_used_notification_third_description"><![CDATA[Take a look & find yourself a new inspiration]]></string>
+    <string name="locally_storage_title"><![CDATA[Photos and videos on your device]]></string>
+    <string name="permission_required"><![CDATA[To use and set wallpapers, please allow %s to access to photos and files on your device.]]></string>
+    <string name="change_interface" translatable="false"><![CDATA[Change interface]]></string>
+    <string name="couple_wallpapers"><![CDATA[Couple Wallpapers]]></string>
+    <string name="facebook_app_id" translatable="false">1804533069726439</string>
+    <string name="mgs_warning_reward"><![CDATA[Download to be able to set wallpaper]]></string>
+    <string name="wallpaper"><![CDATA[wallpaper]]></string>
+    <string name="watch_reward_ads_guideline"><![CDATA[You just need to watch a short video to download this wallpaper for free.]]></string>
+    <string name="watch_reward_ads_button_title"><![CDATA[Watch ad]]></string>
+    <string name="ringtone_keyword"><![CDATA[ringtone]]></string>
+    <string name="next_keyword"><![CDATA[Next]]></string>
+    <string name="all_keyword"><![CDATA[All]]></string>
+    <string name="wallpapers"><![CDATA[Wallpapers]]></string>
+    <string name="title_popup_set_sound">You want to set %s with:</string>
+    <string name="popup_set_sound_option_sound_included">Sound</string>
+    <string name="dialog_set_sound_option_no_sound">No sound</string>
+    <string name="msg_requested_permission_content"><![CDATA[This is just for setting wallpaper.]]></string>
+    <string name="msg_requested_permission_denied_title"><![CDATA[We cannot set wallpaper for your device without permission.]]></string>
+    <string name="msg_requested_permission_denied_content"><![CDATA[This is just for setting wallpaper. We will not collect your personal information.]]></string>
+    <string name="video_not_supporting_prompt"><![CDATA[Sorry, your device doesn\'t support setting videos.]]></string>
+    <string name="watch_reward_ad_title"><![CDATA[Download wallpaper for free!]]></string>
+    <string name="top_ten_devices_title"><![CDATA[For Your Device]]></string>
+    <string name="live_wall_unsupported"><![CDATA[Your device doesn\'t support this feature]]></string>
+    <string name="splash_intro_string"><![CDATA[How can we call you?]]></string>
+    <string name="hi_msg"><![CDATA[Hi %s,]]></string>
+    <string name="welcome_msg"><![CDATA[Welcome you to %s]]></string>
+    <string name="string_input_title"><![CDATA[Please enter your name]]></string>
+    <string name="trending"><![CDATA[Trending]]></string>
+    <string name="home">Home</string>
+    <string name="featured">Featured</string>
+    <string name="discover_collection">Discover the most interesting \nHD Wallpaper Collections</string>
+    <string name="discover_subtitle"><![CDATA[Discover the most unique wallpapers]]></string>
+    <string name="view_all_wallpaper"><![CDATA[View all]]></string>
+    <string name="press_to_view_all"><![CDATA[Press to view all]]></string>
+    <string name="download_fragment_introduce_text">Your downloads will be shown here</string>
+    <string name="favorite_fragment_introduce_text">Your favorites will be shown here</string>
+    <string name="hot"><![CDATA[Hot]]></string>
+    <string name="colors"><![CDATA[Colors]]></string>
+    <string name="skip_reward_title"><![CDATA[This awesome wallpaper cannot be downloaded to your phone unless you watch ad.]]></string>
+    <string name="skip_reward_subtitle"><![CDATA[Please spend a few seconds watching ad to receive this wallpaper. Thank you.]]></string>
+
+    <string name="dayOneNotificationTitle001"><![CDATA[What are people looking for?]]></string>
+    <string name="dayOneNotificationMessage001"><![CDATA[Update the wallpapers that are most favored by millions of users here!]]></string>
+    <string name="dayOneNotificationTitle002"><![CDATA[Collect the latest wallpapers downloaded by thousands of users!]]></string>
+    <string name="dayOneNotificationMessage002"><![CDATA[What\'s so hot? Check it out now!]]></string>
+    <string name="dayOneNotificationTitle003"><![CDATA[New Wallpaper Every Day ✨]]></string>
+    <string name="dayOneNotificationMessage003"><![CDATA[Update the latest wallpapers right here!]]></string>
+    <string name="dayTwoNotificationTitle001"><![CDATA[Would you be satisfied with your current wallpaper?]]></string>
+    <string name="dayTwoNotificationMessage001"><![CDATA[I\'m sure you\'ll be more satisfied with this collection of high-quality wallpapers. Check it out now!]]></string>
+    <string name="dayTwoNotificationTitle002"><![CDATA[👉 Discover trending searches today]]></string>
+    <string name="dayTwoNotificationMessage002"><![CDATA[7 ideas have been inspired by your recent activity
+Try it now!]]></string>
+    <string name="dayTwoNotificationTitle003"><![CDATA[50 4D wallpapers you might like 👇]]></string>
+    <string name="dayTwoNotificationMessage003"><![CDATA[We\'ve found some interesting wallpapers just for you. Have a check with us!]]></string>
+    <string name="dayFourNotificationTitle001"><![CDATA[A boring day?]]></string>
+    <string name="dayFourNotificationMessage001"><![CDATA[A little bit of fun will brighten your day 😉
+👉 Let\'s update the wallpaper!]]></string>
+    <string name="dayFourNotificationTitle002"><![CDATA[What topic do you like?]]></string>
+    <string name="dayFourNotificationMessage002"><![CDATA[Open [HD Wallpaper] & search for images of the topics you\'re interested in and make them your own wallpaper right now!]]></string>
+    <string name="dayFourNotificationTitle003"><![CDATA[New wallpaper for your phone ✨]]></string>
+    <string name="dayFourNotificationMessage003"><![CDATA[️🎨 Beautify your phone with unique wallpapers to your mood. Let\'s try it now!]]></string>
+    <string name="daySevenNotificationTitle001"><![CDATA[🎉 Let\'s celebrate 7 days we\'ve been together! ]]></string>
+    <string name="daySevenNotificationMessage001"><![CDATA[Discover our gifts for you here 😉]]></string>
+    <string name="daySevenNotificationTitle002"><![CDATA[Catch the trend every day even stay at home]]></string>
+    <string name="daySevenNotificationMessage002"><![CDATA[🌪 The extremely HOT wallpapers are waiting for you]]></string>
+    <string name="daySevenNotificationTitle003"><![CDATA[Hi, you\'ve forgotten something 🤔]]></string>
+    <string name="daySevenNotificationMessage003"><![CDATA[These wallpapers have been waiting for you 😉]]></string>
+    <string name="weeklyNotificationTitle001"><![CDATA[How long haven\'t you changed your wallpaper?]]></string>
+    <string name="weeklyNotificationMessage001"><![CDATA[It\'s time to change your phone with the new presence 🤗]]></string>
+    <string name="weeklyNotificationTitle002"><![CDATA[Knock Knock! Do you forget anything?]]></string>
+    <string name="weeklyNotificationMessage002"><![CDATA[Your phone has had the same wallpaper for a week. It\'s time to make a change!]]></string>
+    <string name="weeklyNotificationTitle003"><![CDATA[Don\'t forget to make your phone new!]]></string>
+    <string name="weeklyNotificationMessage003"><![CDATA[You haven\'t change the wallpaper for a while. Come back with us!]]></string>
+    <string name="weeklyNotificationTitle004"><![CDATA[Are you bored with the old wallpaper?]]></string>
+    <string name="weeklyNotificationMessage004"><![CDATA[💌 Take a walk around to find your new inspiration right away!]]></string>
+    <string name="thanks_msg">Thank you</string>
+    <string name="msg_setup_wall_successful"><![CDATA[This wallpaper has been successfully set up!]]></string>
+    <string name="congratulations"><![CDATA[Congratulations]]></string>
+    <string name="vip_register"><![CDATA[VIP pack]]></string>
+    <string name="warning_android_12_message_second"><![CDATA[Please choose other great wallpapers or switch to another Android version for video settings]]></string>
+    <string name="warning_android_12_message_first"><![CDATA[The video setting feature is temporarily locked due to unstable Android 12 version.]]></string>
+    <string name="wanted_to_download_video"><![CDATA[Are you sure you still want to download this video wallpaper?]]></string>
+    <string name="wallpaper_might_not_be_compatible">This video wallpaper may not be compatible with some devices</string>
+    <string name="sorry_for_inconvenience">We are sorry for this inconvenience!</string>
+    <string name="msg_download_wall_successful"><![CDATA[Congratulations! This wallpaper has been successfully downloaded!]]></string>
+    <string name="msg_loading_video"><![CDATA[Please wait a moment for the video to play]]></string>
+    <string name="image"><![CDATA[Image]]></string>
+    <string name="upgrade_premium">Upgrade to Premium</string>
+    <string name="learn_more">Learn more</string>
+    <string-array name="slogan">
+        <item>@string/welcome_user_first</item>
+        <item>@string/welcome_user_second</item>
+    </string-array>
+    <string name="start_keyword"><![CDATA[Start]]></string>
+    <string name="live_keyword"><![CDATA[Live]]></string>
+    <string name="top_trending_keyword"><![CDATA[Trending]]></string>
+    <string name="user"><![CDATA[User]]></string>
+    <string name="my_collection"><![CDATA[My list]]></string>
+    <string name="details_intro_image"><![CDATA[Scroll up or down to see similar wallpapers]]></string>
+    <string name="details_intro_4D"><![CDATA[Tilt your phone to see the effect]]></string>
+    <string name="popup_request_wall_msg"><![CDATA[We\'re sorry that your favorite content has not been found. You can request for it now.]]></string>
+    <string name="popup_request_wall_msg_direct_search"><![CDATA[* If you haven\'t used the SEARCH feature, you can try searching]]></string>
+    <string name="here_upper"><![CDATA[HERE]]></string>
+    <string name="popup_hard_use_feedback_title"><![CDATA[Could you please tell us about your difficulties?]]></string>
+    <string name="default_hard_used_feedback_1"><![CDATA[I don\'t know how to set a wallpaper]]></string>
+    <string name="default_hard_used_feedback_2"><![CDATA[I don\'t know how to download a wallpaper]]></string>
+    <string name="default_hard_used_feedback_4"><![CDATA[I don\'t know how to reset a wallpaper to default]]></string>
+    <string name="default_hard_used_feedback_5"><![CDATA[I don\'t understand the language]]></string>
+    <string name="thanks_feedback_message"><![CDATA[Thanks for sharing your opinions. \nWe will consider your experience as valuable material to improve our application in the upcoming versions. Wish you have a better experience!]]></string>
+    <string name="send_request_action"><![CDATA[Send Request]]></string>
+    <string name="image_4d"><![CDATA[4D]]></string>
+    <string name="save_action"><![CDATA[Save]]></string>
+    <string name="first_name"><![CDATA[First name]]></string>
+    <string name="last_name"><![CDATA[Last name]]></string>
+    <string name="empty_image_download"><![CDATA[You don\'t have any photos in your downloads folder yet]]></string>
+    <string name="empty_image_favorite"><![CDATA[You don\'t have any photos in your favorites list yet]]></string>
+    <string name="entering_lastname_hint"><![CDATA[Insert your last name]]></string>
+    <string name="entering_name_hint"><![CDATA[Insert your first name]]></string>
+    <string name="editting_username_title"><![CDATA[Change your account name]]></string>
+    <string name="popup_invite_rate_likes_txt"><![CDATA[Good!]]></string>
+    <string name="requested_wall_title"><![CDATA[Send Request]]></string>
+    <string name="no_result_search"><![CDATA[This wallpaper is currently not available\n You can use "Request new wallpapers" down below]]></string>
+    <string name="message_set_wallpaper_now"><![CDATA[Set wallpaper]]></string>
+    <string name="welcome_user_first"><![CDATA[We hope %s will find your favorite wallpaper at %s]]></string>
+    <string name="welcome_user_second"><![CDATA[Welcome %s back to %s]]></string>
+    <string name="welcome_user_second_not_name"><![CDATA[Welcome back to the app %s]]></string>
+    <string name="welcome_user_first_not_name"><![CDATA[We hope you find your own favorite wallpapers at %s]]></string>
+    <string name="popup_invite_rate_titles"><![CDATA[Would you like to use \n %s]]></string>
+    <string name="msg_set_parallax_success"><![CDATA[This 4D wallpaper has been successfully installed and saved on the "My List"]]></string>
+    <string name="msg_scroll_item_wallpaper"><![CDATA[Scroll up or down to see similar wallpapers]]></string>
+    <string name="msg_load_4d_error"><![CDATA[Oops! Error found. Your 4D wallpaper can\'t be fully loaded. Please check your network and try again!]]></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="apply">Apply</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="next">Next</string>
+    <string name="onboarding_title_1">Clap, whistle to find the lost phone easy</string>
+    <string name="onboarding_title_2">Good ringtone collection</string>
+    <string name="onboarding_title_3">Easy customization</string>
+    <string name="lang_english" translatable="false">English</string>
+    <string name="lang_chinese" translatable="false">简体中文</string>
+    <string name="lang_hindi" translatable="false">हिंदी</string>
+    <string name="lang_spanish" translatable="false">Español</string>
+    <string name="lang_french" translatable="false">Français</string>
+    <string name="lang_arabic" translatable="false">العربية</string>
+    <string name="lang_russian" translatable="false">Русский</string>
+    <string name="lang_bengali" translatable="false">বাংলা</string>
+    <string name="lang_portugal" translatable="false">Português</string>
+    <string name="lang_urdu" translatable="false">اردو</string>
+    <string name="lang_german" translatable="false">Deutsch</string>
+    <string name="lang_japanese" translatable="false">日本語</string>
+    <string name="lang_marathi" translatable="false">मराठी</string>
+    <string name="lang_telugu" translatable="false">తెలుగు</string>
+    <string name="lang_turkish" translatable="false">Türkçe</string>
+    <string name="lang_tamil" translatable="false">தமிழ்</string>
+    <string name="lang_korean" translatable="false">한국인</string>
+    <string name="lang_vietnamese" translatable="false">Tiếng Việt</string>
+    <string name="lang_thai" translatable="false">ภาษาไทย</string>
+    <string name="lang_italian" translatable="false">Italiano</string>
+</resources>

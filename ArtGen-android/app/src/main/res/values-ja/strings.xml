@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cw_next">"次"</string>
+    <string name="cw_get_started">"始めましょう"</string>
+    <string name="setting_language">"言語"</string>
+    <string name="splash_loading_message">"このアクションには広告が含まれている可能性があります"</string>
+    <string name="loading_ads">"広告の読み込み"</string>
+    <string name="pick_a_style">"スタイルを選びます"</string>
+    <string name="crop_photo">"写真撮影"</string>
+    <string name="text_continue">"続く"</string>
+    <string name="genart_ai">"Genart AI"</string>
+    <string name="policy">"ポリシー"</string>
+    <string name="setting">"設定"</string>
+    <string name="selected_style_title">"ピックスタイル（%s）"</string>
+    <string name="loading_gen_art_title">"aiは魔法の芸術を作っています"</string>
+    <string name="loading_gen_art_message">"お待ちください…"</string>
+    <string name="gen_art_success_title">"すべて完了！あなたのアートは準備ができています"</string>
+    <string name="view_now">"今すぐ見る"</string>
+    <string name="see_all">"すべてを見る"</string>
+    <string name="input_prompt">"入力プロンプト"</string>
+    <string name="ex_beautiful_girl_in_the_dream_world">"例：夢の世界の美しい少女"</string>
+    <string name="demo_image_optional">"デモ画像（オプション）"</string>
+    <string name="generate_now">"今すぐ生成します"</string>
+    <string name="watch_video_ads">"ビデオ広告を見る"</string>
+    <string name="all_styles">"すべてのスタイル"</string>
+    <string name="result">"結果"</string>
+    <string name="skip">"スキップ"</string>
+    <string name="camera">"カメラ"</string>
+    <string name="save">"保存"</string>
+    <string name="create_more">"もっと作成します"</string>
+    <string name="re_generate">"再生成"</string>
+    <string name="generate_more_style">"より多くのスタイルを生成します"</string>
+    <string name="save_image_success">"画像の成功を保存します"</string>
+    <string name="explore_various_styles">"さまざまなスタイルを探索します"</string>
+    <string name="advanced_ai_technology">"高度なAIテクノロジー"</string>
+    <string name="modern_trends">"現代のトレンド"</string>
+    <string name="update_now">"今すぐアップデート"</string>
+    <string name="later">"後で"</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="bmi_info_title_healthy_body_weight">Healthy body weight</string>
+    <string name="bmi_info_title_obesity">Obesity</string>
+    <string name="bmi_info_title_obesity_causes">Obesity causes</string>
+    <string name="bmi_info_title_obesity_diagnosis">Obesity diagnosis</string>
+    <string name="bmi_info_title_lifestyle_for_obesity">Lifestyle for Obesity</string>
+    <string name="bmi_info_title_weight_loss_tips">Weight loss tips</string>
+</resources>

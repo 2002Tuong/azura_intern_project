@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greyscale900"
+    android:gravity="center"
+    android:layoutDirection="ltr">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutMusicComponent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <!--head phone-->
+        <ImageView
+            android:id="@+id/icHeadPhone"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/icon_headphone"
+            app:layout_constraintBottom_toTopOf="@id/icVideoVolume"
+            app:layout_constraintStart_toStartOf="@id/icVideoVolume"
+            app:tint="@color/greyscale_200" />
+
+        <com.slideshowmaker.slideshow.ui.custom.RippleTextView
+            android:id="@+id/soundNameLabel"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/regular_bg_label_no_sound"
+            android:ellipsize="end"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:lines="1"
+            android:paddingStart="10dp"
+            android:paddingEnd="32dp"
+            android:text="@string/no_sound"
+            android:textColor="@color/greyscale_200"
+            app:layout_constraintBottom_toBottomOf="@id/icHeadPhone"
+            app:layout_constraintEnd_toStartOf="@id/icTrimAudio"
+            app:layout_constraintStart_toEndOf="@id/icHeadPhone"
+            app:layout_constraintTop_toTopOf="@id/icHeadPhone" />
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/icon_forward"
+            app:layout_constraintBottom_toBottomOf="@id/soundNameLabel"
+            app:layout_constraintEnd_toEndOf="@id/soundNameLabel"
+            app:layout_constraintTop_toTopOf="@id/soundNameLabel"
+            app:tint="@color/greyscale_200" />
+
+        <ImageView
+            android:id="@+id/icTrimAudio"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_trim_sound"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/icHeadPhone"
+            app:layout_constraintEnd_toStartOf="@+id/icDelete"
+            app:layout_constraintTop_toTopOf="@id/icHeadPhone" /><!--head phone-->
+
+        <ImageView
+            android:id="@+id/icDelete"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="32dp"
+            android:src="@drawable/ic_trash_bin"
+            app:layout_constraintBottom_toBottomOf="@id/icHeadPhone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/icHeadPhone" /><!--head phone-->
+
+        <ImageView
+            android:id="@+id/icVideoVolume"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="32dp"
+            android:src="@drawable/icon_volume"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/greyscale_200" />
+
+        <com.slideshowmaker.slideshow.ui.custom.SeekBarWithText
+            android:id="@+id/videoVolumeSeekBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_4"
+            app:highlightColor="@color/orange_900"
+            app:layout_constraintBottom_toBottomOf="@id/icVideoVolume"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/soundNameLabel"
+            app:layout_constraintTop_toTopOf="@id/icVideoVolume" />
+
+        <ImageView
+            android:id="@+id/icMusic"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/icon_music_active"
+            app:layout_constraintStart_toStartOf="@id/icVideoVolume"
+            app:layout_constraintTop_toBottomOf="@id/icVideoVolume"
+            app:tint="@color/greyscale_200" />
+
+        <com.slideshowmaker.slideshow.ui.custom.SeekBarWithText
+            android:id="@+id/musicVolumeSeekBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_4"
+            app:highlightColor="@color/orange_900"
+            app:layout_constraintBottom_toBottomOf="@id/icMusic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/soundNameLabel"
+            app:layout_constraintTop_toTopOf="@id/icMusic" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/btnOnlineMusic"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="@dimen/margin_1"
+        android:layout_marginTop="@dimen/margin_1"
+        android:layout_marginEnd="@dimen/margin_0p5"
+        android:background="@drawable/rectangle_radius_40dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toStartOf="@+id/btnStorageMusic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/button_online_label"
+            android:textColor="@color/white"
+            app:tint="@color/white"
+            app:drawableStartCompat="@drawable/icon_cloud" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnStorageMusic"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="@dimen/margin_0p5"
+        android:layout_marginTop="@dimen/margin_1"
+        android:layout_marginEnd="@dimen/margin_1"
+        android:background="@drawable/rectangle_radius_40dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnOnlineMusic"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/button_storage_label"
+            android:textColor="@color/white"
+            app:drawableStartCompat="@drawable/icon_local"
+            app:layout_constraintEnd_toStartOf="@+id/btnStorageMusic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+    <com.airbnb.epoxy.EpoxyRecyclerView
+        android:id="@+id/rvMusicItem"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_1"
+        android:paddingHorizontal="@dimen/margin_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnStorageMusic" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<resources>
+	<string name="show_wifi_password">"Показать пароль Wi -Fi"</string>
+	<string name="all_connect_devices">"Все подключают устройства"</string>
+	<string name="available_wifi_list">"Доступный список Wi -Fi"</string>
+	<string name="available_network">"Доступная сеть"</string>
+	<string name="wifi_shown">"Пароли Wi -Fi показаны для вашего подключения"</string>
+	<string name="detect_devices">"Обнаружение всех устройств, которые подключаются к вашему Wi -Fi"</string>
+	<string name="scan_wifi">"Сканировать и анализировать близлежащую сеть Wi -Fi"</string>
+	<string name="next">"Следующий"</string>
+	<string name="contain_ads">"Это действие может содержать рекламу"</string>
+	<string name="ask_grant_permission">"Приложение Wi -Fi Manager использует разрешение на местоположение доступа"</string>
+	<string name="grant_permission">"Великое разрешение"</string>
+	<string name="grant_permission_description">"Для начала нам нужно ваше разрешение на доступ к вашему местоположению."</string>
+	<string name="ok">"Хорошо"</string>
+	<string name="cancel">"Отмена"</string>
+	<string name="enter_password">"Введите пароль"</string>
+	<string name="connect">"Соединять"</string>
+	<string name="show_password">"Показать пароль"</string>
+	<string name="we_are_working_hard_for_a_better_user_experience">"Мы усердно работаем для лучшего пользовательского опыта"</string>
+	<string name="the_best_rating_star">"Лучшая рейтинговая звезда"</string>
+	<string name="exit_popup_message">"Мы любим слышать от вас. Помогите нам сделать наше приложение еще более удивительным"</string>
+	<string name="no_exit">"Нет, приложение для выхода"</string>
+</resources>

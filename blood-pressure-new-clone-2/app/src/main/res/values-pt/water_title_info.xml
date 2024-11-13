@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="water_info_title_avoid_drink_mistake">Evite esses erros ao beber água</string>
+    <string name="water_info_title_best_time_to_drink">Melhores horários para beber água</string>
+    <string name="water_info_title_replace_with_water">Substituindo bebidas por água para a saúde</string>
+    <string name="water_info_title_drink_on_empty_stomach">Beber água com o estômago vazio?</string>
+    <string name="water_info_title_benefit_lemon_water">Benefícios de beber água com limão</string>
+    <string name="water_info_title_is_ok_drink_during_meal">Posso beber água durante uma refeição?</string>
+    <string name="water_info_title_benefit_for_health">Beba água: os benefícios para a saúde</string>
+    <string name="water_info_title_danger_of_overhydration">Perigos da hiperidratação</string>
+    <string name="water_info_title_why_should_give_baby_water">Por que você não deve dar água aos bebês?</string>
+</resources>

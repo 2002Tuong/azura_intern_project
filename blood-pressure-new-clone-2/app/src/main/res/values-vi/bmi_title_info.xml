@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="bmi_info_title_healthy_body_weight">Trọng lượng cơ thể khỏe mạnh</string>
+    <string name="bmi_info_title_obesity">Béo phì</string>
+    <string name="bmi_info_title_obesity_causes">Nguyên nhân béo phì</string>
+    <string name="bmi_info_title_obesity_diagnosis">Chẩn đoán béo phì</string>
+    <string name="bmi_info_title_lifestyle_for_obesity">Lối sống cho bệnh béo phì</string>
+    <string name="bmi_info_title_weight_loss_tips">Mẹo giảm cân</string>
+</resources>

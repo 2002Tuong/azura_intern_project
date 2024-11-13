@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/size_45_dp">
+
+    <TextView
+        android:id="@+id/txtMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/default_mode"
+        android:textColor="@color/text_color_1"
+        android:textSize="@dimen/text_size_14_sp"
+        tools:ignore="RelativeOverlap" />
+
+    <RadioButton
+        android:id="@+id/rbMode"
+        android:layout_width="@dimen/size_24_dp"
+        android:layout_height="@dimen/size_24_dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin_16_dp"
+        android:button="@null"
+        android:gravity="center"
+        android:drawableEnd="@drawable/radio_button_selector" />
+
+    <ImageView
+        android:id="@+id/imgOpenNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin_16_dp"
+        android:contentDescription="@string/vibration_mode"
+        android:src="@drawable/icon_arrow_right"
+        android:visibility="gone" />
+
+</RelativeLayout>

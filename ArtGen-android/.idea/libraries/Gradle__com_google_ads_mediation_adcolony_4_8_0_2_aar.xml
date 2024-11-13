@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.ads.mediation:adcolony:4.8.0.2@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/79a0ede0d500ac07ac251d8a14526829/transformed/adcolony-4.8.0.2/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/79a0ede0d500ac07ac251d8a14526829/transformed/adcolony-4.8.0.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/79a0ede0d500ac07ac251d8a14526829/transformed/adcolony-4.8.0.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.ads.mediation/adcolony/4.8.0.2/4243ee347b8ecf4ab8d9205e820d7998e154d9aa/adcolony-4.8.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

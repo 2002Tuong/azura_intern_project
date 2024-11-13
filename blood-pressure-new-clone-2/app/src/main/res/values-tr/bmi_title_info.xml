@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="bmi_info_title_healthy_body_weight">Sağlıklı vücut ağırlığı</string>
+    <string name="bmi_info_title_obesity">Obezite</string>
+    <string name="bmi_info_title_obesity_causes">Obezite nedenleri</string>
+    <string name="bmi_info_title_obesity_diagnosis">Obezite tanısı</string>
+    <string name="bmi_info_title_lifestyle_for_obesity">Obezite için Yaşam Tarzı</string>
+    <string name="bmi_info_title_weight_loss_tips">Kilo verme ipuçları</string>
+</resources>

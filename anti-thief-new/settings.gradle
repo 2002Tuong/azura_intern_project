@@ -1,0 +1,4 @@
+include ':nativetemplates'
+include ':ads'
+include ':app'
+rootProject.name = "Anti Theft Alarm"

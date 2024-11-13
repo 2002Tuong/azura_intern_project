@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_main_re">
+
+        <com.parallax.hdvideo.wallpapers.ui.custom.CustomSwipeViewPager
+            android:id="@+id/mainViewPager"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.parallax.hdvideo.wallpapers.ui.custom.bottommenu.BubbleNavigationLinearView
+            android:id="@+id/bottom_navigation_view_linear"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bottom_bar_height"
+            android:layout_gravity="bottom"
+            android:background="@drawable/bg_bottom_menu_re"
+            android:elevation="8dp"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            app:layout_constraintBottom_toTopOf="@id/frAds"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <com.parallax.hdvideo.wallpapers.ui.custom.bottommenu.BubbleToggleView
+                android:id="@+id/l_item_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:bt_active="true"
+                app:bt_colorActive="@color/white"
+                app:bt_colorInactive="#93BBFF"
+                app:bt_icon="@drawable/ic_home_menu_re"
+                app:bt_padding="11dp"
+                app:bt_shape="@drawable/transition_background_draw_home"
+                app:bt_title="@string/home"
+                app:bt_titleSize="16sp" />
+
+            <com.parallax.hdvideo.wallpapers.ui.custom.bottommenu.BubbleToggleView
+                android:id="@+id/l_item_notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:bt_colorActive="@color/white"
+                app:bt_colorInactive="#93BBFF"
+                app:bt_icon="@drawable/ic_collection_menu_re"
+                app:bt_padding="11dp"
+                app:bt_shape="@drawable/transition_background_draw_home"
+                app:bt_title="@string/collection_keyword"
+                app:bt_titleSize="16sp" />
+
+            <com.parallax.hdvideo.wallpapers.ui.custom.bottommenu.BubbleToggleView
+                android:id="@+id/l_item_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:bt_badgeBackgroundColor="@color/green_active"
+                app:bt_colorActive="@color/white"
+                app:bt_colorInactive="#93BBFF"
+                app:bt_icon="@drawable/ic_search_menu_re"
+                app:bt_padding="11dp"
+                app:bt_shape="@drawable/transition_background_draw_home"
+                app:bt_title="@string/search"
+                app:bt_titleSize="16sp" />
+
+            <com.parallax.hdvideo.wallpapers.ui.custom.bottommenu.BubbleToggleView
+                android:id="@+id/l_item_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:bt_colorActive="@color/white"
+                app:bt_colorInactive="#93BBFF"
+                app:bt_icon="@drawable/ic_user_menu_re"
+                app:bt_padding="11dp"
+                app:bt_shape="@drawable/transition_background_draw_home"
+                app:bt_title="@string/user"
+                app:bt_titleSize="16sp" />
+        </com.parallax.hdvideo.wallpapers.ui.custom.bottommenu.BubbleNavigationLinearView>
+
+        <LinearLayout
+            android:id="@+id/frAds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:background="@color/grey_600"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/grey_600"/>
+            <include
+                android:id="@+id/banner_ads"
+                layout="@layout/layout_banner_control" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/dividerLine"
+            style="@style/style_divider_item_menu"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"
+            app:layout_constraintTop_toBottomOf="@+id/frAds"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

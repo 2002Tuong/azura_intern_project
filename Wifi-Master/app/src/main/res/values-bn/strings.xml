@@ -1,0 +1,23 @@
+<resources>
+	<string name="show_wifi_password">"ওয়াইফাই পাসওয়ার্ড দেখান"</string>
+	<string name="all_connect_devices">"সমস্ত সংযোগ ডিভাইস"</string>
+	<string name="available_wifi_list">"উপলব্ধ ওয়াইফাই তালিকা"</string>
+	<string name="available_network">"উপলব্ধ নেটওয়ার্ক"</string>
+	<string name="wifi_shown">"আপনার সংযোগের জন্য ওয়াইফাই পাসওয়ার্ডগুলি দেখানো হয়েছে"</string>
+	<string name="detect_devices">"আপনার ওয়াইফাইয়ের সাথে সংযোগকারী সমস্ত ডিভাইস সনাক্ত করুন"</string>
+	<string name="scan_wifi">"কাছাকাছি ওয়াইফাই নেটওয়ার্ক স্ক্যান করুন এবং বিশ্লেষণ করুন"</string>
+	<string name="next">"পরবর্তী"</string>
+	<string name="contain_ads">"এই ক্রিয়াতে বিজ্ঞাপন থাকতে পারে"</string>
+	<string name="ask_grant_permission">"ওয়াইফাই ম্যানেজার অ্যাপ্লিকেশন অ্যাক্সেস অবস্থানের অনুমতি ব্যবহার করে"</string>
+	<string name="grant_permission">"গ্র্যান্ড অনুমতি"</string>
+	<string name="grant_permission_description">"শুরু করার জন্য, আপনার অবস্থান অ্যাক্সেস করার জন্য আমাদের আপনার অনুমতি প্রয়োজন।"</string>
+	<string name="ok">"ঠিক আছে"</string>
+	<string name="cancel">"বাতিল"</string>
+	<string name="enter_password">"পাসওয়ার্ড লিখুন"</string>
+	<string name="connect">"সংযুক্ত"</string>
+	<string name="show_password">"পাসওয়ার্ড দেখাও"</string>
+	<string name="we_are_working_hard_for_a_better_user_experience">"আমরা আরও ভাল ব্যবহারকারীর অভিজ্ঞতার জন্য কঠোর পরিশ্রম করছি"</string>
+	<string name="the_best_rating_star">"সেরা রেটিং তারকা"</string>
+	<string name="exit_popup_message">"আমরা আপনার কাছ থেকে শুনতে ভালোবাসি. আমাদের অ্যাপ্লিকেশনটিকে আরও দুর্দান্ত করে তুলতে আমাদের সহায়তা করুন"</string>
+	<string name="no_exit">"না, প্রস্থান অ্যাপ"</string>
+</resources>

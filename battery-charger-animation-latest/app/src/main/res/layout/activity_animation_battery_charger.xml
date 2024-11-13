@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.batterycharger.AnimationChargerActivity">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/bg_preview"
+        android:src="@drawable/ic_launcher_background"
+        android:scaleType="centerCrop"/>
+
+
+    <TextView
+        android:id="@+id/battery_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="3dp"
+        android:paddingVertical="5dp"
+        android:text="70 %"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:background="#25202020"
+        app:layout_constraintStart_toStartOf="@id/preview"
+        app:layout_constraintEnd_toEndOf="@id/preview"
+        app:layout_constraintTop_toTopOf="@id/preview"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

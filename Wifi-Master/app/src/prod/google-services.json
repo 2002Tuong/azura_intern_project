@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "561689357250",
+    "project_id": "wifi-master-2c7c0",
+    "storage_bucket": "wifi-master-2c7c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561689357250:android:7d44ec538b36fd749b445b",
+        "android_client_info": {
+          "package_name": "com.wifianalyzer.showwifipassword.wifiqr.wifimaster.speedtest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYMLWVCI1CtCVLXW_Y4NjhGeQcZYN3ncY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

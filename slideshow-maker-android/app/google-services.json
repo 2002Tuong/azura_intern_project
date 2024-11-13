@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "978254020628",
+    "project_id": "photoslideshow-dev",
+    "storage_bucket": "photoslideshow-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978254020628:android:9f2eec12d1c668ff2da701",
+        "android_client_info": {
+          "package_name": "app.slideshowmaker.video.Stag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978254020628-8luaf5n3meu9au40scj6f2ed779koaog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2haQNiibqgxZLq0Yaq_qlAqVJ0YvhIj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978254020628-8luaf5n3meu9au40scj6f2ed779koaog.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978254020628:android:fb5684e7b4bc41332da701",
+        "android_client_info": {
+          "package_name": "com.slideshowmaker.app.videoslideshow.Stag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978254020628-8luaf5n3meu9au40scj6f2ed779koaog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2haQNiibqgxZLq0Yaq_qlAqVJ0YvhIj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978254020628-8luaf5n3meu9au40scj6f2ed779koaog.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

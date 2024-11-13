@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF041011"
+        tools:context=".ui.info.BatteryInfoFragment">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/nav_bar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="16dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="8dp"
+            android:background="@color/transparent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/back_btn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/chevron_left_24"
+                android:layout_margin="12dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:tint="@color/white"/>
+
+
+            <TextView
+                android:id="@+id/nav_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/battery_info"
+                android:textColor="@color/green_500"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp"
+                android:textAllCaps="true"
+                app:fontWeight="1000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/back_btn"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/battery_state_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/nav_bar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/battery_state_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:src="@drawable/battery_10_percent"/>
+
+            <TextView
+                android:id="@+id/battery_state_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="10 %"
+                android:textSize="28sp"
+                android:textColor="@color/red_400"
+                app:fontWeight="600"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/battery_capacity"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                app:fontWeight="600"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/battery_infos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_16_dp"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/frAds"
+            app:layout_constraintTop_toBottomOf="@id/battery_state_layout">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.example.videoart.batterychargeranimation.ui.custom.ItemBatteryInfo
+                    android:id="@+id/battery_type"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin_8_dp"
+                    android:layout_weight="1"
+                    app:iconThumbnail="@drawable/icon_battery_type"
+                    app:titleText="@string/battery_type" />
+
+                <com.example.videoart.batterychargeranimation.ui.custom.ItemBatteryInfo
+                    android:id="@+id/battery_temperature"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_8_dp"
+                    android:layout_weight="1"
+                    app:iconThumbnail="@drawable/icon_tempurate"
+                    app:titleText="@string/tempurate" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_16_dp"
+                android:orientation="horizontal">
+                <com.example.videoart.batterychargeranimation.ui.custom.ItemBatteryInfo
+                    android:id="@+id/battery_voltage"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin_8_dp"
+                    android:layout_weight="1"
+                    app:iconThumbnail="@drawable/icon_voltage"
+                    app:titleText="@string/voltage" />
+
+                <com.example.videoart.batterychargeranimation.ui.custom.ItemBatteryInfo
+                    android:id="@+id/battery_health"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_8_dp"
+                    android:layout_weight="1"
+                    app:iconThumbnail="@drawable/icon_battery_health"
+                    app:titleText="@string/battery_health" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/margin_16_dp">
+                <com.example.videoart.batterychargeranimation.ui.custom.ItemBatteryInfo
+                    android:id="@+id/battery_capacity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin_8_dp"
+                    android:layout_weight="1"
+                    app:iconThumbnail="@drawable/icon_capacity"
+                    app:titleText="@string/battery_capacity" />
+
+                <com.example.videoart.batterychargeranimation.ui.custom.ItemBatteryInfo
+                    android:id="@+id/battery_charging_type"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_8_dp"
+                    android:layout_weight="1"
+                    app:iconThumbnail="@drawable/icon_charging_type"
+                    app:titleText="@string/charging_type" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/frAds"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_10_dp"
+            android:layout_marginVertical="@dimen/margin_10_dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            >
+
+            <include
+                android:id="@+id/includeNative"
+                layout="@layout/ads_native_shimmer"
+                android:visibility="visible" />
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+

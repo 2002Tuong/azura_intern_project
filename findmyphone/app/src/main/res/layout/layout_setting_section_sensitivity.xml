@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_setting_sensitivity_section"
+    android:minHeight="88dp">
+
+    <ImageView
+        android:id="@+id/imgSensitivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_17_dp"
+        android:layout_marginTop="@dimen/margin_17_dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/icon_sensitivity" />
+
+    <TextView
+        android:id="@+id/txtSensitivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_9_dp"
+        android:layout_marginTop="@dimen/margin_16_dp"
+        android:layout_toEndOf="@id/imgSensitivity"
+        android:text="@string/sensitivity"
+        android:textColor="@color/text_color_2"
+        android:textSize="@dimen/text_size_16_sp"
+        android:textStyle="bold" />
+
+    <SeekBar
+        android:id="@+id/seekBarSensitivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgSensitivity"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/margin_16_dp"
+        android:layout_marginTop="@dimen/margin_14_dp"
+        android:layout_marginEnd="@dimen/margin_16_dp"
+        android:progressBackgroundTint="@color/text_color_3"
+        android:progressTint="@color/text_color_2"
+        android:thumb="@drawable/icon_seekbar_thumb" />
+</RelativeLayout>

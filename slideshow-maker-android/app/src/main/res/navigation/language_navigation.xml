@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/language_navigation"
+    app:startDestination="@id/languageFragment">
+
+    <fragment
+        android:id="@+id/languageFragment"
+        android:name="com.slideshowmaker.slideshow.ui.language.LanguageFragment"
+        android:label="LanguageFragment"
+        tools:layout="@layout/activity_language_screen" >
+        <action
+            android:id="@+id/action_languageFragment_to_languageDuplicateFragment"
+            app:destination="@id/languageDuplicateFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/language_navigation"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/languageDuplicateFragment"
+        android:name="com.slideshowmaker.slideshow.ui.language.LanguageDuplicateFragment"
+        android:label="LanguageDuplicateFragment"
+        tools:layout="@layout/activity_language_screen"/>
+</navigation>

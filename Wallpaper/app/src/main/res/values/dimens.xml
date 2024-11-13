@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="detail_item_radius">4dp</dimen>
+    <dimen name="height_header">60dp</dimen>
+    <dimen name="size_set_wallpaper_icon">56dp</dimen>
+    <dimen name="corner_radius_button">8dp</dimen>
+    <dimen name="height_bottom_recycler_view">128dp</dimen>
+    <dimen name="corner_item_bottom_recycler_view">8dp</dimen>
+    <dimen name="height_item_menu">72dp</dimen>
+    <dimen name="bottom_bar_height">68dp</dimen>
+    <dimen name="default_corner_radii">56dp</dimen>
+    <dimen name="default_badge_corner_radii">16dp</dimen>
+    <dimen name="default_nav_item_padding">12dp</dimen>
+    <dimen name="default_nav_item_text_size">14sp</dimen>
+    <dimen name="default_nav_item_text_padding">8dp</dimen>
+    <dimen name="default_nav_item_title_max_width">80dp</dimen>
+    <dimen name="default_icon_size">24dp</dimen>
+    <dimen name="default_nav_item_badge_padding">2dp</dimen>
+    <dimen name="default_nav_item_badge_text_size">7sp</dimen>
+    <dimen name="margin_10_dp">10dp</dimen>
+    <dimen name="margin_16_dp">16dp</dimen>
+    <dimen name="margin_17_dp">17dp</dimen>
+    <dimen name="text_size_20_sp">20sp</dimen>
+    <dimen name="margin_5_dp">5dp</dimen>
+    <dimen name="text_size_16_sp">16sp</dimen>
+    <dimen name="margin_8_dp">8dp</dimen>
+    <dimen name="size_1_dp">1dp</dimen>
+    <dimen name="margin_30_dp">30dp</dimen>
+    <dimen name="text_size_24_sp">24sp</dimen>
+    <dimen name="text_size_14_sp">14sp</dimen>
+</resources>

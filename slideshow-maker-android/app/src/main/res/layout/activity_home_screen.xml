@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rootView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/greyscale900">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/greyscale900">
+
+                <com.google.android.material.appbar.MaterialToolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvTitle"
+                            style="@style/text_heading_5"
+                            android:textColor="@color/white"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/title_home_page" />
+
+                        <ImageButton
+                            android:id="@+id/btnSetting"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/margin_1"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:src="@drawable/icon_btn_setting" />
+
+                        <ImageButton
+                            android:id="@+id/btnPro"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/margin_2"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:src="@drawable/icon_btn_pro" />
+                    </LinearLayout>
+                </com.google.android.material.appbar.MaterialToolbar>
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:context=".ui.HomeActivity">
+
+                    <LinearLayout
+                        android:id="@+id/main"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toTopOf="@id/frAds">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.card.MaterialCardView
+                                android:id="@+id/bgButtonSlideShow"
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="32dp"
+                                android:layout_marginEnd="8dp"
+                                android:backgroundTint="@color/black"
+                                app:shapeAppearanceOverlay="@style/img_round_corner"
+                                app:layout_constraintDimensionRatio="H,156:200"
+                                app:layout_constraintEnd_toStartOf="@id/centerVerticalGuideline"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" >
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/btn_create_slideshow"
+                                    android:scaleType="centerCrop"/>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:background="@android:color/transparent"
+                                    android:gravity="center">
+                                    <ImageView
+                                        android:id="@+id/iconSlideShow"
+                                        android:layout_width="32dp"
+                                        android:layout_height="32dp"
+                                        android:src="@drawable/icon_create_video" />
+                                    <TextView
+                                        android:id="@+id/tvSlideshow"
+                                        style="@style/text_large"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="@dimen/margin_0p5"
+                                        android:text="@string/create_slideshow_button"
+                                        android:textColor="@color/white" />
+                                </LinearLayout>
+
+                            </com.google.android.material.card.MaterialCardView>
+
+
+                            <androidx.constraintlayout.widget.Guideline
+                                android:id="@+id/centerVerticalGuideline"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                app:layout_constraintGuide_percent="0.5" />
+
+                            <com.google.android.material.card.MaterialCardView
+                                android:id="@+id/bgButtonMyVideo"
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_marginStart="8dp"
+                                android:layout_marginEnd="16dp"
+                                android:backgroundTint="@color/black"
+                                app:shapeAppearanceOverlay="@style/img_round_corner"
+                                app:layout_constraintDimensionRatio="156:200"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="@id/centerVerticalGuideline"
+                                app:layout_constraintTop_toTopOf="@id/bgButtonSlideShow" >
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/btn_my_video"
+                                    android:scaleType="centerCrop"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+                                    <ImageView
+                                        android:id="@+id/iconMyVideo"
+                                        android:layout_width="32dp"
+                                        android:layout_height="32dp"
+                                        android:src="@drawable/icon_my_video" />
+
+                                    <TextView
+                                        android:id="@+id/tvMyVideo"
+                                        style="@style/text_large"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="@dimen/margin_0p5"
+                                        android:text="@string/my_video_button"
+                                        android:textColor="@color/white" />
+                                </LinearLayout>
+                            </com.google.android.material.card.MaterialCardView>
+
+
+
+                            <LinearLayout
+                                android:id="@+id/layoutEditVideo"
+                                android:layout_width="70dp"
+                                android:layout_height="78dp"
+                                android:layout_marginTop="@dimen/margin_2"
+                                android:background="@drawable/rectangle_radius_16dp"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:visibility="gone"
+                                app:layout_constraintEnd_toStartOf="@+id/layoutJoinVideo"
+                                app:layout_constraintHorizontal_chainStyle="spread"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/bgButtonMyVideo">
+
+                                <ImageView
+                                    android:layout_width="@dimen/icon_size"
+                                    android:layout_height="@dimen/icon_size" />
+
+                                <TextView
+                                    style="@style/text_small"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/edit_video_button" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/layoutJoinVideo"
+                                android:layout_width="70dp"
+                                android:layout_height="78dp"
+                                android:layout_marginTop="@dimen/margin_2"
+                                android:background="@drawable/rectangle_radius_16dp"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:visibility="gone"
+                                app:layout_constraintEnd_toStartOf="@+id/layoutTrim"
+                                app:layout_constraintStart_toEndOf="@+id/layoutEditVideo"
+                                app:layout_constraintTop_toBottomOf="@+id/bgButtonMyVideo">
+
+                                <ImageView
+                                    android:layout_width="@dimen/icon_size"
+                                    android:layout_height="@dimen/icon_size"
+                                    android:src="@drawable/icon_join"
+                                    app:tint="@color/white" />
+
+                                <TextView
+                                    style="@style/text_small"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/join_video_button" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/layoutTrim"
+                                android:layout_width="70dp"
+                                android:layout_height="78dp"
+                                android:layout_marginTop="@dimen/margin_2"
+                                android:background="@drawable/rectangle_radius_16dp"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:visibility="gone"
+                                app:layout_constraintEnd_toStartOf="@+id/layoutRate"
+                                app:layout_constraintStart_toEndOf="@id/layoutJoinVideo"
+                                app:layout_constraintTop_toBottomOf="@+id/bgButtonMyVideo">
+
+                                <ImageView
+                                    android:layout_width="@dimen/icon_size"
+                                    android:layout_height="@dimen/icon_size"
+                                    android:src="@drawable/ic_split"
+                                    app:tint="@color/white" />
+
+                                <TextView
+                                    style="@style/text_small"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/trim_video_button"
+                                    app:tint="@color/white" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/layoutRate"
+                                android:layout_width="70dp"
+                                android:layout_height="78dp"
+                                android:layout_marginTop="@dimen/margin_2"
+                                android:background="@drawable/rectangle_radius_16dp"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:visibility="gone"
+                                app:layout_constraintEnd_toStartOf="@+id/layoutShare"
+                                app:layout_constraintStart_toEndOf="@+id/layoutTrim"
+                                app:layout_constraintTop_toBottomOf="@+id/bgButtonMyVideo">
+
+                                <ImageView
+                                    android:layout_width="@dimen/icon_size"
+                                    android:layout_height="@dimen/icon_size"
+                                    android:src="@drawable/icon_rate"
+                                    app:tint="@color/white" />
+
+                                <TextView
+                                    style="@style/text_small"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/rate_button" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/layoutShare"
+                                android:layout_width="70dp"
+                                android:layout_height="78dp"
+                                android:layout_marginTop="@dimen/margin_2"
+                                android:background="@drawable/rectangle_radius_16dp"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:visibility="gone"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toEndOf="@+id/layoutRate"
+                                app:layout_constraintTop_toBottomOf="@+id/bgButtonMyVideo">
+
+                                <ImageView
+                                    android:layout_width="@dimen/icon_size"
+                                    android:layout_height="@dimen/icon_size"
+                                    android:src="@drawable/icon_share"
+                                    app:tint="@color/white" />
+
+                                <TextView
+                                    style="@style/text_small"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/share" />
+                            </LinearLayout>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:id="@+id/frAds"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toTopOf="@+id/tvRecommendedApp"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp">
+
+                        <include
+                            android:id="@+id/includeNative"
+                            layout="@layout/native_ad_home_shimmer"
+                            android:visibility="visible" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/tvRecommendedApp"
+                        style="@style/text_large"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_2"
+                        android:text="@string/recommended_app"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toTopOf="@+id/rvSuggestedApps" />
+
+                    <com.airbnb.epoxy.EpoxyRecyclerView
+                        android:id="@+id/rvSuggestedApps"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="@dimen/margin_2"
+                        android:clipToPadding="true"
+                        android:paddingHorizontal="@dimen/margin_2"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent" />
+
+                    <androidx.constraintlayout.widget.Group
+                        android:id="@+id/groupSuggestedApp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:constraint_referenced_ids="rvSuggestedApps, tvRecommendedApp" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

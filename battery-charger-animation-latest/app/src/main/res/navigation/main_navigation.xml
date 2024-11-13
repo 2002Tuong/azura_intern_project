@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/permissionFragment"
+        android:name="com.example.videoart.batterychargeranimation.ui.premission.PermissionFragment"
+        android:label="PermissionFragment"
+        tools:layout="@layout/fragment_permission">
+        <action
+            android:id="@+id/action_permissionFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/main_navigation"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.videoart.batterychargeranimation.ui.main.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_previewFragment"
+            app:destination="@id/previewFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_unlockFragment"
+            app:destination="@id/unlockFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_helpFragment"
+            app:destination="@id/helpFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_batteryInfoFragment"
+            app:destination="@id/batteryInfoFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_languageSettingFragment"
+            app:destination="@id/languageSettingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.videoart.batterychargeranimation.ui.home.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home"/>
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.example.videoart.batterychargeranimation.ui.gallery.GalleryFragment"
+        android:label="GalleryFragment"
+        tools:layout="@layout/fragment_gallery"/>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.videoart.batterychargeranimation.ui.setting.SettingFragment"
+        android:label="SettingFragment"
+        tools:layout="@layout/fragment_setting"/>
+    <fragment
+        android:id="@+id/previewFragment"
+        android:name="com.example.videoart.batterychargeranimation.ui.preview.PreviewFragment"
+        android:label="PreviewFragment"
+        tools:layout="@layout/fragment_preview">
+        <action
+            android:id="@+id/action_previewFragment_to_unlockFragment"
+            app:destination="@id/unlockFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/main_navigation" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.videoart.batterychargeranimation.ui.result.ResultFragment"
+        android:label="ResultFragment"
+        tools:layout="@layout/fragment_result">
+        <action
+            android:id="@+id/action_resultFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/mainFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:id="@+id/placeholder" />
+    <fragment
+        android:id="@+id/languageFragment"
+        android:name="com.example.videoart.batterychargeranimation.ui.language.LanguageFragment"
+        android:label="LanguageFragment"
+        tools:layout="@layout/fragment_language">
+        <action
+            android:id="@+id/action_languageFragment_to_languageDupFragment"
+            app:destination="@id/languageDupFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/main_navigation"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.videoart.batterychargeranimation.ui.splash.SplashFragment"
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_languageFragment"
+            app:destination="@id/languageFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/main_navigation"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/main_navigation"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_permissionFragment"
+            app:destination="@id/permissionFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/main_navigation"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/onboardingFragment"
+        android:name="com.example.videoart.batterychargeranimation.ui.onboarding.OnboardingFragment"
+        android:label="OnboardingFragment" >
+        <action
+            android:id="@+id/action_onboardingFragment_to_permissionFragment"
+            app:destination="@id/permissionFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/main_navigation"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/unlockFragment"
+        android:name="com.example.videoart.batterychargeranimation.ui.unlock.UnlockFragment"
+        android:label="UnlockFragment"
+        tools:layout="@layout/fragment_unlock">
+        <action
+            android:id="@+id/action_unlockFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+        <action
+            android:id="@+id/action_unlockFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/main_navigation" />
+    </fragment>
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.example.videoart.batterychargeranimation.ui.help.HelpFragment"
+        android:label="fragment_help"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/languageDupFragment"
+        android:name="com.example.videoart.batterychargeranimation.ui.language.LanguageDupFragment"
+        android:label="fragment_language_dup"
+        tools:layout="@layout/fragment_language" >
+        <action
+            android:id="@+id/action_languageDupFragment_to_onboardingFragment"
+            app:destination="@id/onboardingFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/main_navigation"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/batteryInfoFragment"
+        android:name="com.example.videoart.batterychargeranimation.ui.info.BatteryInfoFragment"
+        android:label="fragment_battery_info"
+        tools:layout="@layout/fragment_battery_info" />
+    <fragment
+        android:id="@+id/languageSettingFragment"
+        android:name="com.example.videoart.batterychargeranimation.ui.language.LanguageSettingFragment"
+        android:label="LanguageSettingFragment" />
+</navigation>

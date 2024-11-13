@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="contact_email">phunglkbd@gmail.com</string>
+    <string name="lang_english" translatable="false">English</string>
+    <string name="lang_chinese" translatable="false">简体中文</string>
+    <string name="lang_hindi" translatable="false">हिंदी</string>
+    <string name="lang_spanish" translatable="false">Español</string>
+    <string name="lang_french" translatable="false">Français</string>
+    <string name="lang_arabic" translatable="false">العربية</string>
+    <string name="lang_russian" translatable="false">Русский</string>
+    <string name="lang_bengali" translatable="false">বাংলা</string>
+    <string name="lang_portugal" translatable="false">Português</string>
+    <string name="lang_urdu" translatable="false">اردو</string>
+    <string name="lang_german" translatable="false">Deutsch</string>
+    <string name="lang_japanese" translatable="false">日本語</string>
+    <string name="lang_marathi" translatable="false">मराठी</string>
+    <string name="lang_telugu" translatable="false">తెలుగు</string>
+    <string name="lang_turkish" translatable="false">Türkçe</string>
+    <string name="lang_tamil" translatable="false">தமிழ்</string>
+    <string name="lang_korean" translatable="false">한국인</string>
+    <string name="lang_vietnamese" translatable="false">Tiếng Việt</string>
+    <string name="lang_thai" translatable="false">ภาษาไทย</string>
+    <string name="lang_italian" translatable="false">Italiano</string>
+</resources>

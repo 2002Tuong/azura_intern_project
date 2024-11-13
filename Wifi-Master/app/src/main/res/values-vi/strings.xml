@@ -1,0 +1,23 @@
+<resources>
+	<string name="show_wifi_password">"Hiển thị mật khẩu wifi"</string>
+	<string name="all_connect_devices">"Tất cả các thiết bị kết nối"</string>
+	<string name="available_wifi_list">"Danh sách WiFi có sẵn"</string>
+	<string name="available_network">"Mạng có sẵn"</string>
+	<string name="wifi_shown">"Mật khẩu wifi được hiển thị cho kết nối của bạn"</string>
+	<string name="detect_devices">"Phát hiện tất cả các thiết bị đang kết nối với wifi của bạn"</string>
+	<string name="scan_wifi">"Quét và phân tích mạng WiFi gần đó"</string>
+	<string name="next">"Kế tiếp"</string>
+	<string name="contain_ads">"Hành động này có thể chứa quảng cáo"</string>
+	<string name="ask_grant_permission">"Ứng dụng WiFi Manager sử dụng quyền truy cập vị trí"</string>
+	<string name="grant_permission">"Sự cho phép lớn"</string>
+	<string name="grant_permission_description">"Để bắt đầu, chúng tôi cần sự cho phép của bạn để truy cập vào vị trí của bạn."</string>
+	<string name="ok">"Được rồi"</string>
+	<string name="cancel">"Hủy bỏ"</string>
+	<string name="enter_password">"Nhập mật khẩu"</string>
+	<string name="connect">"Kết nối"</string>
+	<string name="show_password">"Hiển thị mật khẩu"</string>
+	<string name="we_are_working_hard_for_a_better_user_experience">"Chúng tôi đang làm việc chăm chỉ cho trải nghiệm người dùng tốt hơn"</string>
+	<string name="the_best_rating_star">"Ngôi sao xếp hạng tốt nhất"</string>
+	<string name="exit_popup_message">"Chúng tôi thích nghe từ bạn. Giúp chúng tôi làm cho ứng dụng của chúng tôi trở nên tuyệt vời hơn"</string>
+	<string name="no_exit">"Không, ứng dụng thoát"</string>
+</resources>

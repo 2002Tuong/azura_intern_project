@@ -1,0 +1,28 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greyscale900"
+    tools:context=".ui.select_music.SelectMusicActivity">
+
+    <com.airbnb.epoxy.EpoxyRecyclerView
+        android:id="@+id/rvMusicGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/item_view_gender_list" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/musicListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/greyscale900"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rvMusicGender"
+        tools:listitem="@layout/item_view_music_list" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "622512671314",
+    "project_id": "photo-video-editor-c41e2",
+    "storage_bucket": "photo-video-editor-c41e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622512671314:android:280c0835292183954c6d8b",
+        "android_client_info": {
+          "package_name": "com.videomaker.videoediting.effect.slideshowmaker.crop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOdYROj-UnKObKcxZyeCCNpccHbiUGqbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

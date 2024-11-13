@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mbridge.msdk.oversea:mbbid:16.4.31@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c2a223f8ddf7e538e9107d1bc96752a1/transformed/mbbid-16.4.31/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c2a223f8ddf7e538e9107d1bc96752a1/transformed/mbbid-16.4.31/jars/libs/classes-2.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c2a223f8ddf7e538e9107d1bc96752a1/transformed/mbbid-16.4.31/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/orange_900"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="@dimen/margin_1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editor_using_pro_feature_label"
+        android:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnUpgrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_0p5"
+        android:background="@drawable/outline_white_btn"
+        android:minHeight="0dp"
+        android:padding="@dimen/margin_1"
+        android:text="@string/editor_using_pro_feature_cta"
+        android:textColor="@color/white" />
+</LinearLayout>

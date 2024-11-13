@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.nativead.NativeAdView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/adView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/tvAd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#1892FA"
+            android:text="Ad"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:padding="2dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imvIcon"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintStart_toEndOf="@id/tvAd"
+            app:layout_constraintTop_toTopOf="@id/tvAd"
+            app:shapeAppearance="@style/rounded_corner_image_view" />
+
+        <TextView
+            android:id="@+id/tvBody"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="#656565"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@id/tvHeadline"
+            app:layout_constraintEnd_toStartOf="@+id/btnAction"
+            app:layout_constraintStart_toEndOf="@id/imvIcon"
+            app:layout_constraintTop_toTopOf="@id/tvAd"
+            app:layout_constraintVertical_chainStyle="packed"
+            tools:text="Body Content" />
+
+        <TextView
+            android:id="@+id/tvHeadline"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textColor="#1892FA"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btnAction"
+            app:layout_constraintStart_toEndOf="@id/imvIcon"
+            app:layout_constraintTop_toBottomOf="@id/tvBody"
+            tools:text="Headline" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_ad_cta_outline"
+            android:elevation="0dp"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="6dp"
+            android:textAllCaps="false"
+            android:textColor="#1892FA"
+            android:textSize="14sp"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintCircleRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imvIcon"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Install" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/groupContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:constraint_referenced_ids="btnAction,tvAd,tvBody,tvHeadline"
+            tools:visibility="visible" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.gms.ads.nativead.NativeAdView>

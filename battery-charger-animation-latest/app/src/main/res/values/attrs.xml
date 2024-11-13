@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ItemSetting">
+        <attr name="headIcon" format="color|reference"/>
+        <attr name="tailIcon" format="color|reference"/>
+        <attr name="text" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="BottomNavigationViewIndicator">
+        <attr name="targetBottomNavigation" format="reference"/>
+        <attr name="clipableBackground" format="reference|color"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomRatingBar">
+        <attr name="maxRating" format="integer" />
+        <attr name="emptyStarDrawable" format="reference" />
+        <attr name="filledStarDrawable" format="reference" />
+        <attr name="emptyLastStarDrawable" format="reference" />
+        <attr name="filledLastStarDrawable" format="reference" />
+        <attr name="starSpacing" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="ItemBatteryInfo">
+        <attr name="titleText" format="string"/>
+        <attr name="infoText" format="string"/>
+        <attr name="iconThumbnail" format="color|reference"/>
+    </declare-styleable>
+</resources>

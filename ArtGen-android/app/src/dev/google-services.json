@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "532103418997",
+    "project_id": "artgen-f5157",
+    "storage_bucket": "artgen-f5157.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532103418997:android:2eeb38ec507bd91755143c",
+        "android_client_info": {
+          "package_name": "com.artgen.app.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532103418997-jae791f8nn7c6cklmkaakv2dkj92hvqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLDNB_n3AtaoA3VtigJ9wdtBR4j3cioO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532103418997-jae791f8nn7c6cklmkaakv2dkj92hvqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

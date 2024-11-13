@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_16_dp"
+    android:background="@drawable/bg_setting_sensitivity_section">
+
+    <ImageView
+        android:id="@+id/imgExtension"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_17_dp"
+        android:layout_marginTop="@dimen/margin_17_dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/icon_extension" />
+
+    <TextView
+        android:id="@+id/txtExtension"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_9_dp"
+        android:layout_marginTop="@dimen/margin_16_dp"
+        android:layout_toEndOf="@id/imgExtension"
+        android:text="@string/extension"
+        android:textColor="@color/text_color_1"
+        android:textSize="@dimen/text_size_16_sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtExtensionDescribe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgExtension"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/margin_16_dp"
+        android:layout_marginTop="@dimen/padding_18dp"
+        android:layout_marginEnd="@dimen/margin_16_dp"
+        android:layout_marginBottom="@dimen/padding_18dp"
+        android:layout_toStartOf="@id/switchExtension"
+        android:ellipsize="marquee"
+        android:lines="1"
+        android:text="@string/extension_description"
+        android:textColor="@color/text_color_1"
+        android:textSize="@dimen/text_size_14_sp" />
+
+    <Switch
+        android:id="@+id/switchExtension"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_below="@id/imgExtension"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/margin_16_dp"
+        android:layout_marginEnd="@dimen/margin_16_dp"
+        android:thumb="@drawable/switch_thumb_selector"
+        android:track="@drawable/switch_bg_selector"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+</RelativeLayout>

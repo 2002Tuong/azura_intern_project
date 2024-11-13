@@ -1,0 +1,23 @@
+<resources>
+	<string name="show_wifi_password">"WiFi şifresini göster"</string>
+	<string name="all_connect_devices">"Tüm bağlantı cihazları"</string>
+	<string name="available_wifi_list">"Mevcut WiFi Listesi"</string>
+	<string name="available_network">"Mevcut Ağ"</string>
+	<string name="wifi_shown">"Bağlantınız için WiFi şifreleri gösterilmiştir"</string>
+	<string name="detect_devices">"WiFi'nize bağlanan tüm cihazları algılayın"</string>
+	<string name="scan_wifi">"Yakındaki WiFi Ağı tarayın ve analiz edin"</string>
+	<string name="next">"Sonraki"</string>
+	<string name="contain_ads">"Bu eylem reklam içerebilir"</string>
+	<string name="ask_grant_permission">"WiFi Manager uygulaması erişim konum izni kullanıyor"</string>
+	<string name="grant_permission">"Büyük izin"</string>
+	<string name="grant_permission_description">"Başlamak için konumunuza erişme izninize ihtiyacımız var."</string>
+	<string name="ok">"Tamam"</string>
+	<string name="cancel">"İptal etmek"</string>
+	<string name="enter_password">"Parolanı Gir"</string>
+	<string name="connect">"Bağlamak"</string>
+	<string name="show_password">"Şifreyi göster"</string>
+	<string name="we_are_working_hard_for_a_better_user_experience">"Daha iyi bir kullanıcı deneyimi için çok çalışıyoruz"</string>
+	<string name="the_best_rating_star">"En iyi derecelendirme yıldızı"</string>
+	<string name="exit_popup_message">"Sizden haber almayı seviyoruz. Uygulamamızı daha da harika yapmamıza yardımcı olun"</string>
+	<string name="no_exit">"Hayır, çıkış uygulaması"</string>
+</resources>

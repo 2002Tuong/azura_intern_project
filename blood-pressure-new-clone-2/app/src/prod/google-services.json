@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "78866246384",
+    "project_id": "blood-pressure-46b55",
+    "storage_bucket": "blood-pressure-46b55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78866246384:android:7996a870030817059a3035",
+        "android_client_info": {
+          "package_name": "com.azura.bloodpressure.bmptracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78866246384-4mioctchgq7eec1fgmlaf3rv2m7e3oif.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf2fOYq8eOifMszdyynFb3JSGfbavQx9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78866246384-4mioctchgq7eec1fgmlaf3rv2m7e3oif.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

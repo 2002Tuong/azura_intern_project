@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+        <com.parallax.hdvideo.wallpapers.ui.custom.CustomSwitch
+            style="@style/PlaylistSwitch"
+            android:id="@+id/setWallpaperButton"
+            android:layout_width="50dp"
+            android:layout_height="0dp"
+            android:scaleType="center"
+            android:background="?android:attr/selectableItemBackground"
+            app:trackTint="#d3dadb"
+            android:src="@drawable/ic_adjust_re"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintTop_toTopOf="@id/delayTimeTV"
+            app:layout_constraintBottom_toBottomOf="@id/delayTimeTV"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/titleSetWallpaper"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/title_wallpaper_automatically_change_time"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/delayTimeTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/titleSetWallpaper"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="16dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingEnd="10dp"
+            android:background="?selectableItemBackground"
+            android:layout_marginTop="10dp"
+            android:drawablePadding="10dp"
+            tools:text="1 ngày"
+            app:drawableEndCompat="@drawable/ic_edit_re" />
+
+        <TextView
+            android:id="@+id/noImagesTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:text="@string/empty_playlist_item"
+            android:textColor="#A9A7A2"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/delayTimeTV"
+            app:layout_constraintVertical_bias="0.5"
+            app:layout_constraintBottom_toTopOf="@id/noImagesButton"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/noImagesButton"
+            style="@style/PositiveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="44dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#216236ff"
+            android:text="@string/choose_new_wallpaper"
+            android:textAllCaps="false"
+            android:textColor="#272727"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:layout_marginBottom="120dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:clipToPadding="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/delayTimeTV"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

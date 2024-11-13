@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="14dp"
+    android:paddingVertical="20dp"
+    android:background="@drawable/bg_set_animation_dialog">
+    <ImageView
+        android:id="@+id/ic_sound"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_sound"
+        app:tint="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+        android:id="@+id/text_sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/ic_sound"
+        app:layout_constraintTop_toTopOf="@id/ic_sound"
+        app:layout_constraintBottom_toBottomOf="@id/ic_sound"
+        android:textSize="@dimen/text_size_16_sp"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/white"
+        android:text="@string/sound"/>
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/swith_sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/text_sound"
+        app:layout_constraintTop_toTopOf="@id/text_sound"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:checked="true"
+        app:trackTint="#2e3c09"
+        style="@style/sound_switch"/>
+
+    <ImageView
+        android:id="@+id/ic_play_duration"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_time"
+        android:layout_marginTop="15dp"
+        app:tint="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/ic_sound"
+        app:layout_constraintStart_toStartOf="@id/ic_sound"/>
+
+    <TextView
+        android:id="@+id/text_play_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/ic_play_duration"
+        app:layout_constraintTop_toTopOf="@id/ic_play_duration"
+        app:layout_constraintBottom_toBottomOf="@id/ic_play_duration"
+        android:textSize="@dimen/text_size_16_sp"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/white"
+        android:text="@string/play_duration"/>
+
+    <LinearLayout
+        android:id="@+id/btn_select_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/text_play_duration"
+        app:layout_constraintBottom_toBottomOf="@id/text_play_duration">
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_16_sp"
+            tools:text="30s"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            app:tint="@color/white"
+            android:src="@drawable/ic_arrow_down"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ic_closing_method"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_close"
+        android:layout_marginTop="15dp"
+        app:tint="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/ic_play_duration"
+        app:layout_constraintStart_toStartOf="@id/ic_play_duration"/>
+
+    <TextView
+        android:id="@+id/text_closing_method"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/ic_closing_method"
+        app:layout_constraintTop_toTopOf="@id/ic_closing_method"
+        app:layout_constraintBottom_toBottomOf="@id/ic_closing_method"
+        android:textSize="@dimen/text_size_16_sp"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/white"
+        android:text="@string/closing_method"/>
+
+    <LinearLayout
+        android:id="@+id/btn_select_close_method"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/text_closing_method"
+        app:layout_constraintBottom_toBottomOf="@id/text_closing_method">
+        <TextView
+            android:id="@+id/close_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_16_sp"
+            tools:text="Single tap"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            app:tint="@color/white"
+            android:src="@drawable/ic_arrow_down"/>
+    </LinearLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_set_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/set_animation"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/ic_closing_method"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

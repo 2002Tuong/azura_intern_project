@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="call_button_size">80dp</dimen>
+    <dimen name="thumb_call_button_size">40dp</dimen>
+    <dimen name="incoming_call_avatar_size">116dp</dimen>
+    <dimen name="thumb_incoming_call_avatar_size">80dp</dimen>
+    <dimen name="caller_name_text_size">32sp</dimen>
+    <dimen name="call_status_text_size">16sp</dimen>
+    <dimen name="thumb_caller_name_text_size">16sp</dimen>
+    <dimen name="thumb_call_status_text_size">14sp</dimen>
+    <dimen name="list_avatar_size">40dp</dimen>
+    <dimen name="thumbnail_background_height">200dp</dimen>
+    <dimen name="status_bar_height">24dp</dimen>
+    <dimen name="grid_spacing">5dp</dimen>
+    <dimen name="radio_button_size">18dp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="space_16">16dp</dimen>
+    <dimen name="toolbar_button_size">36dp</dimen>
+    <dimen name="toolbar_button_size_large">48dp</dimen>
+    <dimen name="design_bottom_navigation_height" tools:override="true">68dp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_24sp">24sp</dimen>
+    <dimen name="space_12dp">12dp</dimen>
+    <dimen name="space_24dp">24dp</dimen>
+    <dimen name="space_22dp">22dp</dimen>
+    <dimen name="space_20dp">20dp</dimen>
+    <dimen name="text_size_10sp">10sp</dimen>
+    <dimen name="ic_size_32dp">32dp</dimen>
+    <dimen name="space_8dp">8dp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+    <dimen name="thumbTextSize">14sp</dimen>
+    <dimen name="thumbRadius">14sp</dimen>
+    <dimen name="gaugeThickness">10dp</dimen>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/transparent"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <ProgressBar
+        android:background="@drawable/progress_bar"
+        android:id="@+id/progress_circular"
+        android:indeterminateDrawable="@drawable/bg_gradient__loading_progress"
+        android:indeterminateDuration="700"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:padding="10dp" />
+
+</FrameLayout>

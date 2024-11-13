@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/bgBlackViewInRate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/mainRatingContentLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_shape_corner_12dp"
+            android:paddingBottom="@dimen/baseMargin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.95">
+
+
+            <ImageView
+                android:id="@+id/layoutRateDialogBanner"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="56dp"
+                android:layout_marginEnd="56dp"
+                android:layout_marginTop="@dimen/margin_7"
+                android:src="@drawable/rate_banner"
+                app:layout_constraintEnd_toEndOf="@id/mainRatingContentLayout"
+                app:layout_constraintStart_toStartOf="@id/mainRatingContentLayout"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/layoutRateDialogTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/doubleOfBaseMargin"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text="@string/dialog_rating_title"
+                android:textColor="@color/greyscale_200"
+                android:textSize="@dimen/titleTextSize"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layoutRateDialogBanner" />
+
+            <TextView
+                android:id="@+id/layoutRateDialogSubtitleOne"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/baseMargin"
+                android:layout_marginTop="@dimen/baseMargin"
+                android:layout_marginEnd="@dimen/baseMargin"
+                android:gravity="center"
+                android:text="@string/dialog_rating_content"
+                android:textColor="@color/greyscale_200"
+                android:textSize="@dimen/largeTextSize"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layoutRateDialogTitle" />
+
+            <ImageView
+                android:id="@+id/btnStar1"
+                android:layout_width="@dimen/icon_start_size"
+                android:layout_height="@dimen/icon_start_size"
+                android:layout_marginStart="@dimen/margin_2"
+                android:layout_marginTop="32dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/icon_star_outline"
+                app:layout_constraintHorizontal_chainStyle="spread_inside"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/btnStar2"
+                app:layout_constraintTop_toBottomOf="@id/layoutRateDialogSubtitleOne" />
+
+            <ImageView
+                android:id="@+id/btnStar2"
+                android:layout_width="@dimen/icon_start_size"
+                android:layout_height="@dimen/icon_start_size"
+                android:background="@android:color/transparent"
+                android:src="@drawable/icon_star_outline"
+                app:layout_constraintLeft_toRightOf="@id/btnStar1"
+                app:layout_constraintRight_toLeftOf="@id/btnStar3"
+                app:layout_constraintTop_toTopOf="@id/btnStar1" />
+
+            <ImageView
+                android:id="@+id/btnStar3"
+                android:layout_width="@dimen/icon_start_size"
+                android:layout_height="@dimen/icon_start_size"
+                android:background="@android:color/transparent"
+                android:src="@drawable/icon_star_outline"
+                app:layout_constraintBottom_toBottomOf="@id/btnStar1"
+                app:layout_constraintLeft_toRightOf="@id/btnStar2"
+                app:layout_constraintRight_toLeftOf="@id/btnStar4" />
+
+            <ImageView
+                android:id="@+id/btnStar4"
+                android:layout_width="@dimen/icon_start_size"
+                android:layout_height="@dimen/icon_start_size"
+                android:background="@android:color/transparent"
+                android:src="@drawable/icon_star_outline"
+                app:layout_constraintBottom_toBottomOf="@id/btnStar1"
+                app:layout_constraintLeft_toRightOf="@id/btnStar3"
+                app:layout_constraintRight_toLeftOf="@id/btnStar5" />
+
+            <ImageView
+                android:id="@+id/btnStar5"
+                android:layout_width="@dimen/icon_start_size"
+                android:layout_height="@dimen/icon_start_size"
+                android:layout_marginEnd="@dimen/margin_2"
+                android:background="@android:color/transparent"
+                android:src="@drawable/icon_star_outline"
+                app:layout_constraintBottom_toBottomOf="@id/btnStar1"
+                app:layout_constraintLeft_toRightOf="@id/btnStar4"
+                app:layout_constraintRight_toRightOf="parent" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/layoutRateDialogExitButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/baseMargin"
+                android:layout_marginTop="@dimen/margin_3"
+                android:layout_marginEnd="@dimen/baseMargin"
+                android:background="@drawable/regular_bg_outline_button"
+                android:gravity="center"
+                android:text="@string/regular_exit"
+                android:textColor="@color/greyscale_200"
+                app:layout_constraintEnd_toStartOf="@+id/layoutRateDialogRateUsButton"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btnStar5"
+                tools:visibility="gone" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/layoutRateDialogRateUsButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/baseMargin"
+                android:layout_marginTop="@dimen/margin_3"
+                android:layout_marginEnd="@dimen/baseMargin"
+                android:background="@drawable/filled_button"
+                android:gravity="center"
+                android:text="@string/dialog_rating_rate_button"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/layoutRateDialogExitButton"
+                app:layout_constraintTop_toBottomOf="@id/btnStar5" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/layoutRateDialogLaterButton"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/baseMargin"
+                android:layout_marginTop="@dimen/baseMargin"
+                android:layout_marginEnd="@dimen/baseMargin"
+                android:gravity="center"
+                android:text="@string/popup_rating_text_later"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layoutRateDialogRateUsButton"
+                app:strokeColor="@color/colorPrimary" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/layoutRateDialogNoThankButton"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/baseMargin"
+                android:layout_marginTop="@dimen/baseMargin"
+                android:layout_marginEnd="@dimen/baseMargin"
+                android:gravity="center"
+                android:text="@string/popup_rating_text_later"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layoutRateDialogLaterButton" />
+
+            <ImageButton
+                android:id="@+id/btnClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_1"
+                android:padding="@dimen/margin_1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/icon_close_white"
+                android:tint="@color/greyscale_200"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/layoutRateDialogMainContentGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:constraint_referenced_ids="mainRatingContentLayout" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

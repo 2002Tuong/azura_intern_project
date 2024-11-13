@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cw_next">"अगला"</string>
+    <string name="cw_get_started">"शुरू हो जाओ"</string>
+    <string name="setting_language">"भाषा"</string>
+    <string name="splash_loading_message">"इस कार्रवाई में विज्ञापन हो सकते हैं"</string>
+    <string name="loading_ads">"लोडिंग विज्ञापन"</string>
+    <string name="pick_a_style">"एक शैली चुनें"</string>
+    <string name="crop_photo">"फसल तस्वीर"</string>
+    <string name="text_continue">"जारी रखना"</string>
+    <string name="genart_ai">"जेनर्ट एआई"</string>
+    <string name="policy">"नीति"</string>
+    <string name="setting">"सेटिंग्स"</string>
+    <string name="selected_style_title">"चुना शैली (%s)"</string>
+    <string name="loading_gen_art_title">"ऐ मैजिक आर्ट बना रहा है"</string>
+    <string name="loading_gen_art_message">"कृपया प्रतीक्षा करें…"</string>
+    <string name="gen_art_success_title">"सब कुछ कर दिया! आपकी कला तैयार है"</string>
+    <string name="view_now">"अभी देखें"</string>
+    <string name="see_all">"सभी देखें"</string>
+    <string name="input_prompt">"इनपुट प्रॉम्प्ट"</string>
+    <string name="ex_beautiful_girl_in_the_dream_world">"पूर्व: सपने की दुनिया में सुंदर लड़की"</string>
+    <string name="demo_image_optional">"डेमो छवि (वैकल्पिक)"</string>
+    <string name="generate_now">"अभी उत्पन्न करें"</string>
+    <string name="watch_video_ads">"वीडियो विज्ञापन देखें"</string>
+    <string name="all_styles">"ऑल स्टाइल्स"</string>
+    <string name="result">"परिणाम"</string>
+    <string name="skip">"छोड़ें"</string>
+    <string name="camera">"कैमरा"</string>
+    <string name="save">"बचाना"</string>
+    <string name="create_more">"अधिक बनाएँ"</string>
+    <string name="re_generate">"पुन: उत्पन्न करें"</string>
+    <string name="generate_more_style">"अधिक शैली उत्पन्न करें"</string>
+    <string name="save_image_success">"छवि सफलता सहेजें"</string>
+    <string name="explore_various_styles">"विभिन्न शैलियों का अन्वेषण करें"</string>
+    <string name="advanced_ai_technology">"उन्नत एआई प्रौद्योगिकी"</string>
+    <string name="modern_trends">"आधुनिक रुझान"</string>
+    <string name="update_now">"अभी अद्यतन करें"</string>
+    <string name="later">"बाद में"</string>
+</resources>
+

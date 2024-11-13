@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="water_info_title_avoid_drink_mistake">Avoid These Water Drinking Mistakes</string>
+    <string name="water_info_title_best_time_to_drink">Best Times to Drink Water</string>
+    <string name="water_info_title_replace_with_water">Replacing Beverages with Water for Health</string>
+    <string name="water_info_title_drink_on_empty_stomach">Drink Water on an Empty Stomach?</string>
+    <string name="water_info_title_benefit_lemon_water">Benefits of Drinking Lemon Water</string>
+    <string name="water_info_title_is_ok_drink_during_meal">Is it OK to Drink Water During a Meal?</string>
+    <string name="water_info_title_benefit_for_health">Drink Water: The Benefits for Health</string>
+    <string name="water_info_title_danger_of_overhydration">Dangers of Overhydration</string>
+    <string name="water_info_title_why_should_give_baby_water">Why You Shouldn’t Give Babies Water?</string>
+</resources>

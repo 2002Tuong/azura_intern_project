@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/markerView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pie_chart_marker_bg"
+    android:paddingVertical="10dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:ignore="Overdraw">
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:textColor="#191D30"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="5dp"
+        tools:text="Normal" />
+
+    <TextView
+        android:id="@+id/tvSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:textColor="#55191D30"
+        android:textSize="11sp"
+        android:textStyle="normal"
+        android:layout_marginHorizontal="5dp"
+        tools:text="5 records"
+        />
+
+</LinearLayout>

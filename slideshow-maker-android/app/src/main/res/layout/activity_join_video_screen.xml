@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greyscale900">
+
+    <View
+        android:id="@+id/bgView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/black"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/videoPlayerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/bgView"
+        app:layout_constraintEnd_toEndOf="@id/bgView"
+        app:layout_constraintStart_toStartOf="@id/bgView"
+        app:layout_constraintTop_toTopOf="@id/bgView" />
+
+    <com.slideshowmaker.slideshow.ui.custom.VideoControllerView
+        android:id="@+id/videoControllerView"
+        android:layout_width="0dp"
+        android:layout_height="28dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintEnd_toEndOf="@id/bgView"
+        app:layout_constraintStart_toStartOf="@id/bgView"
+        app:layout_constraintTop_toBottomOf="@id/videoPlayerView" />
+
+    <ImageView
+        android:id="@+id/icPlay"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/icon_play_circle_outline_white_24dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/bgView"
+        app:layout_constraintEnd_toEndOf="@id/bgView"
+        app:layout_constraintStart_toStartOf="@id/bgView"
+        app:layout_constraintTop_toTopOf="@id/bgView" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/videoListView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/videoControllerView"
+        tools:itemCount="2"
+        tools:listitem="@layout/item_view_video_in_joiner" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonJoinVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/join_video_editor_label"
+        android:visibility="gone"
+       app:layout_constraintBottom_toTopOf="@+id/frAdsJoin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/videoListView" />
+
+    <LinearLayout
+        android:id="@+id/frAdsJoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/grayA01"/>
+        <include
+            android:id="@+id/banner_ads"
+            layout="@layout/layout_banner_control" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

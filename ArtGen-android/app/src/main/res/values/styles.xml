@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="rounded_corner_image_view">
+        <item name="cornerSize">4dp</item>
+    </style>
+</resources>

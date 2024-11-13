@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="hr_info_title_info_hr_heart_rate">심박수</string><string name="hr_info_title_info_hr_resting_heart_rate">평시 심박수</string><string name="hr_info_title_info_hr_measure_resting_heart_rate">안정시 심박수 측정</string><string name="hr_info_title_info_hr_when_to_check_resting_heart_rate">안정시 심박수를 언제 확인해야 하나요?</string><string name="hr_info_title_info_hr_target_heart_rate">목표심박수</string><string name="hr_info_title_info_hr_tachycardia">빈맥</string></resources>

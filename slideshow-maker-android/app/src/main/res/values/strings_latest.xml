@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="file_provider" translatable="false">%s.fileprovider</string>
+    <string name="feedback_email" translatable="false">teracomvn@gmail.com</string>
+    <string name="base_url" translatable="false">https://teracomvn.com/</string>
+    <string name="terms_and_policy_url" translatable="false">https://docs.google.com/document/d/e/2PACX-1vRfH2M77tZo8iDZZFw2zs3-vILpgXXBJ_LO5QRVLVCs-JGUJvy7ApGBtpXnOiGCAGL9EYJhOaakn21X/pub</string>
+</resources>

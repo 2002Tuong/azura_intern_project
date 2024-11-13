@@ -1,0 +1,23 @@
+<resources>
+	<string name="show_wifi_password">"WLAN -Passwort anzeigen"</string>
+	<string name="all_connect_devices">"Alle verbinden Geräte"</string>
+	<string name="available_wifi_list">"Verfügbare WLAN -Liste"</string>
+	<string name="available_network">"Verfügbares Netzwerk"</string>
+	<string name="wifi_shown">"WLAN -Passwörter werden für Ihre Verbindung angezeigt"</string>
+	<string name="detect_devices">"Erkennen Sie alle Geräte, die mit Ihrem WLAN verbunden sind"</string>
+	<string name="scan_wifi">"Scannen und analysieren Sie das nahe gelegene WLAN -Netzwerk"</string>
+	<string name="next">"Nächste"</string>
+	<string name="contain_ads">"Diese Aktion kann Anzeigen enthalten"</string>
+	<string name="ask_grant_permission">"Die WiFi Manager -App verwendet den Zugriffsortberechtigte"</string>
+	<string name="grant_permission">"Große Erlaubnis"</string>
+	<string name="grant_permission_description">"Um den Start zu haben, benötigen wir Ihre Erlaubnis, um auf Ihren Standort zuzugreifen."</string>
+	<string name="ok">"OK"</string>
+	<string name="cancel">"Stornieren"</string>
+	<string name="enter_password">"Passwort eingeben"</string>
+	<string name="connect">"Verbinden"</string>
+	<string name="show_password">"Passwort anzeigen"</string>
+	<string name="we_are_working_hard_for_a_better_user_experience">"Wir arbeiten hart für eine bessere Benutzererfahrung"</string>
+	<string name="the_best_rating_star">"Der beste Bewertungsstar"</string>
+	<string name="exit_popup_message">"Wir lieben es, von Ihnen zu hören. Helfen Sie uns, unsere App noch großartiger zu machen"</string>
+	<string name="no_exit">"Nein, beenden Sie App beenden"</string>
+</resources>

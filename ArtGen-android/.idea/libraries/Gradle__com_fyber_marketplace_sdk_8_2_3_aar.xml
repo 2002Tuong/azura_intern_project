@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.fyber:marketplace-sdk:8.2.3@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6d63c0470da4676f6443303b31a274dd/transformed/marketplace-sdk-8.2.3/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6d63c0470da4676f6443303b31a274dd/transformed/marketplace-sdk-8.2.3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6d63c0470da4676f6443303b31a274dd/transformed/marketplace-sdk-8.2.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6d63c0470da4676f6443303b31a274dd/transformed/marketplace-sdk-8.2.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fyber/marketplace-sdk/8.2.3/e580d7cd11d24196d8e214ff19ddc6823e2c50d2/marketplace-sdk-8.2.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fyber/marketplace-sdk/8.2.3/340f8dad10f4f7186aedf7e43f49fd1b1d5e2a97/marketplace-sdk-8.2.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

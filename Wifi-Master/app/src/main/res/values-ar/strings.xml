@@ -1,0 +1,23 @@
+<resources>
+	<string name="show_wifi_password">"عرض كلمة مرور wifi"</string>
+	<string name="all_connect_devices">"جميع توصيل الأجهزة"</string>
+	<string name="available_wifi_list">"قائمة wifi المتاحة"</string>
+	<string name="available_network">"الشبكة المتاحة"</string>
+	<string name="wifi_shown">"يتم عرض كلمات مرور WiFi لاتصالك"</string>
+	<string name="detect_devices">"اكتشف جميع الأجهزة التي تتصل بشبكة WiFi"</string>
+	<string name="scan_wifi">"مسح وتحليل شبكة wifi القريبة"</string>
+	<string name="next">"التالي"</string>
+	<string name="contain_ads">"قد يحتوي هذا الإجراء على إعلانات"</string>
+	<string name="ask_grant_permission">"يستخدم تطبيق WiFi Manager إذن موقع الوصول"</string>
+	<string name="grant_permission">"إذن كبير"</string>
+	<string name="grant_permission_description">"للبدء ، نحتاج إلى إذنك للوصول إلى موقعك."</string>
+	<string name="ok">"نعم"</string>
+	<string name="cancel">"يلغي"</string>
+	<string name="enter_password">"أدخل كلمة المرور"</string>
+	<string name="connect">"يتصل"</string>
+	<string name="show_password">"عرض كلمة المرور"</string>
+	<string name="we_are_working_hard_for_a_better_user_experience">"نحن نعمل بجد من أجل تجربة مستخدم أفضل"</string>
+	<string name="the_best_rating_star">"أفضل نجم تصنيف"</string>
+	<string name="exit_popup_message">"نحن نحب أن نسمع منك. ساعدنا في جعل تطبيقنا أكثر روعة"</string>
+	<string name="no_exit">"لا ، تطبيق الخروج"</string>
+</resources>

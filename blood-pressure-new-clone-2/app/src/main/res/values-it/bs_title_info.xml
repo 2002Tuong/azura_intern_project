@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="bs_info_title_normal_blood_sugar_level">Livello normale di zucchero nel sangue</string>
+    <string name="bs_info_title_diabetes">Diabete</string>
+    <string name="bs_info_title_how_common_is_diabetes">Quanto è diffuso il diabete?</string>
+    <string name="bs_info_title_diabetes_symptoms">Sintomi del diabete</string>
+    <string name="bs_info_title_diabetes_types">Tipi di diabete</string>
+</resources>

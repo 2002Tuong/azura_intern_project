@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="water_info_title_avoid_drink_mistake">पानी पीने से बचें इन गलतियों से</string>
+    <string name="water_info_title_best_time_to_drink">पानी पीने का सर्वोत्तम समय</string>
+    <string name="water_info_title_replace_with_water">स्वास्थ्य के लिए पेय पदार्थों के स्थान पर पानी का प्रयोग करें</string>
+    <string name="water_info_title_drink_on_empty_stomach">खाली पेट पानी पियें?</string>
+    <string name="water_info_title_benefit_lemon_water">नींबू पानी पीने के फायदे</string>
+    <string name="water_info_title_is_ok_drink_during_meal">क्या भोजन के दौरान पानी पीना ठीक है?</string>
+    <string name="water_info_title_benefit_for_health">पानी पियें: स्वास्थ्य के लिए लाभ</string>
+    <string name="water_info_title_danger_of_overhydration">ओवरहाइड्रेशन के खतरे</string>
+    <string name="water_info_title_why_should_give_baby_water">आपको बच्चों को पानी क्यों नहीं देना चाहिए?</string>
+</resources>

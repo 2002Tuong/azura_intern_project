@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="bmi_info_title_healthy_body_weight">Gesundes Körpergewicht</string>
+    <string name="bmi_info_title_obesity">Fettleibigkeit</string>
+    <string name="bmi_info_title_obesity_causes">Fettleibigkeit verursacht</string>
+    <string name="bmi_info_title_obesity_diagnosis">Diagnose von Fettleibigkeit</string>
+    <string name="bmi_info_title_lifestyle_for_obesity">Lebensstil gegen Fettleibigkeit</string>
+    <string name="bmi_info_title_weight_loss_tips">Tipps zum Abnehmen</string>
+</resources>

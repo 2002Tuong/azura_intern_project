@@ -1,0 +1,23 @@
+<resources>
+	<string name="show_wifi_password">"Wi -Fi 비밀번호 표시"</string>
+	<string name="all_connect_devices">"모든 연결 장치"</string>
+	<string name="available_wifi_list">"사용 가능한 WiFi 목록"</string>
+	<string name="available_network">"사용 가능한 네트워크"</string>
+	<string name="wifi_shown">"연결에 대한 Wi -Fi 비밀번호가 표시됩니다"</string>
+	<string name="detect_devices">"Wi -Fi에 연결하는 모든 장치를 감지하십시오"</string>
+	<string name="scan_wifi">"근처 Wi -Fi 네트워크를 스캔하고 분석하십시오"</string>
+	<string name="next">"다음"</string>
+	<string name="contain_ads">"이 조치에는 광고가 포함될 수 있습니다"</string>
+	<string name="ask_grant_permission">"Wi -Fi Manager App은 액세스 위치 권한을 사용합니다"</string>
+	<string name="grant_permission">"그랜드 허가"</string>
+	<string name="grant_permission_description">"시작하려면 귀하의 위치에 대한 액세스 권한이 필요합니다."</string>
+	<string name="ok">"좋아요"</string>
+	<string name="cancel">"취소"</string>
+	<string name="enter_password">"암호를 입력"</string>
+	<string name="connect">"연결하다"</string>
+	<string name="show_password">"비밀번호 표시"</string>
+	<string name="we_are_working_hard_for_a_better_user_experience">"우리는 더 나은 사용자 경험을 위해 열심히 노력하고 있습니다"</string>
+	<string name="the_best_rating_star">"최고의 등급 스타"</string>
+	<string name="exit_popup_message">"우리는 당신의 의견을 듣는 것을 좋아합니다. 우리가 앱을 더욱 멋지게 만들도록 도와줍니다"</string>
+	<string name="no_exit">"아니요, 앱을 종료하십시오"</string>
+</resources>

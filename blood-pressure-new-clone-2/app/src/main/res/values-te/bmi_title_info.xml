@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="bmi_info_title_healthy_body_weight">ఆరోగ్యకరమైన శరీర బరువు</string>
+    <string name="bmi_info_title_obesity">ఊబకాయం</string>
+    <string name="bmi_info_title_obesity_causes">ఊబకాయం కారణమవుతుంది</string>
+    <string name="bmi_info_title_obesity_diagnosis">ఊబకాయం నిర్ధారణ</string>
+    <string name="bmi_info_title_lifestyle_for_obesity">ఊబకాయం కోసం జీవనశైలి</string>
+    <string name="bmi_info_title_weight_loss_tips">బరువు తగ్గించే చిట్కాలు</string>
+</resources>

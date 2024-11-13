@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name" translatable="false">Show Wifi Password: Wifi List</string>
+    <string name="continue_text">Continue</string>
+    <string name="location">Location</string>
+    <string name="we_d_greatly_appreciate_if_you_rate_us">We\'d greatly appreciate if you rate us</string>
+	<string name="contact_email" translatable="false">support.wifipassword@funappstudio.com</string>
+    <string name="email_feedback_title" translatable="false">[Android] Feedback Show Wifi Password version: %1$s</string>
+    <string name="rate_your_experience">Rate your experience!</string>
+    <string name="rate_app">Rate app</string>
+	<string name="show_wifi_password">"Show Wifi Password"</string>
+	<string name="all_connect_devices">"All connect devices"</string>
+	<string name="available_wifi_list">"Available wifi list"</string>
+	<string name="available_network">"Available Network"</string>
+	<string name="wifi_shown">"Wifi passwords are shown for your connection"</string>
+	<string name="detect_devices">"Detect all devices that are connecting to your wifi"</string>
+	<string name="scan_wifi">"Scan and analyze nearby wifi network"</string>
+	<string name="next">"Next"</string>
+	<string name="contain_ads">"This action may contain ads"</string>
+	<string name="ask_grant_permission">"Wifi manager app uses Access Location permission"</string>
+	<string name="grant_permission">"Grand Permission"</string>
+	<string name="grant_permission_description">"To getting start, we need your permission to access to your location."</string>
+	<string name="ok">"Ok"</string>
+	<string name="cancel">"Cancel"</string>
+	<string name="enter_password">"Enter password"</string>
+	<string name="connect">"Connect"</string>
+	<string name="show_password">"Show Password"</string>
+	<string name="we_are_working_hard_for_a_better_user_experience">"We are working hard for a better user experience"</string>
+	<string name="the_best_rating_star">"The best rating star"</string>
+	<string name="exit_popup_message">"We love to hear from you. Help us make our app even more awesome"</string>
+	<string name="no_exit">"No, exit app"</string>
+</resources>

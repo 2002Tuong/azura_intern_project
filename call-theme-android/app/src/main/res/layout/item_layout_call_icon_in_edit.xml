@@ -1,0 +1,15 @@
+<!-- item_call_icon.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="6dp"
+    android:background="@drawable/bg_item_call_icon"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/acceptIconImageView"
+        android:layout_width="36dp"
+        android:layout_height="36dp" />
+
+</LinearLayout>

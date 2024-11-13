@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_111111"
+    tools:context="com.emopass.antitheftalarm.ui.setting.SetttingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+
+        <com.emopass.antitheftalarm.widget.MenuFunction
+            android:id="@+id/func_sound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:inf_icon="@drawable/ic_sound"
+            app:inf_des_visible="false"
+            app:inf_icon_height="48dp"
+            app:inf_show_icon_background="false"
+            app:inf_show_icon_subcription="true"
+            app:inf_title="@string/sound" />
+
+        <com.emopass.antitheftalarm.widget.MenuFunction
+            android:id="@+id/func_alarm_tone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:inf_des_visible="false"
+            app:inf_icon_height="48dp"
+            app:inf_icon="@drawable/ic_alarm_tone"
+            app:inf_show_icon_subcription="true"
+            app:inf_show_icon_background="false"
+            app:inf_title="@string/alarm_tone" />
+
+        <FrameLayout
+            android:id="@+id/frAds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_10_dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <include
+                android:id="@+id/includeNative"
+                layout="@layout/native_ad_language_shimmer"
+                android:visibility="visible" />
+        </FrameLayout>
+
+        <com.emopass.antitheftalarm.widget.MenuFunction
+            android:id="@+id/func_vibrate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:inf_icon="@drawable/ic_vibrate"
+            app:inf_show_switch_check="true"
+            app:inf_des_visible="false"
+            app:inf_icon_height="48dp"
+            app:inf_show_icon_background="false"
+            app:inf_title="@string/vibrate_alarm" />
+
+        <com.emopass.antitheftalarm.widget.MenuFunction
+            android:layout_width="match_parent"
+            android:id="@+id/func_flashlight"
+            android:layout_height="wrap_content"
+            app:inf_icon="@drawable/ic_flashlight"
+            app:inf_show_switch_check="true"
+            app:inf_des_visible="false"
+            app:inf_show_icon_background="false"
+            app:inf_icon_height="48dp"
+            app:inf_title="@string/flash_during_alarm" />
+
+        <com.emopass.antitheftalarm.widget.MenuFunction
+            android:id="@+id/func_timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:inf_des_visible="false"
+            app:inf_icon_height="48dp"
+            app:inf_show_icon_background="false"
+            app:inf_icon="@drawable/ic_timer"
+            app:inf_show_icon_subcription="true"
+            app:inf_title="@string/timer" />
+
+        <com.emopass.antitheftalarm.widget.MenuFunction
+            android:id="@+id/func_lock_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:inf_des_visible="false"
+            app:inf_icon_height="48dp"
+            app:inf_show_icon_background="false"
+            app:inf_icon="@drawable/ic_lock_option"
+            app:inf_show_icon_subcription="true"
+            app:inf_title="@string/lock_option" />
+
+        <com.emopass.antitheftalarm.widget.MenuFunction
+            android:id="@+id/func_full_charger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:inf_icon="@drawable/ic_full_charger"
+            app:inf_show_switch_check="true"
+            android:visibility="gone"
+            app:inf_show_icon_background="false"
+            app:inf_icon_height="48dp"
+            app:inf_title="@string/full_charger_alarm" />
+
+        <com.emopass.antitheftalarm.widget.MenuFunction
+            android:id="@+id/func_charger_connected"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:inf_icon="@drawable/ic_notification"
+            app:inf_show_switch_check="true"
+            app:inf_des_visible="false"
+            app:inf_show_icon_background="false"
+            android:visibility="gone"
+            app:inf_icon_height="48dp"
+            app:inf_title="@string/notifi_charger_connected" />
+
+        <com.emopass.antitheftalarm.widget.MenuFunction
+            android:id="@+id/func_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:inf_icon="@drawable/ic_language"
+            app:inf_show_icon_subcription="true"
+            app:inf_des_visible="false"
+            app:inf_show_icon_background="false"
+            app:inf_icon_height="48dp"
+            android:visibility="gone"
+            app:inf_title="@string/change_language" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

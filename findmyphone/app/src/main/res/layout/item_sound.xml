@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/imgSoundTypeIcon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_sound_type_selector"
+    android:padding="@dimen/margin_16_dp"
+    android:layout_marginEnd="@dimen/margin_8_dp"
+    android:layout_gravity="center"
+    android:src="@drawable/icon_sound_clock" />

@@ -1,0 +1,184 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+    id 'com.google.dagger.hilt.android'
+    id 'androidx.navigation.safeargs.kotlin'
+    id 'kotlin-parcelize'
+    id 'de.undercouch.download'
+    id 'com.google.gms.google-services'
+    id("com.google.firebase.crashlytics")
+
+}
+
+android {
+    namespace 'com.example.claptofindphone'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.app.claptofindphone.debug"
+        minSdk 28
+        targetSdk 33
+        versionCode 35
+        versionName "1.6.5"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+//            isShrinkResources = true
+//            isMinifyEnabled = true
+//            minifyEnabled false
+//            minifyEnabled = true
+            shrinkResources(true)
+            minifyEnabled(true)
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    signingConfigs {
+        release {
+            storeFile = rootProject.file("app/prod.jks")
+            storePassword = "azura@2023"
+            keyAlias = "azura"
+            keyPassword = "azura@2023"
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+    buildFeatures {
+        viewBinding true
+        dataBinding true
+        buildConfig true
+        compose true
+    }
+    kapt {
+        correctErrorTypes = true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion '1.4.5'
+    }
+    androidResources {
+        noCompress 'tflite'
+    }
+    flavorDimensions "version"
+    productFlavors {
+        prod {
+            buildConfigField "boolean", "is_debug", "false"
+            applicationId "com.findphone.claptofind.phonewhistle.flash"
+            signingConfig signingConfigs.release
+        }
+
+        dev {
+            buildConfigField "boolean", "is_debug", "true"
+        }
+    }
+}
+// import DownloadModels task
+project.ext.ASSET_DIR = projectDir.toString() + '/src/main/assets'
+project.ext.TEST_ASSET_DIR = projectDir.toString() + '/src/androidTest/assets'
+// after downloading the assets, comment the below line
+//apply from:'download_model.gradle'
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.10.0'
+    implementation 'androidx.compose.ui:ui-tooling-preview-android:1.5.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    //compose
+//    def compose_version = "1.4.1"
+//    implementation "androidx.compose.material:material:$compose_version"
+//    implementation "androidx.compose.animation:animation:$compose_version"
+//    implementation "androidx.compose.runtime:runtime:$compose_version"
+//    implementation "androidx.compose.ui:ui-tooling-preview:$compose_version"
+//    debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
+//    implementation "androidx.activity:activity-compose:1.7.2"
+//    implementation 'androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2'
+
+    //material ui
+    implementation 'com.google.android.material:material:1.10.0'
+
+    //navigation
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+
+    //hilt
+    implementation "com.google.dagger:hilt-android:$hilt_version"
+    kapt "com.google.dagger:hilt-compiler:$hilt_version"
+    kapt "org.jetbrains.kotlinx:kotlinx-metadata-jvm:$metadata_version"
+
+    //viewBinding delegate
+    implementation "com.github.kirich1409:viewbindingpropertydelegate:$viewBinding_version"
+
+    //flow binding
+    implementation "io.github.reactivecircus.flowbinding:flowbinding-android:$flowBinding_version"
+
+
+    // The compose calendar library
+    implementation 'com.kizitonwose.calendar:compose:2.0.3'
+
+    //Gson
+    implementation 'com.google.code.gson:gson:2.10.1'
+
+    //material3
+    implementation("androidx.compose.material3:material3:1.1.2")
+    implementation("androidx.compose.material3:material3-window-size-class:1.1.2")
+
+    //tensor flow
+    implementation 'org.tensorflow:tensorflow-lite-task-audio:0.4.4'
+    implementation 'org.tensorflow:tensorflow-lite-gpu:2.9.0'
+    implementation platform('com.google.firebase:firebase-bom:32.3.1')
+    implementation("com.google.firebase:firebase-crashlytics-ktx")
+    implementation("com.google.firebase:firebase-analytics-ktx")
+
+    implementation 'com.github.VioTechDev:VioAds:0.0.5'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+
+    implementation 'com.google.android.gms:play-services-ads:22.5.0'
+
+    // ViewModel
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.2'
+    implementation 'androidx.datastore:datastore-core:1.0.0'
+//    implementation project(path: ':app:sticker')
+    //noinspection LifecycleAnnotationProcessorWithJava8
+    kapt 'androidx.lifecycle:lifecycle-compiler:2.6.2'
+
+    //dataStore
+    implementation 'androidx.datastore:datastore-preferences:1.0.0'
+    implementation 'androidx.datastore:datastore-preferences-core:1.0.0'
+
+    implementation 'com.google.android.play:review-ktx:2.0.1'
+
+    //firebase
+    implementation(platform("com.google.firebase:firebase-bom:32.3.1"))
+    implementation("com.google.firebase:firebase-config-ktx")
+    implementation("com.google.firebase:firebase-analytics-ktx")
+
+    //lottie
+    implementation 'com.airbnb.android:lottie:6.1.0'
+
+    implementation 'com.google.ads.mediation:facebook:6.16.0.0'
+    implementation 'com.google.ads.mediation:applovin:12.1.0.0'
+    implementation 'com.google.ads.mediation:pangle:5.7.0.1.0'
+    implementation 'com.google.ads.mediation:vungle:7.1.0.0'
+    implementation 'com.google.ads.mediation:ironsource:7.7.0.0'
+    implementation 'com.google.ads.mediation:mintegral:16.5.91.1'
+    implementation 'com.google.ads.mediation:fyber:8.2.5.0'
+    implementation 'com.google.ads.mediation:inmobi:10.6.2.0'
+    implementation 'com.unity3d.ads:unity-ads:4.8.0'
+    implementation 'com.google.ads.mediation:unity:4.9.2.0'
+
+}

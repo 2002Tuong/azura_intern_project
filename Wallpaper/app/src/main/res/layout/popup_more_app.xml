@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_more_app_re"
+    android:backgroundTint="@color/white"
+    android:elevation="2dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialogMoreAppTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/bevietnampro_regular"
+        android:gravity="center_horizontal"
+        android:text="@string/discover_more_app"
+        android:textColor="#534c4c"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/lineView1"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="8dp"
+        android:background="#f4f4f9"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dialogMoreAppTitle" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/dialogMoreAppRecycleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:minHeight="80dp"
+        android:textColor="#ECECEC"
+        android:textSize="14sp"
+        android:visibility="visible"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lineView1"
+        app:spanCount="2"
+        tools:itemCount="6"
+        tools:listitem="@layout/item_suggestion_app_dialog" />
+
+    <View
+        android:id="@+id/lineView2"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_marginTop="10dp"
+        android:background="#e9e9e9"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dialogMoreAppRecycleView" />
+
+    <TextView
+        android:id="@+id/dialogConfirmTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/bevietnampro_regular"
+        android:gravity="center_horizontal"
+        android:text="@string/ask_cancel_message"
+        android:textColor="#403d3d"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lineView2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/yesBtn"
+        style="@style/OutlinedButton"
+        android:layout_width="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_btn_dislike_rate_re"
+        android:text="@string/yes_action"
+        android:fontFamily="@font/bevietnampro_regular"
+        android:textColor="#536295"
+        app:backgroundTint="@null"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/noBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dialogConfirmTitle"
+        app:layout_constraintVertical_bias="0"
+        app:strokeColor="#122e5c" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/noBtn"
+        style="@style/PositiveButton"
+        android:layout_width="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:textSize="14sp"
+        android:background="@drawable/bg_btn_send_request_re"
+        android:fontFamily="@font/bevietnampro_regular"
+        android:text="@string/no_action"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/yesBtn"
+        app:layout_constraintTop_toTopOf="@id/yesBtn" />
+
+    <include
+        layout="@layout/item_native_ads_exit_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/yesBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivColor"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:background="@color/red_active"
+            android:padding="1dp"
+            android:scaleType="center"
+            app:shapeAppearanceOverlay="@style/ImageViewCircleStyle"
+            app:strokeColor="#33FFFFFF"
+            app:strokeWidth="1dp" />
+    </FrameLayout>
+</layout>
+

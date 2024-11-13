@@ -1,0 +1,23 @@
+<resources>
+	<string name="show_wifi_password">"వైఫై పాస్‌వర్డ్ చూపించు"</string>
+	<string name="all_connect_devices">"అన్ని కనెక్ట్ పరికరాలు"</string>
+	<string name="available_wifi_list">"అందుబాటులో ఉన్న వైఫై జాబితా"</string>
+	<string name="available_network">"అందుబాటులో ఉన్న నెట్‌వర్క్"</string>
+	<string name="wifi_shown">"మీ కనెక్షన్ కోసం వైఫై పాస్‌వర్డ్‌లు చూపబడ్డాయి"</string>
+	<string name="detect_devices">"మీ వైఫైకి కనెక్ట్ అవుతున్న అన్ని పరికరాలను గుర్తించండి"</string>
+	<string name="scan_wifi">"సమీపంలోని వైఫై నెట్‌వర్క్‌ను స్కాన్ చేయండి మరియు విశ్లేషించండి"</string>
+	<string name="next">"తరువాత"</string>
+	<string name="contain_ads">"ఈ చర్యలో ప్రకటనలు ఉండవచ్చు"</string>
+	<string name="ask_grant_permission">"వైఫై మేనేజర్ అనువర్తనం యాక్సెస్ స్థాన అనుమతిని ఉపయోగిస్తుంది"</string>
+	<string name="grant_permission">"గ్రాండ్ అనుమతి"</string>
+	<string name="grant_permission_description">"ప్రారంభించడానికి, మీ స్థానానికి ప్రాప్యత చేయడానికి మాకు మీ అనుమతి అవసరం."</string>
+	<string name="ok">"అలాగే"</string>
+	<string name="cancel">"రద్దు చేయండి"</string>
+	<string name="enter_password">"రహస్య సంకేతం తెలపండి"</string>
+	<string name="connect">"కనెక్ట్"</string>
+	<string name="show_password">"సంకేత పదాన్ని చూపించండి"</string>
+	<string name="we_are_working_hard_for_a_better_user_experience">"మంచి వినియోగదారు అనుభవం కోసం మేము తీవ్రంగా కృషి చేస్తున్నాము"</string>
+	<string name="the_best_rating_star">"ఉత్తమ రేటింగ్ స్టార్"</string>
+	<string name="exit_popup_message">"మేము మీ నుండి వినడానికి ఇష్టపడతాము. మా అనువర్తనాన్ని మరింత అద్భుతంగా చేయడానికి మాకు సహాయపడండి"</string>
+	<string name="no_exit">"లేదు, అనువర్తనం నిష్క్రమించండి"</string>
+</resources>

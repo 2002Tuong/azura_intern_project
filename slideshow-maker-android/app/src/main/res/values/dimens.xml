@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_2">16dp</dimen>
+    <dimen name="margin_1p5">12dp</dimen>
+    <dimen name="margin_1">8dp</dimen>
+    <dimen name="space_small">4dp</dimen>
+    <dimen name="space_tiny">2dp</dimen>
+    <dimen name="space_medium">8dp</dimen>
+
+    <dimen name="loading_dialog_width">133dp</dimen>
+    <dimen name="loading_dialog_height">70dp</dimen>
+    <dimen name="space_large">36dp</dimen>
+    <dimen name="margin_0p5">4dp</dimen>
+    <dimen name="space_very_tiny">2dp</dimen>
+    <dimen name="margin_3">24dp</dimen>
+    <dimen name="icon_size_small">18dp</dimen>
+    <dimen name="margin_5">40dp</dimen>
+    <dimen name="margin_4">32dp</dimen>
+    <dimen name="popup_icon_size">56dp</dimen>
+    <dimen name="camera_icon_size">32dp</dimen>
+    <dimen name="image_picker_native_ads_icon_size">38dp</dimen>
+    <dimen name="album_logo_size">96dp</dimen>
+    <dimen name="margin_7">56dp</dimen>
+    <dimen name="selected_media_height">210dp</dimen>
+    <dimen name="button_size">32dp</dimen>
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="music_item_size">48dp</dimen>
+    <dimen name="icon_start_size">40dp</dimen>
+    <dimen name="banner_ad_height">50dp</dimen>
+    <dimen name="card_elevation_default">4dp</dimen>
+    <dimen name="space_very_small">2dp</dimen>
+    <dimen name="snack_message_radius">12dp</dimen>
+    <dimen name="snack_message_margin_status_bar">24dp</dimen>
+    <dimen name="status_bar_height">56dp</dimen>
+    <dimen name="tsb_icon_size">16dp</dimen>
+    <dimen name="margin_7dp">7dp</dimen>
+</resources>

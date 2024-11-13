@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_111111"
+    tools:context="com.emopass.antitheftalarm.ui.home.HomeFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/ll_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/frAdsBanner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_111111"
+            android:orientation="vertical"
+            android:padding="8dp"
+            >
+
+            <com.emopass.antitheftalarm.widget.MenuFunction
+                android:id="@+id/func_proximity_detection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:inf_description="@string/detect_when_remove_pocket"
+                app:inf_icon="@drawable/ic_proximity"
+                app:inf_title="@string/proximily_detection"
+                app:inf_icon_height="60dp"
+                />
+
+            <com.emopass.antitheftalarm.widget.MenuFunction
+                android:id="@+id/func_motion_detection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:inf_description="@string/detect_when_device_move"
+                app:inf_icon="@drawable/ic_motion"
+                app:inf_icon_height="60dp"
+                app:inf_title="@string/motion_detection"
+                />
+
+            <FrameLayout
+                android:id="@+id/frAds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_10_dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <include
+                    android:id="@+id/includeNative"
+                    layout="@layout/native_ad_language_shimmer"
+                    android:visibility="visible" />
+            </FrameLayout>
+
+
+            <com.emopass.antitheftalarm.widget.MenuFunction
+                android:id="@+id/func_charger_detection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:inf_description="@string/detect_when_charger_disconnect"
+                app:inf_icon="@drawable/ic_charging"
+                app:inf_title="@string/charger_detection"
+                app:inf_icon_height="60dp"
+                />
+
+            <com.emopass.antitheftalarm.widget.MenuFunction
+                android:id="@+id/func_handsfree_detection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:inf_description="@string/hands_detection_des"
+                app:inf_icon="@drawable/ic_handsfree"
+                app:inf_icon_height="60dp"
+                app:inf_title="@string/hands_detection"
+                />
+
+            <com.emopass.antitheftalarm.widget.MenuFunction
+                android:id="@+id/func_wifi_detection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:inf_description="@string/wifi_detection_des"
+                app:inf_icon="@drawable/ic_wifi"
+                app:inf_icon_height="60dp"
+                app:inf_title="@string/wifi_detection"
+                />
+
+            <com.emopass.antitheftalarm.widget.MenuFunction
+                android:id="@+id/func_full_battery_detection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:inf_description="@string/full_battery_detection_des"
+                app:inf_icon="@drawable/ic_battery_full"
+                app:inf_icon_height="60dp"
+                app:inf_title="@string/full_battery_detection"
+                />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/frAdsBanner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:background="@color/grey_600"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/grey_600"/>
+        <include
+            android:id="@+id/banner_ads"
+            layout="@layout/layout_banner_control" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

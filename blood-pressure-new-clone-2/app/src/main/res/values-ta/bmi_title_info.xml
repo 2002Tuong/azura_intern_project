@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="bmi_info_title_healthy_body_weight">ஆரோக்கியமான உடல் எடை</string>
+    <string name="bmi_info_title_obesity">உடல் பருமன்</string>
+    <string name="bmi_info_title_obesity_causes">உடல் பருமன் ஏற்படுகிறது</string>
+    <string name="bmi_info_title_obesity_diagnosis">உடல் பருமன் நோய் கண்டறிதல்</string>
+    <string name="bmi_info_title_lifestyle_for_obesity">உடல் பருமனுக்கு வாழ்க்கை முறை</string>
+    <string name="bmi_info_title_weight_loss_tips">எடை இழப்பு குறிப்புகள்</string>
+</resources>

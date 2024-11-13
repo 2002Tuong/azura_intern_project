@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="water_info_title_avoid_drink_mistake">ఈ నీరు త్రాగే తప్పులను నివారించండి</string>
+    <string name="water_info_title_best_time_to_drink">నీరు త్రాగడానికి ఉత్తమ సమయాలు</string>
+    <string name="water_info_title_replace_with_water">ఆరోగ్యం కోసం పానీయాలను నీటితో భర్తీ చేయడం</string>
+    <string name="water_info_title_drink_on_empty_stomach">ఖాళీ కడుపుతో నీళ్లు తాగాలా?</string>
+    <string name="water_info_title_benefit_lemon_water">లెమన్ వాటర్ తాగడం వల్ల కలిగే ప్రయోజనాలు</string>
+    <string name="water_info_title_is_ok_drink_during_meal">భోజనం చేసేటప్పుడు నీళ్లు తాగడం మంచిదేనా?</string>
+    <string name="water_info_title_benefit_for_health">నీరు త్రాగండి: ఆరోగ్యానికి ప్రయోజనాలు</string>
+    <string name="water_info_title_danger_of_overhydration">ఓవర్‌హైడ్రేషన్ ప్రమాదాలు</string>
+    <string name="water_info_title_why_should_give_baby_water">మీరు పిల్లలకు నీరు ఎందుకు ఇవ్వకూడదు?</string>
+</resources>

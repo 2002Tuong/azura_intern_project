@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.appsflyer:adrevenue:6.4.3@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b3c562fe427a18547a139553c7b5aa1a/transformed/adrevenue-6.4.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b3c562fe427a18547a139553c7b5aa1a/transformed/adrevenue-6.4.3/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b3c562fe427a18547a139553c7b5aa1a/transformed/adrevenue-6.4.3/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.appsflyer/adrevenue/6.4.3/44968ba194a1b0e9a47c01b14bf5b59547936165/adrevenue-6.4.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

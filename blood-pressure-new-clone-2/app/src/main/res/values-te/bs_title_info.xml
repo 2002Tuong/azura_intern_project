@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="bs_info_title_normal_blood_sugar_level">సాధారణ రక్తంలో చక్కెర స్థాయి</string>
+    <string name="bs_info_title_diabetes">మధుమేహం</string>
+    <string name="bs_info_title_how_common_is_diabetes">మధుమేహం ఎంత సాధారణం?</string>
+    <string name="bs_info_title_diabetes_symptoms">మధుమేహం లక్షణాలు</string>
+    <string name="bs_info_title_diabetes_types">మధుమేహం రకాలు</string>
+</resources>

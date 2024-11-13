@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ctlItemLanguage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/lang_bg_item_state"
+    android:paddingVertical="@dimen/margin_10_dp"
+    android:layout_marginVertical="@dimen/size_12_dp">
+
+    <ImageView
+        android:id="@+id/imgLanguage"
+        android:layout_width="@dimen/size_30dp"
+        android:layout_height="0dp"
+        android:src="@drawable/icon_flag_england"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,32:24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="@dimen/margin_16_dp"/>
+
+    <TextView
+        android:id="@+id/txtLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_20_dp"
+        android:text="@string/english"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_16_sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imgLanguage"
+        app:layout_constraintStart_toEndOf="@+id/imgLanguage"
+        app:layout_constraintTop_toTopOf="@+id/imgLanguage" />
+
+    <ImageView
+        android:id="@+id/icChoose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lang_icon_state"
+        android:layout_marginEnd="@dimen/margin_12_dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

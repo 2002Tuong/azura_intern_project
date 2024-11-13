@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/mediaThumb"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_margin="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/shape_rounded_corner_8dp" />
+
+    <TextView
+        android:id="@+id/durationLabel"
+        style="@style/text_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_video_join_duration"
+        android:gravity="end"
+        android:lines="1"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        app:layout_constraintEnd_toEndOf="@id/mediaThumb"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="@id/mediaThumb"
+        app:layout_constraintTop_toTopOf="@+id/mediaThumb"
+        tools:text="00:00" />
+
+    <View
+        android:id="@+id/strokeBg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/background_stroke"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/mediaThumb"
+        app:layout_constraintEnd_toEndOf="@id/mediaThumb"
+        app:layout_constraintStart_toStartOf="@id/mediaThumb"
+        app:layout_constraintTop_toTopOf="@id/mediaThumb" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

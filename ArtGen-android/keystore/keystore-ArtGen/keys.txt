@@ -1,0 +1,2 @@
+alias: ArtGen
+password:ArtGen@2023

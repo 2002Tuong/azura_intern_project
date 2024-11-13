@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="hr_info_title_info_hr_heart_rate">Ritmo cardiaco</string>
+    <string name="hr_info_title_info_hr_resting_heart_rate">Frecuencia cardíaca en reposo</string>
+    <string name="hr_info_title_info_hr_measure_resting_heart_rate">Medir la frecuencia cardíaca en reposo</string>
+    <string name="hr_info_title_info_hr_when_to_check_resting_heart_rate">¿Cuándo comprobar su frecuencia cardíaca en reposo?</string>
+    <string name="hr_info_title_info_hr_target_heart_rate">Frecuencia cardíaca objetivo</string>
+    <string name="hr_info_title_info_hr_tachycardia">Taquicardia</string>
+</resources>

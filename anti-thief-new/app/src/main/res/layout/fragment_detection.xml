@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_111111"
+    tools:context="com.emopass.antitheftalarm.ui.setting.SetttingFragment">
+
+    <FrameLayout
+        android:id="@+id/frAds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_10_dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <include
+            android:id="@+id/includeNative"
+            layout="@layout/native_ad_language_shimmer"
+            android:visibility="visible" />
+    </FrameLayout>
+
+    <com.skyfishjy.library.RippleBackground
+        android:id="@+id/rippleBackground"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_250sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rb_color="@color/white_10"
+        app:rb_duration="3000"
+        app:rb_radius="@dimen/_30sdp"
+        app:rb_rippleAmount="4"
+        app:rb_scale="6" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_active"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:background="@drawable/btn_round_primary"
+        android:gravity="center"
+        android:text="@string/activate"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_time_coundown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_36sdp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_active"
+        app:layout_constraintEnd_toEndOf="@+id/tv_active"
+        app:layout_constraintStart_toStartOf="@+id/tv_active"
+        app:layout_constraintTop_toTopOf="@+id/tv_active" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

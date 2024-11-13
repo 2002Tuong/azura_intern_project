@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cw_next">"다음"</string>
+    <string name="cw_get_started">"시작하다"</string>
+    <string name="setting_language">"언어"</string>
+    <string name="splash_loading_message">"이 조치에는 광고가 포함될 수 있습니다"</string>
+    <string name="loading_ads">"광고로드"</string>
+    <string name="pick_a_style">"스타일을 선택하십시오"</string>
+    <string name="crop_photo">"작물 사진"</string>
+    <string name="text_continue">"계속하다"</string>
+    <string name="genart_ai">"GENART AI"</string>
+    <string name="policy">"정책"</string>
+    <string name="setting">"설정"</string>
+    <string name="selected_style_title">"선택 스타일 (%s)"</string>
+    <string name="loading_gen_art_title">"AI는 마술 예술을 만들고 있습니다"</string>
+    <string name="loading_gen_art_message">"기다리세요…"</string>
+    <string name="gen_art_success_title">"다 끝났어! 당신의 예술은 준비되었습니다"</string>
+    <string name="view_now">"지금보기"</string>
+    <string name="see_all">"모두보기"</string>
+    <string name="input_prompt">"입력 프롬프트"</string>
+    <string name="ex_beautiful_girl_in_the_dream_world">"예 : 꿈의 세계의 아름다운 소녀"</string>
+    <string name="demo_image_optional">"데모 이미지 (선택 사항)"</string>
+    <string name="generate_now">"지금 생성하십시오"</string>
+    <string name="watch_video_ads">"비디오 광고를 시청하십시오"</string>
+    <string name="all_styles">"모든 스타일"</string>
+    <string name="result">"결과"</string>
+    <string name="skip">"건너뛰다"</string>
+    <string name="camera">"카메라"</string>
+    <string name="save">"구하다"</string>
+    <string name="create_more">"더 많이 만드십시오"</string>
+    <string name="re_generate">"재생"</string>
+    <string name="generate_more_style">"더 많은 스타일을 생성하십시오"</string>
+    <string name="save_image_success">"이미지 성공을 저장하십시오"</string>
+    <string name="explore_various_styles">"다양한 스타일을 탐색하십시오"</string>
+    <string name="advanced_ai_technology">"고급 AI 기술"</string>
+    <string name="modern_trends">"현대 트렌드"</string>
+    <string name="update_now">"지금 업데이트"</string>
+    <string name="later">"나중에"</string>
+</resources>

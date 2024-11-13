@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cw_next">"Sonraki"</string>
+    <string name="cw_get_started">"Başlamak"</string>
+    <string name="setting_language">"Dil"</string>
+    <string name="splash_loading_message">"Bu eylem reklam içerebilir"</string>
+    <string name="loading_ads">"Reklam Yükleme"</string>
+    <string name="pick_a_style">"Bir Stil Seçin"</string>
+    <string name="crop_photo">"Fotoğrafı kırp"</string>
+    <string name="text_continue">"Devam etmek"</string>
+    <string name="genart_ai">"Genart AI"</string>
+    <string name="policy">"Politika"</string>
+    <string name="setting">"Ayarlar"</string>
+    <string name="selected_style_title">"Seçilen stil (%s)"</string>
+    <string name="loading_gen_art_title">"AI sihirli sanat yapıyor"</string>
+    <string name="loading_gen_art_message">"Lütfen bekleyin…"</string>
+    <string name="gen_art_success_title">"Hepsi tamam! Sanatınız hazır"</string>
+    <string name="view_now">"Şimdi görüntüle"</string>
+    <string name="see_all">"Hepsini gör"</string>
+    <string name="input_prompt">"Giriş İstemi"</string>
+    <string name="ex_beautiful_girl_in_the_dream_world">"Örn: Rüya Dünyasında Güzel Kız"</string>
+    <string name="demo_image_optional">"Demo görüntüsü (isteğe bağlı)"</string>
+    <string name="generate_now">"Şimdi oluşturun"</string>
+    <string name="watch_video_ads">"Video Reklamları İzleyin"</string>
+    <string name="all_styles">"Tüm Stiller"</string>
+    <string name="result">"Sonuç"</string>
+    <string name="skip">"Atla"</string>
+    <string name="camera">"Kamera"</string>
+    <string name="save">"Kaydetmek"</string>
+    <string name="create_more">"Daha Fazla Yaratın"</string>
+    <string name="re_generate">"Yeniden canlandırmak"</string>
+    <string name="generate_more_style">"Daha Fazla Stil Oluşturun"</string>
+    <string name="save_image_success">"Görüntü Başarısı Kaydet"</string>
+    <string name="explore_various_styles">"Çeşitli stilleri keşfedin"</string>
+    <string name="advanced_ai_technology">"Gelişmiş AI teknolojisi"</string>
+    <string name="modern_trends">"Modern Trendler"</string>
+    <string name="update_now">"Şimdi güncelle"</string>
+    <string name="later">"Daha sonra"</string>
+</resources>

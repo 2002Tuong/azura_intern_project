@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rltItemSound"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_8_dp"
+    android:background="@drawable/bg_sound_type_large_selector">
+
+    <ImageView
+        android:id="@+id/imgSoundTypeIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_12_dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/icon_sound_clock" />
+
+    <TextView
+        android:id="@+id/txtSoundType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgSoundTypeIcon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_10_dp"
+        android:includeFontPadding="false"
+        android:text="Hello"
+        android:textColor="@color/text_color_1"
+        android:textSize="@dimen/text_size_13_sp" />
+</RelativeLayout>

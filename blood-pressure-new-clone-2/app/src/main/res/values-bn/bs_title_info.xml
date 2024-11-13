@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="bs_info_title_normal_blood_sugar_level">স্বাভাবিক রক্তে শর্করার মাত্রা</string>
+    <string name="bs_info_title_diabetes">ডায়াবেটিস</string>
+    <string name="bs_info_title_how_common_is_diabetes">ডায়াবেটিস কতটা সাধারণ?</string>
+    <string name="bs_info_title_diabetes_symptoms">ডায়াবেটিসের লক্ষণ</string>
+    <string name="bs_info_title_diabetes_types">ডায়াবেটিসের প্রকারভেদ</string>
+</resources>

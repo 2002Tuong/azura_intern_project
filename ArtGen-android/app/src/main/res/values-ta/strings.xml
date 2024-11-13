@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cw_next">"அடுத்தது"</string>
+    <string name="cw_get_started">"தொடங்கவும்"</string>
+    <string name="setting_language">"மொழி"</string>
+    <string name="splash_loading_message">"இந்த செயலில் விளம்பரங்கள் இருக்கலாம்"</string>
+    <string name="loading_ads">"விளம்பரங்களை ஏற்றுகிறது"</string>
+    <string name="pick_a_style">"ஒரு பாணியைத் தேர்ந்தெடுங்கள்"</string>
+    <string name="crop_photo">"பயிர் புகைப்படம்"</string>
+    <string name="text_continue">"தொடரவும்"</string>
+    <string name="genart_ai">"ஜெனார்ட் அய்"</string>
+    <string name="policy">"கொள்கை"</string>
+    <string name="setting">"அமைப்புகள்"</string>
+    <string name="selected_style_title">"தேர்ந்தெடுக்கப்பட்ட பாணி (%s)"</string>
+    <string name="loading_gen_art_title">"AI மேஜிக் கலையை உருவாக்குகிறது"</string>
+    <string name="loading_gen_art_message">"தயவுசெய்து காத்திருங்கள்…"</string>
+    <string name="gen_art_success_title">"அனைத்தும் முடிந்தது! உங்கள் கலை தயாராக உள்ளது"</string>
+    <string name="view_now">"இப்போது காண்க"</string>
+    <string name="see_all">"அனைத்தையும் பார்"</string>
+    <string name="input_prompt">"உள்ளீட்டு வரியில்"</string>
+    <string name="ex_beautiful_girl_in_the_dream_world">"எ.கா: கனவு உலகில் அழகான பெண்"</string>
+    <string name="demo_image_optional">"டெமோ படம் (விரும்பினால்)"</string>
+    <string name="generate_now">"இப்போது உருவாக்குங்கள்"</string>
+    <string name="watch_video_ads">"வீடியோ விளம்பரங்களைப் பாருங்கள்"</string>
+    <string name="all_styles">"அனைத்து பாணிகளும்"</string>
+    <string name="result">"விளைவாக"</string>
+    <string name="skip">"தவிர்க்கவும்"</string>
+    <string name="camera">"புகைப்பட கருவி"</string>
+    <string name="save">"சேமிக்கவும்"</string>
+    <string name="create_more">"மேலும் உருவாக்கு"</string>
+    <string name="re_generate">"மீண்டும் உருவாக்கவும்"</string>
+    <string name="generate_more_style">"மேலும் பாணியை உருவாக்குங்கள்"</string>
+    <string name="save_image_success">"பட வெற்றியை சேமிக்கவும்"</string>
+    <string name="explore_various_styles">"பல்வேறு பாணிகளை ஆராயுங்கள்"</string>
+    <string name="advanced_ai_technology">"மேம்பட்ட AI தொழில்நுட்பம்"</string>
+    <string name="modern_trends">"நவீன போக்குகள்"</string>
+    <string name="update_now">"இப்பொழுது மேம்படுத்து"</string>
+    <string name="later">"பின்னர்"</string>
+</resources>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.adjust.sdk:adjust-android:4.33.4@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c8b8b37779f27b9a0b1412c5c22b0877/transformed/adjust-android-4.33.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c8b8b37779f27b9a0b1412c5c22b0877/transformed/adjust-android-4.33.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.adjust.sdk/adjust-android/4.33.4/feb25f838f3d3a5910f6ac0fbf56d463526b0bff/adjust-android-4.33.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.adjust.sdk/adjust-android/4.33.4/54500a45768ad24ac4ac3b87abba5d7390f256ff/adjust-android-4.33.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

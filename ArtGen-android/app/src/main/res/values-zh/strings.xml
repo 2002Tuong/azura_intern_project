@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cw_next">"下一个"</string>
+    <string name="cw_get_started">"开始"</string>
+    <string name="setting_language">"语言"</string>
+    <string name="splash_loading_message">"此操作可能包含广告"</string>
+    <string name="loading_ads">"加载广告"</string>
+    <string name="pick_a_style">"选择一种样式"</string>
+    <string name="crop_photo">"作物照片"</string>
+    <string name="text_continue">"继续"</string>
+    <string name="genart_ai">"Genart AI"</string>
+    <string name="policy">"政策"</string>
+    <string name="setting">"设置"</string>
+    <string name="selected_style_title">"采摘风格（％s）"</string>
+    <string name="loading_gen_art_title">"AI正在制作魔术艺术"</string>
+    <string name="loading_gen_art_message">"请稍等…"</string>
+    <string name="gen_art_success_title">"全做完了！你的艺术已经准备好了"</string>
+    <string name="view_now">"现在查看"</string>
+    <string name="see_all">"查看全部"</string>
+    <string name="input_prompt">"输入提示"</string>
+    <string name="ex_beautiful_girl_in_the_dream_world">"例如：梦想世界中的美丽女孩"</string>
+    <string name="demo_image_optional">"演示图像（可选）"</string>
+    <string name="generate_now">"立即生成"</string>
+    <string name="watch_video_ads">"观看视频广告"</string>
+    <string name="all_styles">"所有样式"</string>
+    <string name="result">"结果"</string>
+    <string name="skip">"跳过"</string>
+    <string name="camera">"相机"</string>
+    <string name="save">"节省"</string>
+    <string name="create_more">"创建更多"</string>
+    <string name="re_generate">"再生"</string>
+    <string name="generate_more_style">"产生更多样式"</string>
+    <string name="save_image_success">"保存图像成功"</string>
+    <string name="explore_various_styles">"探索各种样式"</string>
+    <string name="advanced_ai_technology">"先进的AI技术"</string>
+    <string name="modern_trends">"现代趋势"</string>
+    <string name="update_now">"现在更新"</string>
+    <string name="later">"之后"</string>
+</resources>

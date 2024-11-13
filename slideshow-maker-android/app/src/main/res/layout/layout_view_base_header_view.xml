@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/greyscale900">
+
+        <ImageView
+            android:id="@+id/icBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="4dp"
+            android:padding="16dp"
+            android:src="@drawable/icon_arrow_back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/screenTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="start"
+            android:lines="1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/largeTextSize"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/icBack"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/inputSearchEditText"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="20dp"
+            android:hint="@string/search_label"
+            android:inputType="text"
+            android:lines="1"
+            android:paddingStart="4dp"
+            android:paddingEnd="46dp"
+            android:textColor="@color/greyscale_200"
+            android:textColorHint="@color/grayA03"
+            android:textSize="@dimen/normalTextSize"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/rightButton"
+            app:layout_constraintStart_toEndOf="@id/icBack"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/icClearSearch"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="16dp"
+            android:padding="4dp"
+            android:src="@drawable/icon_close_gray"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/inputSearchEditText"
+            app:layout_constraintEnd_toEndOf="@id/inputSearchEditText"
+            app:layout_constraintTop_toTopOf="@id/inputSearchEditText"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/subRightButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:padding="12dp"
+            android:src="@drawable/icon_check_all"
+            android:visibility="gone"
+            app:cornerRadiusImageView="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/rightButton"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/rightButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:padding="12dp"
+            android:visibility="gone"
+            app:cornerRadiusImageView="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/greyscale_200" />
+
+        <TextView
+            android:id="@+id/rightTextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_2"
+            android:background="@drawable/filled_button"
+            android:drawablePadding="@dimen/margin_0p5"
+            android:minHeight="0dp"
+            android:paddingHorizontal="@dimen/margin_2"
+            android:paddingVertical="@dimen/margin_1"
+            android:text="@string/button_save_label"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            app:drawableEndCompat="@drawable/icon_download"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="visible" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

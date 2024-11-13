@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="bmi_info_title_healthy_body_weight">健康的な体重</string>
+    <string name="bmi_info_title_obesity">肥満</string>
+    <string name="bmi_info_title_obesity_causes">肥満の原因</string>
+    <string name="bmi_info_title_obesity_diagnosis">肥満診断</string>
+    <string name="bmi_info_title_lifestyle_for_obesity">肥満のためのライフスタイル</string>
+    <string name="bmi_info_title_weight_loss_tips">減量のヒント</string>
+</resources>

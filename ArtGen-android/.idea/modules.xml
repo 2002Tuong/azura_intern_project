@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ArtGen.iml" filepath="$PROJECT_DIR$/.idea/ArtGen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ads/ArtGen.ads.iml" filepath="$PROJECT_DIR$/.idea/modules/ads/ArtGen.ads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ads/ArtGen.ads.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/ads/ArtGen.ads.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ads/ArtGen.ads.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ads/ArtGen.ads.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ads/ArtGen.ads.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/ads/ArtGen.ads.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ArtGen.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ArtGen.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ArtGen.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ArtGen.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ArtGen.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ArtGen.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ArtGen.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ArtGen.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

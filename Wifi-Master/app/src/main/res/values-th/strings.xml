@@ -1,0 +1,23 @@
+<resources>
+	<string name="show_wifi_password">"แสดงรหัสผ่าน wifi"</string>
+	<string name="all_connect_devices">"อุปกรณ์เชื่อมต่อทั้งหมด"</string>
+	<string name="available_wifi_list">"รายการ wifi ที่มีอยู่"</string>
+	<string name="available_network">"เครือข่ายที่มีอยู่"</string>
+	<string name="wifi_shown">"รหัสผ่าน wifi จะแสดงสำหรับการเชื่อมต่อของคุณ"</string>
+	<string name="detect_devices">"ตรวจจับอุปกรณ์ทั้งหมดที่เชื่อมต่อกับ wifi ของคุณ"</string>
+	<string name="scan_wifi">"สแกนและวิเคราะห์เครือข่าย WiFi ใกล้เคียง"</string>
+	<string name="next">"ต่อไป"</string>
+	<string name="contain_ads">"การกระทำนี้อาจมีโฆษณา"</string>
+	<string name="ask_grant_permission">"แอป WiFi Manager ใช้สิทธิ์การเข้าถึงตำแหน่ง"</string>
+	<string name="grant_permission">"การอนุญาตอันยิ่งใหญ่"</string>
+	<string name="grant_permission_description">"ในการเริ่มต้นเราต้องได้รับอนุญาตในการเข้าถึงตำแหน่งของคุณ"</string>
+	<string name="ok">"ตกลง"</string>
+	<string name="cancel">"ยกเลิก"</string>
+	<string name="enter_password">"ใส่รหัสผ่าน"</string>
+	<string name="connect">"เชื่อมต่อ"</string>
+	<string name="show_password">"แสดงรหัสผ่าน"</string>
+	<string name="we_are_working_hard_for_a_better_user_experience">"เรากำลังทำงานอย่างหนักเพื่อประสบการณ์การใช้งานที่ดีขึ้น"</string>
+	<string name="the_best_rating_star">"ดาวคะแนนที่ดีที่สุด"</string>
+	<string name="exit_popup_message">"เราชอบที่จะได้ยินจากคุณ. ช่วยเราทำให้แอพของเรายอดเยี่ยมยิ่งขึ้น"</string>
+	<string name="no_exit">"ไม่ออกจากแอป"</string>
+</resources>

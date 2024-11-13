@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/parentView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="12dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/bevietnampro_regular"
+            android:lineSpacingExtra="5.2sp"
+            android:paddingStart="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="2dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            tools:text="afafkajfakfjkafjafj" />
+
+        <TextView
+            android:id="@+id/tvSeeAll"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/roboto"
+            android:gravity="end"
+            android:lineSpacingExtra="5.2sp"
+            android:paddingTop="10dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="2dp"
+            android:text="@string/view_all_wallpaper"
+            android:textAlignment="viewEnd"
+            android:textColor="#2f80ed"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="afafkajfakfjkafjafj" />
+
+    </LinearLayout>
+
+
+</layout>

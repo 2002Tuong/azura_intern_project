@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "840211120119",
+    "project_id": "find-my-phone-new",
+    "storage_bucket": "find-my-phone-new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840211120119:android:b315691bb67ebf783c38f2",
+        "android_client_info": {
+          "package_name": "com.app.claptofindphone.debug"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdVQdKuBHnjOgwG--5E-kxytgsFk2ZmQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

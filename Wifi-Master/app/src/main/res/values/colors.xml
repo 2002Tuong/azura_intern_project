@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_with_opacity_20">#33FFFFFF</color>
+    <color name="unselected_dot">#BDA2EE</color>
+    <color name="bottom_nav_view_bg_color">#FF000000</color>
+    <color name="red_800">#F44336</color>
+    <color name="red_primary">#D60148</color>
+    <color name="red_primary_variant">#FF6196</color>
+    <color name="blue_800">#1892FA</color>
+    <color name="neutral_900">#191D30</color>
+    <color name="neutral_800">#2C3045</color>
+    <color name="neutral_700">#343D65</color>
+    <color name="neutral_100">#F4F4F5</color>
+    <color name="neutral_600">#C4CACF</color>
+    <color name="neutral_300">#ECEDEF</color>
+    <color name="neutral_400">#FF2F375B</color>
+    <color name="neutral_500">#7884BA</color>
+    <color name="yellow_800">#E2AB1C</color>
+    <color name="ripple_color">#1892FA</color>
+    <color name="grey_600">#C4CACF</color>
+    <color name="grey_700">#A9ABB1</color>
+    <color name="grey_800">#8C8E97</color>
+    <color name="grey_900">#191D30</color>
+    <color name="black_background">#080B16</color>
+    <color name="gaugesBackground">#F1F2F7</color>
+    <color name="dlGauge">#6060AA</color>
+</resources>

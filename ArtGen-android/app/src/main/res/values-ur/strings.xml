@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cw_next">اگلے</string>
+    <string name="cw_get_started">شروع کرنے کے</string>
+    <string name="setting_language">زبان</string>
+    <string name="splash_loading_message">اس کارروائی میں اشتہارات شامل ہوسکتے ہیں</string>
+    <string name="loading_ads">اشتہارات لوڈ ہو رہے ہیں</string>
+    <string name="pick_a_style">ایک انداز منتخب کریں</string>
+    <string name="crop_photo">تصویر کاٹنا</string>
+    <string name="text_continue">جاری رہے</string>
+    <string name="genart_ai">جینرٹ اے</string>
+    <string name="policy">پالیسی</string>
+    <string name="setting">ترتیبات</string>
+    <string name="selected_style_title">چننے والا انداز (%s)</string>
+    <string name="loading_gen_art_title">عی جادوئی فن بنا رہا ہے</string>
+    <string name="loading_gen_art_message">برائے مہربانی انتظار کریں…</string>
+    <string name="gen_art_success_title">سب کیا! آپ کا فن تیار ہے</string>
+    <string name="view_now">ابھی دیکھیں</string>
+    <string name="see_all">تمام دیکھیں</string>
+    <string name="input_prompt">ان پٹ پرامپٹ</string>
+    <string name="ex_beautiful_girl_in_the_dream_world">مثال کے طور پر: خوابوں کی دنیا میں خوبصورت لڑکی</string>
+    <string name="demo_image_optional">ڈیمو امیج (اختیاری)</string>
+    <string name="generate_now">اب پیدا کریں</string>
+    <string name="watch_video_ads">ویڈیو اشتہارات دیکھیں</string>
+    <string name="all_styles">تمام شیلیوں</string>
+    <string name="result">نتیجہ</string>
+    <string name="skip">چھوڑ دو</string>
+    <string name="camera">کیمرا</string>
+    <string name="save">محفوظ کریں۔</string>
+    <string name="create_more">مزید تخلیق کریں</string>
+    <string name="re_generate">دوبارہ پیدا کریں</string>
+    <string name="generate_more_style">مزید انداز پیدا کریں</string>
+    <string name="save_image_success">تصویری کامیابی کو بچائیں</string>
+    <string name="explore_various_styles">مختلف شیلیوں کو دریافت کریں</string>
+    <string name="advanced_ai_technology">اعلی درجے کی AI ٹکنالوجی</string>
+    <string name="modern_trends">جدید رجحانات</string>
+    <string name="update_now">ابھی تجدید کریں</string>
+    <string name="later">بعد میں</string>
+</resources>

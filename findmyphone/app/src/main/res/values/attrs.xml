@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PercentActiveDateView">
+        <attr name="isShowWeekDay" format="boolean" />
+        <attr name="isShowDate" format="boolean" />
+        <attr name="weekDay" format="string" />
+        <attr name="date" format="string" />
+        <attr name="activePercent" format="enum">
+            <enum name="notActive" value="0" />
+            <enum name="halfActive" value="1" />
+            <enum name="fullActive" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ItemSetting">
+        <attr name="isContact" format="boolean" />
+        <attr name="isFeedback" format="boolean" />
+        <attr name="isPrivacyPolicy" format="boolean" />
+        <attr name="isAbout" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ItemHowToUse">
+        <attr name="isHowToUse_1" format="boolean" />
+        <attr name="isHowToUse_2" format="boolean" />
+        <attr name="isHowToUse_3" format="boolean" />
+        <attr name="isHowToUse_4" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ItemSoundSetting">
+        <attr name="isFlash" format="boolean" />
+        <attr name="isVibration" format="boolean" />
+        <attr name="isSound" format="boolean" />
+        <attr name="isVolume" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ItemSettingRadioButton">
+        <attr name="isDefaultFlash" format="boolean" />
+        <attr name="isDisco" format="boolean" />
+        <attr name="isSOS" format="boolean" />
+        <attr name="isDefaultVibration" format="boolean" />
+        <attr name="isStrongVibration" format="boolean" />
+        <attr name="isHeartBeat" format="boolean" />
+        <attr name="isTicktock" format="boolean" />
+        <attr name="isSettingLanguage" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="HabitSwitch">
+        <attr name="isCheck" format="boolean" />
+    </declare-styleable>
+</resources>

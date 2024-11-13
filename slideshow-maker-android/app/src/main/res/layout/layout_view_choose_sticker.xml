@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greyscale_900"
+    android:layoutDirection="ltr">
+
+    <HorizontalScrollView
+        android:id="@+id/topBar"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:background="@color/greyscale_900"
+        android:scrollbars="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/collectionView1"
+                style="@style/ChooseStickerLayout_TopBar_CollectionIcon"
+                android:src="@drawable/_4329937_0001_congrats"
+                app:rippleColor="@color/blackAlpha20" />
+
+            <ImageView
+                android:id="@+id/collectionView2"
+                style="@style/ChooseStickerLayout_TopBar_CollectionIcon"
+                android:src="@drawable/_4359605_0001_ferret"
+                app:rippleColor="@color/blackAlpha20" />
+
+            <ImageView
+                android:id="@+id/collectionView3"
+                style="@style/ChooseStickerLayout_TopBar_CollectionIcon"
+                android:src="@drawable/_4359695_0001_snowman"
+                app:rippleColor="@color/blackAlpha20" />
+
+            <ImageView
+                android:id="@+id/collectionView4"
+                style="@style/ChooseStickerLayout_TopBar_CollectionIcon"
+                android:src="@drawable/_4392451_0001_chili_pepper"
+                app:rippleColor="@color/blackAlpha20" />
+
+            <ImageView
+                android:id="@+id/collectionView5"
+                style="@style/ChooseStickerLayout_TopBar_CollectionIcon"
+                android:src="@drawable/_4433167_0001_summer"
+                app:rippleColor="@color/blackAlpha20" />
+
+            <ImageView
+                android:id="@+id/collectionView6"
+                style="@style/ChooseStickerLayout_TopBar_CollectionIcon"
+                android:src="@drawable/_4471019_0001_merry_and_bright"
+                app:rippleColor="@color/blackAlpha20" />
+
+            <ImageView
+                android:id="@+id/collectionView7"
+                style="@style/ChooseStickerLayout_TopBar_CollectionIcon"
+                android:src="@drawable/_4850762_0001_love_message"
+                app:rippleColor="@color/blackAlpha20" />
+
+            <ImageView
+                android:id="@+id/collectionView8"
+                style="@style/ChooseStickerLayout_TopBar_CollectionIcon"
+                android:src="@drawable/_5020346_0008_chocolate_bar"
+                app:rippleColor="@color/blackAlpha20" />
+
+            <ImageView
+                android:id="@+id/collectionView9"
+                style="@style/ChooseStickerLayout_TopBar_CollectionIcon"
+                android:src="@drawable/_5722287_0001_cat_animal"
+                app:rippleColor="@color/blackAlpha20" />
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        android:background="@color/greyscale_800"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topBar" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/stickerListView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/line"
+        tools:listitem="@layout/item_view_sticker_list" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

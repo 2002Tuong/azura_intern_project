@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="bmi_info_title_healthy_body_weight">स्वस्थ शरीर का वजन</string>
+    <string name="bmi_info_title_obesity">मोटापा</string>
+    <string name="bmi_info_title_obesity_causes">मोटापा का कारण बनता है</string>
+    <string name="bmi_info_title_obesity_diagnosis">मोटापे का निदान</string>
+    <string name="bmi_info_title_lifestyle_for_obesity">मोटापे के लिए जीवनशैली</string>
+    <string name="bmi_info_title_weight_loss_tips">वजन घटाने के उपाय</string>
+</resources>

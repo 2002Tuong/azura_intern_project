@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.nativead.NativeAdView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nativeAdView"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_native_ad_exit_dialog_re"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            style="@style/ImageAnimationStyle"
+            android:layout_marginStart="12dp"
+            android:id="@+id/adAppIcon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="57dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_height="57dp" />
+
+        <ImageView
+            android:id="@+id/iconAd"
+            android:src="@drawable/ic_ad_re"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            app:layout_constraintStart_toEndOf="@id/adAppIcon"
+            app:layout_constraintTop_toTopOf="@id/adAppIcon" />
+
+        <TextView
+            android:id="@+id/adHeadline"
+            app:layout_constraintEnd_toStartOf="@id/adCallToAction"
+            app:layout_constraintStart_toEndOf="@id/adAppIcon"
+            app:layout_constraintTop_toBottomOf="@id/iconAd"
+            android:layout_marginEnd="10dp"
+            android:layout_width="0dp"
+            android:layout_marginTop="4dp"
+            android:maxLines="2"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <!--Optional-->
+        <RatingBar
+            android:id="@+id/adStars"
+            android:layout_marginTop="4dp"
+            style="?android:attr/ratingBarStyleSmall"
+            app:layout_constraintStart_toEndOf="@id/adAppIcon"
+            app:layout_constraintTop_toBottomOf="@id/adHeadline"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="12dp"
+            app:layout_constraintVertical_bias="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:progressBackgroundTint="@color/dusk_yellow"
+            android:progressTint="@color/dusk_yellow"
+            android:stepSize="0.5" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/adCallToAction"
+            style="@style/PositiveButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:padding="12dp"
+            android:fontFamily="@font/roboto_bold"
+            android:textSize="12sp"
+            android:backgroundTint="#00ac3f" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</com.google.android.gms.ads.nativead.NativeAdView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="base_endpoint" translatable="false">https://be-artgen.snapedit.app/</string>
+    <string name="api_key" translatable="false">ZSwpOkNaLj0qPnNZbWY3dGo2Vk5RRFA5a0VUIls0Mz8=</string>
+</resources>

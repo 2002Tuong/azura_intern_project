@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_marginStart="24dp"
+    android:layout_marginEnd="24dp"
+    android:background="@drawable/bg_dialog_rounded_re"
+    android:elevation="2dp"
+    android:orientation="vertical"
+    android:paddingBottom="24dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle">
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/chkBtnSound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="44dp"
+            android:paddingBottom="4dp"
+            android:text="@string/popup_set_sound_option_sound_included"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:buttonTint="@color/color_radio_button_tint" />
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/chkBtnNoSound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="44dp"
+            android:text="@string/dialog_set_sound_option_no_sound"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:buttonTint="@color/color_radio_button_tint" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/ivSound"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_sound_re"
+        app:layout_constraintStart_toStartOf="@+id/radio"
+        app:layout_constraintTop_toTopOf="@id/radio" />
+
+    <ImageView
+        android:id="@+id/ivNoSound"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_no_sound_re"
+        app:layout_constraintBottom_toBottomOf="@id/radio"
+        app:layout_constraintStart_toStartOf="@id/radio" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnNo"
+        style="@style/OutlinedButton"
+        android:layout_width="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/skip_action"
+        android:textAllCaps="false"
+        android:textColor="#B3001836"
+        android:textStyle="normal"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toStartOf="@id/btnNext"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/radio" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnNext"
+        style="@style/PositiveButton"
+        android:layout_width="0dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/next_keyword"
+        android:textAllCaps="false"
+        android:textColor="@color/textColorPrimary"
+        app:backgroundTint="@color/orange_ffe656"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnNo"
+        app:layout_constraintTop_toTopOf="@id/btnNo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

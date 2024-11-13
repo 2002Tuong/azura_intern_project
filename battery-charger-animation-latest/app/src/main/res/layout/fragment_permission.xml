@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/black">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/scrView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/btnContinue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="spread_inside">
+
+            <ImageView
+                android:id="@+id/imgGrantPermission"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/bg_permission" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgGrantPermission"
+                android:layout_marginStart="@dimen/margin_48_dp"
+                android:layout_marginTop="@dimen/margin_16_dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="@string/permission_required"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_20_sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txtPermissionDescribe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:layout_marginStart="@dimen/margin_48_dp"
+                android:layout_marginTop="@dimen/margin_16_dp"
+                android:layout_marginEnd="@dimen/margin_48_dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="@string/ask_grant_permission"
+                android:textColor="@color/white_600"
+                android:textSize="@dimen/text_size_14_sp" />
+
+            <RelativeLayout
+                android:id="@+id/rltStoragePermissionSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtPermissionDescribe"
+                android:layout_marginStart="@dimen/margin_20_dp"
+                android:layout_marginTop="@dimen/margin_12_dp"
+                android:layout_marginEnd="@dimen/margin_20_dp"
+                android:background="@drawable/bg_permission_toogle">
+
+                <TextView
+                    android:id="@+id/txtStoragePermissionToggle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/margin_16_dp"
+                    android:text="@string/storage_permission_text"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_16_sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/swStoragePermission"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/margin_16_dp"
+                    android:background="@drawable/icon_switch_off"
+                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rltOverlayPermissionSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rltStoragePermissionSwitch"
+                android:layout_marginStart="@dimen/margin_20_dp"
+                android:layout_marginTop="@dimen/margin_12_dp"
+                android:layout_marginEnd="@dimen/margin_20_dp"
+                android:background="@drawable/bg_permission_toogle">
+
+                <TextView
+                    android:id="@+id/txtOverlayPermissionToggle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/margin_16_dp"
+                    android:text="@string/overlay_permission_text"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_16_sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/swOverlayStoragePermission"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/margin_16_dp"
+                    android:background="@drawable/icon_switch_off"
+                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txtPermissionState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rltOverlayPermissionSwitch"
+                android:layout_marginStart="@dimen/margin_20_dp"
+                android:layout_marginTop="@dimen/margin_12_dp"
+                android:layout_marginEnd="@dimen/margin_20_dp"
+                android:textStyle="italic"
+                android:textColor="@color/red_400"
+                android:text="@string/permission_not_allowed"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/btnContinue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/button_continue_selector"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margin_16_dp"
+            android:enabled="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/scrView"
+            app:layout_constraintBottom_toTopOf="@id/frAds">
+            <TextView
+                android:id="@+id/continueTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/continue_text"
+                android:textAllCaps="true"
+                android:textColor="@color/btn_continue_disable"
+                android:textSize="@dimen/text_size_16_sp"/>
+
+            <ImageView
+                android:id="@+id/continueIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/ic_arrow_forward"
+                app:tint="@color/btn_continue_disable"/>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/frAds"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_10_dp"
+            android:layout_marginVertical="@dimen/margin_10_dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            >
+
+            <include
+                android:id="@+id/includeNative"
+                layout="@layout/ads_native_shimmer"
+                android:visibility="visible" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/permissionFragment">
+
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/homeFragment"-->
+    <!--        android:name="com.example.claptofindphone.presenter.home.HomeFragment"-->
+    <!--        android:label="HomeFragment"-->
+    <!--        tools:layout="@layout/fragment_home">-->
+    <!--        <action-->
+    <!--            android:id="@+id/homeToHabitAnalytic"-->
+    <!--            app:destination="@+id/habitAnalyticFragment">-->
+    <!--            &lt;!&ndash;            <argument&ndash;&gt;-->
+    <!--            &lt;!&ndash;                android:name="habit"&ndash;&gt;-->
+    <!--            &lt;!&ndash;                app:argType="claptofindphoneone.data.local.model.habit" />&ndash;&gt;-->
+    <!--        </action>-->
+    <!--    </fragment>-->
+
+
+    <fragment
+        android:id="@+id/permissionFragment"
+        android:name="com.example.claptofindphone.presenter.permission.PermissionFragment"
+        android:label="PermissionFragment">
+        <action
+            android:id="@+id/navigateToFindPhoneFragment"
+            app:destination="@id/findPhoneFragment"
+            app:popUpTo="@id/nav_graph" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/findPhoneFragment"
+        android:name="com.example.claptofindphone.presenter.findphone.FindPhoneFragment"
+        android:label="FindPhoneFragment">
+        <action
+            android:id="@+id/navigateToSelectFragment"
+            app:destination="@id/selectFragment"
+            app:popUpTo="@id/nav_graph">
+            <argument
+                android:name="SoundTypeModel"
+                app:argType="com.example.claptofindphone.presenter.select.model.SoundModel" />
+        </action>
+        <action
+            android:id="@+id/navigateToResultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.claptofindphone.presenter.setting.SettingFragment"
+        android:label="SettingFragment" />
+
+    <fragment
+        android:id="@+id/howToUseFragment"
+        android:name="com.example.claptofindphone.presenter.howtouse.HowToUseFragment"
+        android:label="HowToUseFragment" />
+
+    <fragment
+        android:id="@+id/selectFragment"
+        android:name="com.example.claptofindphone.presenter.select.SelectFragment"
+        android:label="SelectFragment">
+        <argument
+            android:name="SoundTypeModel"
+            app:argType="com.example.claptofindphone.presenter.select.model.SoundModel" />
+        <action
+            android:id="@+id/action_selectFragment_to_resultFragment"
+            app:destination="@id/resultFragment"
+            app:popUpTo="@id/findPhoneFragment" />
+    </fragment>
+
+    <action
+        android:id="@+id/globalToHowToUse"
+        app:destination="@id/howToUseFragment" />
+
+    <action
+        android:id="@+id/globalToFindPhoneFragment"
+        app:destination="@id/findPhoneFragment" />
+    <action
+        android:id="@+id/globalToSettingFragment"
+        app:destination="@id/settingFragment" />
+    <action
+        android:id="@+id/globalToResultFragment"
+        app:destination="@id/resultFragment" />
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.claptofindphone.presenter.result.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result">
+        <argument
+            android:name="active"
+            app:argType="com.example.claptofindphone.models.ActivatedState" />
+    </fragment>
+</navigation>

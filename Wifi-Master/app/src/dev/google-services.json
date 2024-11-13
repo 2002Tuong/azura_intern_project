@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "772883072827",
+    "project_id": "wifi-61f28",
+    "storage_bucket": "wifi-61f28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772883072827:android:1ba053bd6c76f2f32cd91e",
+        "android_client_info": {
+          "package_name": "com.wifi.wificharger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDya1YGDc1Els8p9t0w6OecZJf_Xl98Xlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

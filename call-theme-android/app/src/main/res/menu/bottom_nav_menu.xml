@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_theme"
+        android:icon="@drawable/icon_call_theme"
+        android:title="@string/call_theme" />
+
+    <item
+        android:id="@+id/navigation_dyi_theme"
+        android:icon="@drawable/icon_diy_theme"
+        android:title="@string/customize" />
+
+    <item
+        android:id="@+id/navigation_my_design"
+        android:icon="@drawable/icon_my_design"
+        android:title="@string/my_theme" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/icon_settings"
+        android:title="@string/title_settings" />
+
+</menu>

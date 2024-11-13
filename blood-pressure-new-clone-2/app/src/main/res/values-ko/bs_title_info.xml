@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="bs_info_title_normal_blood_sugar_level">정상 혈당 수치</string>
+    <string name="bs_info_title_diabetes">당뇨병</string>
+    <string name="bs_info_title_how_common_is_diabetes">당뇨병은 얼마나 흔한가요?</string>
+    <string name="bs_info_title_diabetes_symptoms">당뇨병 증상</string>
+    <string name="bs_info_title_diabetes_types">당뇨병 유형</string>
+</resources>

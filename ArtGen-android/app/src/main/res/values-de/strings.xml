@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cw_next">"Nächste"</string>
+    <string name="cw_get_started">"Loslegen"</string>
+    <string name="setting_language">"Sprache"</string>
+    <string name="splash_loading_message">"Diese Aktion kann Anzeigen enthalten"</string>
+    <string name="loading_ads">"Anzeigen laden"</string>
+    <string name="pick_a_style">"Wählen Sie einen Stil"</string>
+    <string name="crop_photo">"Foto zuschneiden"</string>
+    <string name="text_continue">"Weitermachen"</string>
+    <string name="genart_ai">"Genart Ai"</string>
+    <string name="policy">"Politik"</string>
+    <string name="setting">"Einstellungen"</string>
+    <string name="selected_style_title">"Ausgewählter Stil (%s)"</string>
+    <string name="loading_gen_art_title">"KI macht magische Kunst"</string>
+    <string name="loading_gen_art_message">"Warten Sie mal…"</string>
+    <string name="gen_art_success_title">"Alles erledigt! Ihre Kunst ist bereit"</string>
+    <string name="view_now">"Jetzt ansehen"</string>
+    <string name="see_all">"Alles sehen"</string>
+    <string name="input_prompt">"Eingabeaufforderung"</string>
+    <string name="ex_beautiful_girl_in_the_dream_world">"Ex: schönes Mädchen in der Traumwelt"</string>
+    <string name="demo_image_optional">"Demo -Bild (optional)"</string>
+    <string name="generate_now">"Generieren Sie jetzt"</string>
+    <string name="watch_video_ads">"Videoanzeigen ansehen"</string>
+    <string name="all_styles">"Alle Stile"</string>
+    <string name="result">"Ergebnis"</string>
+    <string name="skip">"Überspringen"</string>
+    <string name="camera">"Kamera"</string>
+    <string name="save">"Speichern"</string>
+    <string name="create_more">"Mehr erstellen"</string>
+    <string name="re_generate">"Regenerieren"</string>
+    <string name="generate_more_style">"Mehr Stil erzeugen"</string>
+    <string name="save_image_success">"Bilderfolg speichern"</string>
+    <string name="explore_various_styles">"Erforschen Sie verschiedene Stile"</string>
+    <string name="advanced_ai_technology">"Fortgeschrittene KI -Technologie"</string>
+    <string name="modern_trends">"Moderne Trends"</string>
+    <string name="update_now">"Jetzt aktualisieren"</string>
+    <string name="later">"Später"</string>
+</resources>

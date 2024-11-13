@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.pangle.global:metasec_pgl:1.0.0.1-rc.1@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/dd0f2ab29dff0253880a5efb46cf05c3/transformed/metasec_pgl-1.0.0.1-rc.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/dd0f2ab29dff0253880a5efb46cf05c3/transformed/metasec_pgl-1.0.0.1-rc.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

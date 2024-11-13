@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.pangle.global:encryptor:0.0.9-rc.2-private@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e1685f9633ff71eba4ab2c5d4882dd95/transformed/encryptor-0.0.9-rc.2-private/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e1685f9633ff71eba4ab2c5d4882dd95/transformed/encryptor-0.0.9-rc.2-private/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e1685f9633ff71eba4ab2c5d4882dd95/transformed/encryptor-0.0.9-rc.2-private/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

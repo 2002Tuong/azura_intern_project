@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/nav_bar"
+        layout="@layout/layout_app_bar"/>
+
+    <TextView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nav_bar"
+        android:layout_marginVertical="@dimen/_8sdp"
+        android:id="@+id/tv_info"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:text="Connected Wifi Information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        app:layout_constraintTop_toBottomOf="@id/tv_info"
+        app:layout_constraintBottom_toTopOf="@id/frAds"
+        app:layout_constraintVertical_bias="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        android:background="@drawable/rounded_blue"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/wifi_name"
+            layout="@layout/item_info" />
+
+        <include
+            android:id="@+id/status"
+            layout="@layout/item_info" />
+
+        <include
+            android:id="@+id/ip_address"
+            layout="@layout/item_info" />
+
+        <include
+            android:id="@+id/server_address"
+            layout="@layout/item_info" />
+
+        <include
+            android:id="@+id/dns1"
+            layout="@layout/item_info" />
+
+        <include
+            android:id="@+id/dns2"
+            layout="@layout/item_info" />
+
+        <include
+            android:id="@+id/bssid"
+            layout="@layout/item_info" />
+
+        <include
+            android:id="@+id/link_speed"
+            layout="@layout/item_info" />
+
+        <include
+            android:id="@+id/levels"
+            layout="@layout/item_info" />
+
+        <include
+            android:id="@+id/channel_width"
+            layout="@layout/item_info" />
+
+        <include
+            android:id="@+id/frequency"
+            layout="@layout/item_info" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frAds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <include
+            android:id="@+id/includeNative"
+            layout="@layout/small_ads_native_shimmer"
+            android:visibility="visible" />
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

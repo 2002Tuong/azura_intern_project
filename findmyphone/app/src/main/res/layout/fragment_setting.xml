@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bottom_layout"
+        android:paddingBottom="140dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/margin_16_dp"
+            android:paddingTop="@dimen/margin_16_dp"
+            android:paddingEnd="@dimen/margin_16_dp">
+
+            <include
+                android:id="@+id/sensitivity"
+                layout="@layout/layout_setting_section_sensitivity" />
+
+            <include
+                android:id="@+id/extension"
+                layout="@layout/layout_setting_section_extension" />
+
+            <include
+                android:id="@+id/flashMode"
+                layout="@layout/layout_setting_section_flash_mode" />
+
+            <include
+                android:id="@+id/vibrationMode"
+                layout="@layout/layout_setting_section_vibration_mode" />
+
+            <include
+                android:id="@+id/settingLanguage"
+                layout="@layout/layout_setting_section_language" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <LinearLayout
+            android:minHeight="@dimen/size_80_dp"
+            android:id="@+id/bottomAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_bottom_app_bar"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/txtFindPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/find_phone"
+                android:textColor="@drawable/bottom_bar_text_color_selector"
+                app:drawableTopCompat="@drawable/icon_find_phone_selector" />
+
+            <TextView
+                android:id="@+id/txtSetting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/setting"
+                android:textColor="@drawable/bottom_bar_text_color_selector"
+                app:drawableTopCompat="@drawable/icon_setting_selector" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

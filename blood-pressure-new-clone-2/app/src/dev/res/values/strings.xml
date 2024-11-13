@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Blood Pressure DEV</string>
+    <string name="camera_permission_request">Camera permission is required to scan qr codes/barcodes</string>
+</resources>

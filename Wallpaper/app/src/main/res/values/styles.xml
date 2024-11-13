@@ -1,0 +1,362 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="NotchTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondary">@color/black222_80opacity</item>
+        <item name="android:windowBackground">@drawable/bg_background_splash</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+    </style>
+
+    <style name="NotchTheme" parent="TransparentStatusBarTheme">
+<!--        <item name="android:windowFullscreen">true</item>-->
+<!--        <item name="android:windowContentOverlay">@null</item>-->
+<!--        <item name="android:windowIsTranslucent">true</item>-->
+    </style>
+
+    <style name="TransparentStatusBarTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+<!--        <item name="android:windowFullscreen">true</item>-->
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="statusBarBackground">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+    </style>
+
+
+    <style name="OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="rippleColor">@color/main_bg_ripple</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="strokeColor">#7F9BFE</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="cornerRadius">24dp</item>
+        <item name="elevation">0dp</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="android:fontFamily">@font/bevietnampro_regular</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+<!--        <item name="backgroundTint">@color/colorPrimary</item>-->
+    </style>
+
+    <style name="PositiveButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="rippleColor">?android:colorControlHighlight</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/bevietnampro_medium</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="cornerRadius">24dp</item>
+        <item name="elevation">0dp</item>
+        <item name="iconTint">@null</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="PlaylistSwitch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Switch</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Switch" parent="">
+        <item name="colorSurface">#8d8d8d</item>
+        <item name="colorOnSurface">#d3dadb</item>
+        <item name="colorSecondary">#00ad1a</item>
+    </style>
+
+    <style name="TextButtonStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:translationZ">10dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">160dp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_preview_button_re</item>
+    </style>
+
+    <style name="ProgressBarStyle" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:indeterminateDrawable">@anim/progress_loading_anim</item>
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateDuration">800</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+    </style>
+
+    <style name="AppTheme.AdAttribution">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingStart">2dp</item>
+        <item name="android:paddingEnd">2dp</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:text">@string/ad_attribution_keyword</item>
+        <item name="android:background">#009FDE</item>
+    </style>
+
+    <style name="style_btn_dialog_rate">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:minWidth">160dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/bevietnampro_regular</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="CheckboxStyleDialogFeedback" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:textColor">#343E60</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:contentInsetStart">0dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/bevietnampro_regular</item>
+    </style>
+
+    <style name="TextViewSearchViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">70dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textAppearance">?attr/textAppearanceSearchResultTitle</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="EditTextSearchViewStyle" parent="TextViewSearchViewStyle">
+        <item name="android:dropDownVerticalOffset">10dp</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:imeOptions">actionSearch</item>
+        <item name="android:inputType">textCapSentences</item>
+    </style>
+
+    <style name="RadioButton" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+        <item name="buttonTint">@color/color_radio_button_tint</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="ItemBottomRecyclerViewStyle"  >
+        <item name="shapeAppearanceOverlay">@style/CustomShapeAppearanceOverlay</item>
+    </style>
+
+    <style name="CustomShapeAppearanceOverlay" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">@dimen/corner_item_bottom_recycler_view</item>
+        <item name="cornerSizeTopLeft">@dimen/corner_item_bottom_recycler_view</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <style name="ItemMoreAppStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">12dp</item>
+        <item name="cornerSizeTopLeft">12dp</item>
+        <item name="cornerSizeBottomRight">12dp</item>
+        <item name="cornerSizeBottomLeft">12dp</item>
+    </style>
+
+    <style name="TextControllersStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxWidth">80dp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="GoToTopButtonStyle" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="borderWidth">0dp</item>
+        <item name="android:layout_gravity">center_horizontal|bottom</item>
+        <item name="android:src">@drawable/ic_scroll_top_re</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginBottom">24dp</item>
+    </style>
+
+    <style name="ImageAnimationStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">10dp</item>
+        <item name="cornerSizeTopLeft">10dp</item>
+        <item name="cornerSizeBottomRight">10dp</item>
+        <item name="cornerSizeBottomLeft">10dp</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_bottom_sheet_reward_re</item>
+    </style>
+
+    <style name="ImageViewCircleStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="AvatarStyle">
+        <item name="shapeAppearanceOverlay">@style/ImageViewCircleStyle</item>
+    </style>
+
+    <style name="RoundedCornerImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="style_divider_item_menu">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.8dp</item>
+        <item name="android:background">#1AFFFFFF</item>
+    </style>
+
+    <style name="SplashInputTextStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">#40ffffff</item>
+        <item name="boxStrokeWidth">1dp</item>
+    </style>
+
+    <style name="FloatingActionButtonStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:translationZ">10dp</item>
+        <item name="android:elevation">5dp</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="ParallaxTextStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#80000000</item>
+        <item name="android:shadowDy">1.5</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="ParallaxTextStyleCollapsedCollection">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#80000000</item>
+        <item name="android:shadowDy">1.5</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="ParallaxTextStyleExpanded">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/bevietnampro_regular</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:lineSpacingExtra">9.3sp</item>
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowRadius">1.5</item>
+        <item name="android:shadowDy">1.5</item>
+        <item name="android:shadowDx">1.5</item>
+    </style>
+
+    <style name="ParallaxTextStyleCollapsed">
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/bevietnampro_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:includeFontPadding">true</item>
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowRadius">1.5</item>
+        <item name="android:shadowDy">1.5</item>
+        <item name="android:shadowDx">1.5</item>
+    </style>
+
+    <style name="ImageInviteDialogStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">10dp</item>
+        <item name="cornerSizeTopLeft">10dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <style name="ImageMoreAppStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">4dp</item>
+        <item name="cornerSizeTopLeft">4dp</item>
+        <item name="cornerSizeBottomRight">4dp</item>
+        <item name="cornerSizeBottomLeft">4dp</item>
+    </style>
+
+    <style name="TextViewTitleStyle">
+        <item name="fontFamily">@font/bevietnampro_regular</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextViewContentStyle">
+        <item name="fontFamily">@font/bevietnampro_regular</item>
+    </style>
+
+    <style name="roundedImageView" parent="">
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerSizeBottomRight">20dp</item>
+        <item name="cornerSizeBottomLeft">20dp</item>
+    </style>
+
+    <style name="ImageviewOnMyList" parent="">
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerSizeBottomRight">8dp</item>
+        <item name="cornerSizeBottomLeft">8dp</item>
+    </style>
+
+    <style name="bottomSheetSetWallpaper" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackground">     @android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+</resources>

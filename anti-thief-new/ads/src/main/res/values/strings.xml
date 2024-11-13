@@ -1,0 +1,41 @@
+<resources>
+
+
+    <string name="confirm_exit">Do you really want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="rate_msg">Our team are working very hard to give you the best free application. Your 5-star review is worth more than all money. Please write a nice review in Google Play to encourage me.</string>
+    <string name="remind_later">Remind later</string>
+    <string name="good_5_stars">Good, 5 stars</string>
+    <string name="not_good">Not good</string>
+    <string name="title_dialog_feed_back">Send a feed back</string>
+    <string name="message_dialog_feed_back">Request bug fix and implement new features via email</string>
+    <string name="exit_app">Exit</string>
+
+    <string name="confirm_close">Are you sure you want to close this activity?</string>
+
+    <string name="rate_app">Rate App</string>
+    <string name="install_app_ads">Install Now</string>
+
+    // Title mail and email feed back
+    <string name="Title_email" translatable="false">Title FeedBack</string>
+    <string name="email_feedback" translatable="false">quangctkm9207@gmail.com</string>
+    <string name="link_policy" translatable="false">https://www.notion.so/Privacy-Policy-Emo-Pass-Studio-893dbf31416c4ef5b8285f44acf21dab</string>
+    <string name="link_more_app" translatable="false">https://play.google.com/store/apps/developer?id=EmoPass+Studio</string>
+
+    // Admob TEST IDs
+<!--    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>-->
+<!--    <string name="admob_native" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+<!--    <string name="admob_interstitial" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
+<!--    <string name="admob_banner" translatable="false">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--    <string name="admob_open_app" translatable="false">ca-app-pub-3940256099942544/3419835294</string>-->
+
+<!--    // Admob REAL IDs-->
+<!--    <string name="admob_app_id" translatable="false">ca-app-pub-6528593460811537~8081547067</string>-->
+    <string name="admob_native" translatable="false">ca-app-pub-6528593460811537/2308322114</string>
+    <string name="admob_interstitial" translatable="false">ca-app-pub-6528593460811537/5126057142</string>
+    <string name="admob_banner" translatable="false">ca-app-pub-6528593460811537/2446077009</string>
+    <string name="admob_open_app" translatable="false">ca-app-pub-6528593460811537/8209308063</string>
+
+</resources>

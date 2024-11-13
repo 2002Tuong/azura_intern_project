@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="water_info_title_avoid_drink_mistake">Избегайте этих ошибок при питье воды</string>
+    <string name="water_info_title_best_time_to_drink">Лучшее время для питья воды</string>
+    <string name="water_info_title_replace_with_water">Замена напитков водой для здоровья</string>
+    <string name="water_info_title_drink_on_empty_stomach">Пить воду натощак?</string>
+    <string name="water_info_title_benefit_lemon_water">Преимущества употребления лимонной воды</string>
+    <string name="water_info_title_is_ok_drink_during_meal">Можно ли пить воду во время еды?</string>
+    <string name="water_info_title_benefit_for_health">Пейте воду: польза для здоровья</string>
+    <string name="water_info_title_danger_of_overhydration">Опасности чрезмерной гидратации</string>
+    <string name="water_info_title_why_should_give_baby_water">Почему нельзя давать детям воду?</string>
+</resources>

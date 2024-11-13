@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_111111"
+    tools:context="com.emopass.antitheftalarm.ui.setting.SetttingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+
+        <com.emopass.antitheftalarm.widget.MenuFunction
+            android:id="@+id/func_reset_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:inf_description="@string/pin_code_lock"
+            app:inf_icon="@drawable/ic_reset_pass"
+            app:inf_icon_height="48dp"
+            app:inf_show_icon_background="false"
+            app:inf_show_icon_subcription="true"
+            app:inf_title="@string/reset_password" />
+
+        <com.emopass.antitheftalarm.widget.MenuFunction
+            android:id="@+id/func_switch_pin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:inf_icon="@drawable/ic_switch_pin"
+            app:inf_icon_height="48dp"
+            app:inf_show_icon_background="false"
+            app:inf_des_visible="false"
+            app:inf_show_icon_subcription="true"
+            app:inf_title="@string/switch_to_pin" />
+
+        <com.emopass.antitheftalarm.widget.MenuFunction
+            android:id="@+id/func_hide_pattern"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:inf_icon="@drawable/ic_draw_pattern"
+            app:inf_icon_height="48dp"
+            app:inf_des_visible="false"
+            app:inf_show_icon_background="false"
+            app:inf_show_switch_check="true"
+            app:inf_title="@string/hide_pattern" />
+
+        <com.emopass.antitheftalarm.widget.MenuFunction
+            android:id="@+id/func_intruder_selfie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:inf_icon_height="48dp"
+            app:inf_icon="@drawable/ic_intruder_selfie"
+            app:inf_des_visible="false"
+            app:inf_show_icon_background="false"
+            app:inf_show_switch_check="true"
+            app:inf_title="@string/intruder_selfie" />
+
+        <com.emopass.antitheftalarm.widget.MenuFunction
+            android:id="@+id/func_fingerprint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:inf_icon="@drawable/ic_fingerprint"
+            app:inf_icon_height="48dp"
+            android:visibility="gone"
+            app:inf_show_icon_background="false"
+            app:inf_des_visible="false"
+            app:inf_show_switch_check="true"
+            app:inf_title="@string/finger_unlock" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

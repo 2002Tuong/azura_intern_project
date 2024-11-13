@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="slogan">
+        <item>@string/welcome_user_first</item>
+        <item>@string/welcome_user_second</item>
+    </string-array>
+</resources>

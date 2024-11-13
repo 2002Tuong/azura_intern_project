@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="bmi_info_title_healthy_body_weight">निरोगी शरीराचे वज</string>
+    <string name="bmi_info_title_obesity">लठ्ठपणा&lt;/span&gt;</string>
+    <string name="bmi_info_title_obesity_causes">लठ्ठपणा कारणीभूत आहे&lt;/span&gt;</string>
+    <string name="bmi_info_title_obesity_diagnosis">लठ्ठपणाचे निदा</string>
+    <string name="bmi_info_title_lifestyle_for_obesity">लठ्ठपणासाठी जीवनशैली&lt;/span&gt;</string>
+    <string name="bmi_info_title_weight_loss_tips">वजन कमी करण्याच्या टिप्स&lt;/span&gt;</string>
+</resources>

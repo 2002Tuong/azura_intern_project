@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/top_round_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvExport"
+        style="@style/text_body2"
+        android:textColor="@color/white"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="@dimen/margin_2"
+        android:layout_marginTop="@dimen/margin_2"
+        android:gravity="start"
+        android:paddingBottom="@dimen/margin_2"
+        android:text="@string/dialog_select_tier_export_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="1px"
+        android:background="@color/greyscale_500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvExport" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/groupRatio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="tvSelectRatio, rgRatio" />
+
+    <TextView
+        android:id="@+id/tvSelectRatio"
+        style="@style/text_body2"
+        android:textColor="@color/white"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="@dimen/margin_2"
+        android:layout_marginTop="@dimen/margin_2"
+        android:gravity="start"
+        android:paddingBottom="@dimen/margin_2"
+        android:text="@string/dialog_select_tier_ratio_section_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+    <RadioGroup
+        android:id="@+id/rgRatio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/rbWideScreen"
+        android:paddingHorizontal="@dimen/margin_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSelectRatio">
+
+        <RadioButton
+            android:id="@+id/rbWideScreen"
+            style="@style/text_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_outline_gray_button"
+            android:buttonTint="@color/orange_900"
+            android:paddingHorizontal="@dimen/margin_0p5"
+            android:paddingVertical="@dimen/margin_2"
+            android:text="@string/dialog_select_tier_ratio_wide"
+            android:textColor="@color/white"
+            android:textStyle="normal" />
+
+        <RadioButton
+            android:id="@+id/rbVerticalScreen"
+            style="@style/text_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_1"
+            android:background="@drawable/btn_outline_gray_button"
+            android:buttonTint="@color/orange_900"
+            android:paddingHorizontal="@dimen/margin_0p5"
+            android:paddingVertical="@dimen/margin_2"
+            android:text="@string/dialog_select_tier_ratio_vertical"
+            android:textColor="@color/white"
+            android:textStyle="normal" />
+
+        <RadioButton
+            android:id="@+id/rbSquareScreen"
+            style="@style/text_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_1"
+            android:background="@drawable/btn_outline_gray_button"
+            android:buttonTint="@color/orange_900"
+            android:paddingHorizontal="@dimen/margin_0p5"
+            android:paddingVertical="@dimen/margin_2"
+            android:text="@string/dialog_select_tier_ratio_square"
+            android:textColor="@color/white"
+            android:textStyle="normal" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvSelectQuality"
+        style="@style/text_body2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="@dimen/margin_2"
+        android:layout_marginTop="@dimen/margin_2"
+        android:gravity="start"
+        android:paddingBottom="@dimen/margin_2"
+        android:text="@string/dialog_select_tier_quality_section_title"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgRatio" />
+
+    <ImageButton
+        android:id="@+id/ibClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="@dimen/margin_1"
+        android:src="@drawable/icon_close_white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/white"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/vBestQuality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_2"
+        android:background="@drawable/btn_outline_gray_button"
+        android:foreground="?attr/selectableItemBackground"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/margin_1"
+        android:paddingBottom="@dimen/margin_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSelectQuality">
+
+        <RadioButton
+            android:id="@+id/rbBestQuality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/orange_900"
+            android:checked="false"
+            android:gravity="center"
+            android:minWidth="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1" />
+
+        <ImageView
+            android:id="@+id/ivBestIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_1"
+            android:layout_marginTop="@dimen/margin_1"
+            android:src="@drawable/icon_best_quality"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/rbBestQuality"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textBestQuality"
+            style="@style/text_body2"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/margin_2"
+            android:text="@string/dialog_select_tier_best_quality_label"
+            app:layout_constraintBottom_toTopOf="@+id/textDescriptionBest"
+            app:layout_constraintStart_toEndOf="@+id/ivBestIcon"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <TextView
+            android:id="@+id/ivProBadge"
+            style="@style/text_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_small"
+            android:background="@drawable/background_shape_corner_12dp"
+            android:backgroundTint="@color/orange_900"
+            android:paddingHorizontal="@dimen/margin_1"
+            android:paddingVertical="@dimen/margin_0p5"
+            android:text="@string/pro"
+            android:textAllCaps="true"
+            android:textColor="@color/greyscale_200"
+            app:layout_constraintBottom_toBottomOf="@+id/textBestQuality"
+            app:layout_constraintStart_toEndOf="@+id/textBestQuality"
+            app:layout_constraintTop_toTopOf="@+id/textBestQuality" />
+
+        <TextView
+            android:id="@+id/tvSale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:paddingHorizontal="6dp"
+            android:textAllCaps="true"
+            android:textSize="10sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/ivProBadge"
+            app:layout_constraintStart_toEndOf="@id/ivProBadge"
+            app:layout_constraintTop_toTopOf="@id/ivProBadge"
+            tools:text="🔥️Save 69%!"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textDescriptionBest"
+            style="@style/text_small"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/margin_2"
+            android:layout_marginTop="@dimen/margin_0p5"
+            android:text="@string/dialog_select_tier_best_quality_content"
+            android:textColor="@color/greyscale_500"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ivBestIcon"
+            app:layout_constraintTop_toBottomOf="@+id/textBestQuality" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/vHighQuality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_2"
+        android:layout_marginTop="@dimen/margin_1"
+        android:background="@drawable/btn_outline_gray_button"
+        android:foreground="?attr/selectableItemBackground"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/margin_1"
+        android:paddingBottom="@dimen/margin_1"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vBestQuality">
+
+
+        <RadioButton
+            android:id="@+id/rbHighQuality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/orange_900"
+            android:checked="true"
+            android:gravity="center"
+            android:minWidth="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1" />
+
+        <ImageView
+            android:id="@+id/ivIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_1"
+            android:layout_marginTop="@dimen/margin_1"
+            android:src="@drawable/icon_high_quality"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/rbHighQuality"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textHighQuality"
+            style="@style/text_body2"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/margin_2"
+            android:text="@string/dialog_select_tier_high_quality_label"
+            app:layout_constraintBottom_toTopOf="@+id/textDescriptionHigh"
+            app:layout_constraintStart_toEndOf="@+id/ivIcon"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <TextView
+            android:id="@+id/textDescriptionHigh"
+            style="@style/text_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/margin_2"
+            android:text="@string/dialog_select_tier_high_quality_content"
+            android:textColor="@color/greyscale_500"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ivIcon"
+            app:layout_constraintTop_toBottomOf="@+id/textHighQuality" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/vStandardQuality"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_2"
+        android:layout_marginTop="@dimen/margin_1"
+        android:background="@drawable/btn_outline_gray_button"
+        android:foreground="?attr/selectableItemBackground"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/margin_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vHighQuality">
+
+        <RadioButton
+            android:id="@+id/rbStandardQuality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/orange_900"
+            android:gravity="center"
+            android:minWidth="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivIconStandard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_1"
+            android:layout_marginTop="@dimen/margin_1"
+            android:layout_marginBottom="@dimen/margin_1"
+            android:src="@drawable/icon_default_quality"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/rbStandardQuality"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textActionStandard"
+            style="@style/text_body2"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/margin_2"
+            android:text="@string/dialog_select_tier_standard_quality_label"
+            app:layout_constraintBottom_toTopOf="@+id/textDescriptionStandard"
+            app:layout_constraintStart_toEndOf="@+id/ivIconStandard"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <TextView
+            android:id="@+id/textDescriptionStandard"
+            style="@style/text_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/margin_2"
+            android:text="@string/dialog_select_tier_standard_quality_content"
+            android:textColor="@color/greyscale_500"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ivIconStandard"
+            app:layout_constraintTop_toBottomOf="@+id/textActionStandard" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCancel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/baseMargin"
+        android:layout_marginTop="@dimen/margin_1"
+        android:layout_marginEnd="@dimen/baseMargin"
+        android:layout_marginBottom="@dimen/margin_1"
+        android:background="@drawable/regular_bg_outline_button"
+        android:gravity="center"
+        android:text="@string/regular_cancel"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnExport"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/vStandardQuality" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnExport"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/baseMargin"
+        android:layout_marginTop="@dimen/margin_1"
+        android:layout_marginEnd="@dimen/baseMargin"
+        android:layout_marginBottom="@dimen/margin_1"
+        android:background="@drawable/filled_button"
+        android:gravity="center"
+        android:text="@string/dialog_select_tier_export_button"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnCancel"
+        app:layout_constraintTop_toBottomOf="@id/vStandardQuality" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="water_info_title_avoid_drink_mistake">Évitez ces erreurs de consommation d’eau</string>
+    <string name="water_info_title_best_time_to_drink">Meilleurs moments pour boire de l’eau</string>
+    <string name="water_info_title_replace_with_water">Remplacer les boissons par de l\'eau pour la santé</string>
+    <string name="water_info_title_drink_on_empty_stomach">Boire de l’eau le ventre vide ?</string>
+    <string name="water_info_title_benefit_lemon_water">Avantages de boire de l’eau citronnée</string>
+    <string name="water_info_title_is_ok_drink_during_meal">Est-il acceptable de boire de l’eau pendant un repas ?</string>
+    <string name="water_info_title_benefit_for_health">Boire de l’eau : les bienfaits pour la santé</string>
+    <string name="water_info_title_danger_of_overhydration">Dangers de la surhydratation</string>
+    <string name="water_info_title_why_should_give_baby_water">Pourquoi ne devriez-vous pas donner d’eau aux bébés ?</string>
+</resources>

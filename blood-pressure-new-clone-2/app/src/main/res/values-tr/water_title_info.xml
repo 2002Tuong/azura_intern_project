@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="water_info_title_avoid_drink_mistake">Bu Su İçme Hatalarından Kaçının</string>
+    <string name="water_info_title_best_time_to_drink">Su İçmek İçin En İyi Zamanlar</string>
+    <string name="water_info_title_replace_with_water">Sağlık İçin İçecekleri Suyla Değiştirmek</string>
+    <string name="water_info_title_drink_on_empty_stomach">Aç Karnına Su İçilir mi?</string>
+    <string name="water_info_title_benefit_lemon_water">Limonlu Su İçmenin Faydaları</string>
+    <string name="water_info_title_is_ok_drink_during_meal">Yemek Sırasında Su İçmek Doğru mudur?</string>
+    <string name="water_info_title_benefit_for_health">Su İçme: Sağlığa Faydaları</string>
+    <string name="water_info_title_danger_of_overhydration">Aşırı Sulamanın Tehlikeleri</string>
+    <string name="water_info_title_why_should_give_baby_water">Bebeklere Neden Su Vermemelisiniz?</string>
+</resources>

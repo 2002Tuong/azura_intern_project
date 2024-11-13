@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="bmi_info_title_healthy_body_weight">Здоровый вес тела</string>
+    <string name="bmi_info_title_obesity">Ожирение</string>
+    <string name="bmi_info_title_obesity_causes">Причины ожирения</string>
+    <string name="bmi_info_title_obesity_diagnosis">Диагностика ожирения</string>
+    <string name="bmi_info_title_lifestyle_for_obesity">Образ жизни при ожирении</string>
+    <string name="bmi_info_title_weight_loss_tips">Советы по снижению веса</string>
+</resources>

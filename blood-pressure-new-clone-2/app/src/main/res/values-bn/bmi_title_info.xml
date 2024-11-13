@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="bmi_info_title_healthy_body_weight">স্বাস্থ্যকর শরীরের ওজন</string>
+    <string name="bmi_info_title_obesity">স্থূলতা</string>
+    <string name="bmi_info_title_obesity_causes">স্থূলতার কারণ</string>
+    <string name="bmi_info_title_obesity_diagnosis">স্থূলতা নির্ণয়</string>
+    <string name="bmi_info_title_lifestyle_for_obesity">স্থূলতার জন্য জীবনধারা</string>
+    <string name="bmi_info_title_weight_loss_tips">ওজন কমানোর টিপস</string>
+</resources>

@@ -1,0 +1,157 @@
+plugins {
+  id 'com.android.application'
+  id 'com.google.gms.google-services'
+  id 'com.google.firebase.crashlytics'
+}
+
+android {
+  signingConfigs {
+    release {
+      storeFile file('../keystore/AntiThief.keystore')
+      storePassword 'emopass'
+      keyAlias 'emopass'
+      keyPassword 'emopass'
+    }
+  }
+  compileSdkVersion 34
+
+  defaultConfig {
+    applicationId "com.emopass.antitheftalarm"
+    minSdkVersion 24
+    targetSdkVersion 33
+    versionCode 12
+    versionName "1.1.9"
+    vectorDrawables.useSupportLibrary = true
+    setProperty("archivesBaseName", "AntiTheftAlarm-$versionName")
+  }
+
+  buildTypes {
+    release {
+      // Enables code shrinking, obfuscation, and optimization for only
+      // your project's release build type.
+      minifyEnabled true
+
+      // Enables resource shrinking, which is performed by the
+      // Android Gradle plugin.
+      shrinkResources true
+
+      // Includes the default ProGuard rules files that are packaged with
+      // the Android Gradle plugin. To learn more, go to the section about
+      // R8 configuration files.
+      proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'),
+          'proguard-rules.pro'
+
+      signingConfig signingConfigs.release
+    }
+  }
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_1_8
+    targetCompatibility JavaVersion.VERSION_1_8
+  }
+
+  buildFeatures {
+    viewBinding true
+    dataBinding true
+  }
+
+  flavorDimensions "version"
+
+  productFlavors {
+    prod {
+      buildConfigField "boolean", "is_debug", "false"
+    }
+
+    dev {
+      buildConfigField "boolean", "is_debug", "true"
+    }
+  }
+  namespace 'com.emopass.antitheftalarm'
+}
+
+repositories {
+  maven { url 'https://jitpack.io' }
+  mavenCentral()
+}
+
+
+dependencies {
+  implementation project(':ads')
+  implementation project(':nativetemplates')
+
+  implementation 'androidx.appcompat:appcompat:1.6.1'
+  implementation 'com.google.android.material:material:1.10.0'
+  implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+  implementation 'androidx.navigation:navigation-fragment:2.7.5'
+  implementation 'androidx.navigation:navigation-ui:2.7.5'
+  implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.6.2'
+  implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2'
+  implementation "androidx.work:work-runtime:2.8.1"
+
+  /*https://github.com/intuit/sdp*/
+  implementation 'com.intuit.sdp:sdp-android:1.1.0'
+
+  /*https://github.com/google/gson*/
+  implementation 'com.google.code.gson:gson:2.10.1'
+
+  /*https://github.com/bumptech/glide*/
+  implementation 'com.github.bumptech.glide:glide:4.13.2'
+  implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+  implementation 'com.google.android.gms:play-services-ads-lite:22.5.0'
+  annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+
+  /*https://github.com/hdodenhof/CircleImageView*/
+  implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+  /*https://github.com/skyfishjy/android-ripple-background*/
+  implementation 'com.skyfishjy.ripplebackground:library:1.0.1'
+
+  /*https://github.com/jpardogo/GoogleProgressBar*/
+  implementation 'com.jpardogo.googleprogressbar:library:1.2.0'
+
+  /*https://github.com/warkiz/IndicatorSeekBar*/
+  implementation 'com.github.warkiz.widget:indicatorseekbar:2.1.2'
+
+  /*https://github.com/rengwuxian/MaterialEditText*/
+  implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+
+  /*https://github.com/vinc3m1/RoundedImageView*/
+  implementation 'com.makeramen:roundedimageview:2.3.0'
+
+  /*
+  Because RxAndroid releases are few and far between, it is recommended you also
+  explicitly depend on RxJava's latest version for bug fixes and new features.
+  (see https://github.com/ReactiveX/RxJava/releases for latest 3.x.x version)
+  */
+  implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
+  implementation 'io.reactivex.rxjava3:rxjava:3.0.0'
+
+  /*https://github.com/daimajia/AndroidViewAnimations*/
+  implementation 'com.daimajia.androidanimations:library:2.4@aar'
+
+  implementation "android.arch.lifecycle:extensions:1.1.1"
+
+  /*https://github.com/airbnb/lottie-android*/
+  implementation 'com.airbnb.android:lottie:6.1.0'
+
+  implementation platform('com.google.firebase:firebase-bom:30.1.0')
+
+  implementation 'com.google.firebase:firebase-crashlytics'
+  implementation 'com.google.firebase:firebase-analytics'
+  implementation("com.google.firebase:firebase-config")
+
+  implementation 'com.github.VioTechDev:VioAds:0.0.5'
+  implementation 'androidx.multidex:multidex:2.0.1'
+  implementation 'com.facebook.shimmer:shimmer:0.5.0'
+
+  implementation 'com.google.ads.mediation:facebook:6.16.0.0'
+  implementation 'com.google.ads.mediation:applovin:11.11.3.0'
+  implementation 'com.google.ads.mediation:pangle:5.5.0.4.0'
+  implementation 'com.google.ads.mediation:vungle:7.0.0.0'
+  implementation 'com.google.ads.mediation:ironsource:7.5.1.0'
+  implementation 'com.google.ads.mediation:mintegral:16.5.21.0'
+  implementation 'com.google.ads.mediation:fyber:8.2.4.0'
+  implementation 'com.google.ads.mediation:inmobi:10.5.8.0'
+  implementation 'com.unity3d.ads:unity-ads:4.8.0'
+  implementation 'com.google.ads.mediation:unity:4.8.0.0'
+
+}

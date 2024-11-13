@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.ads.mediation:fyber:8.2.3.0@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4c5438c68d46292a97a978015d653ec2/transformed/fyber-8.2.3.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4c5438c68d46292a97a978015d653ec2/transformed/fyber-8.2.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4c5438c68d46292a97a978015d653ec2/transformed/fyber-8.2.3.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.ads.mediation/fyber/8.2.3.0/1d7dd9e749610b0ebe8f2afabdbcbef9cd87727c/fyber-8.2.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

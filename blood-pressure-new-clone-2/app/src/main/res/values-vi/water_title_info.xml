@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="water_info_title_avoid_drink_mistake">Những sai lầm khi uống nước cần tránh</string>
+    <string name="water_info_title_best_time_to_drink">Thời điểm tốt nhất để uống nước</string>
+    <string name="water_info_title_replace_with_water">Thay thế đồ uống bằng nước vì sức khỏe</string>
+    <string name="water_info_title_drink_on_empty_stomach">Uống nước khi bụng đói?</string>
+    <string name="water_info_title_benefit_lemon_water">Lợi ích của việc uống nước chanh</string>
+    <string name="water_info_title_is_ok_drink_during_meal">Có nên uống nước trong bữa ăn?</string>
+    <string name="water_info_title_benefit_for_health">Uống nước: Lợi ích cho sức khỏe</string>
+    <string name="water_info_title_danger_of_overhydration">Nguy hiểm của tình trạng thừa nước</string>
+    <string name="water_info_title_why_should_give_baby_water">Tại sao bạn không nên cho trẻ sơ sinh uống nước?</string>
+</resources>

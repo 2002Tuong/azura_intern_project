@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "605798037477",
+    "project_id": "snapedit-staging",
+    "storage_bucket": "snapedit-staging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605798037477:android:c8f4af9b501ff0f952610c",
+        "android_client_info": {
+          "package_name": "snapedit.app.remove.Stag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605798037477-1v8o162c936f7rudhatq1uok6jr1osqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1SFIqQBfBk9xDDdJwgep5AsvQKBt8MLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605798037477-1v8o162c936f7rudhatq1uok6jr1osqk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "605798037477-16i41r05o5m304ojin7368d73gsntgn6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sfun.snapedit.stag"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

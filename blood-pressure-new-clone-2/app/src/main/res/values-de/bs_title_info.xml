@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="bs_info_title_normal_blood_sugar_level">Normaler Blutzuckerspiegel</string>
+    <string name="bs_info_title_diabetes">Diabetes</string>
+    <string name="bs_info_title_how_common_is_diabetes">Wie häufig ist Diabetes?</string>
+    <string name="bs_info_title_diabetes_symptoms">Diabetes-Symptome</string>
+    <string name="bs_info_title_diabetes_types">Diabetes-Typen</string>
+</resources>

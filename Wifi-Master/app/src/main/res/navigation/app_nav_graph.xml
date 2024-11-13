@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav_graph"
+    app:startDestination="@id/navigation_splash">
+
+    <fragment
+        android:id="@+id/navigation_splash"
+        android:name="com.wifi.wificharger.ui.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash">
+
+        <action
+            android:id="@+id/action_navigation_splash_to_navigation_pick_language"
+            app:destination="@id/navigation_pick_language"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/app_nav_graph"
+            app:popUpToInclusive="true" />
+
+        <action
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/app_nav_graph"
+            app:popUpToInclusive="true"
+            android:id="@+id/action_navigation_splash_to_permissionFragment"
+            app:destination="@id/permissionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_pick_language"
+        android:name="com.wifi.wificharger.ui.picklanguage.PickLanguageFragment"
+        tools:layout="@layout/fragment_pick_language">
+        <action
+            android:id="@+id/action_navigation_pick_language_to_navigation_pick_language_dup"
+            app:destination="@id/navigation_pick_language_dup"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/app_nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_onboarding"
+        android:name="com.wifi.wificharger.ui.onboarding.WalkthroughFragment"
+        tools:layout="@layout/fragment_walkthrough">
+        <action
+            android:id="@+id/action_navigation_onboarding_to_permissionFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/app_nav_graph"
+            app:popUpToInclusive="true"
+            app:destination="@id/permissionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.wifi.wificharger.ui.home.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            android:id="@+id/action_homeFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+        <action
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            android:id="@+id/action_homeFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+        <action
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            android:id="@+id/action_homeFragment_to_generatePassword"
+            app:destination="@id/generatePassword" />
+        <action
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            android:id="@+id/action_homeFragment_to_speedTestFragment"
+            app:destination="@id/speedTestFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.wifi.wificharger.ui.wifis.ListFragment"
+        android:label="ListFragment" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.wifi.wificharger.ui.info.InfoFragment"
+        android:label="InfoFragment" />
+    <fragment
+        android:id="@+id/permissionFragment"
+        android:name="com.wifi.wificharger.ui.permission.PermissionFragment"
+        android:label="PermissionFragment" >
+        <action
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            android:id="@+id/action_permissionFragment_to_navigation_home"
+            app:destination="@id/homeFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/app_nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/generatePassword"
+        android:name="com.wifi.wificharger.ui.genpw.GeneratePassword"
+        android:label="GeneratePassword" />
+    <fragment
+        android:id="@+id/navigation_pick_language_dup"
+        android:name="com.wifi.wificharger.ui.picklanguage.PickLanguageDuplicateFragment"
+        android:label="PickLanguageDuplicateFragment" >
+        <action
+            android:id="@+id/action_navigation_pick_language_dup_to_navigation_onboarding"
+            app:destination="@id/navigation_onboarding"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/app_nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/speedTestFragment"
+        android:name="com.wifi.wificharger.ui.speedtest.SpeedTestFragment"
+        android:label="SpeedTestFragment" />
+</navigation>

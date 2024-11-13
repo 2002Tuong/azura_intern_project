@@ -1,0 +1,23 @@
+<resources>
+	<string name="show_wifi_password">"Mostra la password WiFi"</string>
+	<string name="all_connect_devices">"Tutti i dispositivi di connessione"</string>
+	<string name="available_wifi_list">"Elenco WiFi disponibile"</string>
+	<string name="available_network">"Rete disponibile"</string>
+	<string name="wifi_shown">"Le password WiFi sono mostrate per la connessione"</string>
+	<string name="detect_devices">"Rileva tutti i dispositivi che si collegano al tuo WiFi"</string>
+	<string name="scan_wifi">"Scansiona e analizza la rete WiFi vicina"</string>
+	<string name="next">"Prossimo"</string>
+	<string name="contain_ads">"Questa azione può contenere annunci"</string>
+	<string name="ask_grant_permission">"L'app Wifi Manager utilizza l'autorizzazione della posizione di accesso"</string>
+	<string name="grant_permission">"Grande autorizzazione"</string>
+	<string name="grant_permission_description">"Per iniziare, abbiamo bisogno del tuo permesso per accedere alla tua posizione."</string>
+	<string name="ok">"OK"</string>
+	<string name="cancel">"Annulla"</string>
+	<string name="enter_password">"Inserire la password"</string>
+	<string name="connect">"Collegare"</string>
+	<string name="show_password">"Mostra password"</string>
+	<string name="we_are_working_hard_for_a_better_user_experience">"Stiamo lavorando duramente per una migliore esperienza utente"</string>
+	<string name="the_best_rating_star">"La migliore stella di valutazione"</string>
+	<string name="exit_popup_message">"Ci piace sentirti. Aiutaci a rendere la nostra app ancora più fantastica"</string>
+	<string name="no_exit">"No, app di uscita"</string>
+</resources>

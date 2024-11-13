@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="bmi_info_title_healthy_body_weight">健康体重</string>
+    <string name="bmi_info_title_obesity">肥胖</string>
+    <string name="bmi_info_title_obesity_causes">肥胖原因</string>
+    <string name="bmi_info_title_obesity_diagnosis">肥胖诊断</string>
+    <string name="bmi_info_title_lifestyle_for_obesity">肥胖的生活方式</string>
+    <string name="bmi_info_title_weight_loss_tips">减肥秘诀</string>
+</resources>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mbridge.msdk.oversea:videojs:16.4.91@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fdf7fb2f20abe0b166dded4c8df750f3/transformed/videojs-16.4.91/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fdf7fb2f20abe0b166dded4c8df750f3/transformed/videojs-16.4.91/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fdf7fb2f20abe0b166dded4c8df750f3/transformed/videojs-16.4.91/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fdf7fb2f20abe0b166dded4c8df750f3/transformed/videojs-16.4.91/jars/libs/classes-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

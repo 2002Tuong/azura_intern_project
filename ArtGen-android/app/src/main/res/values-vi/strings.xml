@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cw_next">"Kế tiếp"</string>
+    <string name="cw_get_started">"Bắt đầu"</string>
+    <string name="setting_language">"Ngôn ngữ"</string>
+    <string name="splash_loading_message">"Hành động này có thể chứa quảng cáo"</string>
+    <string name="loading_ads">"Tải quảng cáo"</string>
+    <string name="pick_a_style">"Chọn một phong cách"</string>
+    <string name="crop_photo">"Ảnh cắt"</string>
+    <string name="text_continue">"Tiếp tục"</string>
+    <string name="genart_ai">"Genart AI"</string>
+    <string name="policy">"Chính sách"</string>
+    <string name="setting">"Cài đặt"</string>
+    <string name="selected_style_title">"Phong cách đã chọn (%s)"</string>
+    <string name="loading_gen_art_title">"AI đang làm nghệ thuật ma thuật"</string>
+    <string name="loading_gen_art_message">"Vui lòng chờ…"</string>
+    <string name="gen_art_success_title">"Tất cả đã được làm xong! Tác phẩm của bạn đã sẵn sàng"</string>
+    <string name="view_now">"Xem ngay bây giờ"</string>
+    <string name="see_all">"Xem tất cả"</string>
+    <string name="input_prompt">"Nhập văn bản"</string>
+    <string name="ex_beautiful_girl_in_the_dream_world">"Ex: Cô gái xinh đẹp trong thế giới mộng mơ"</string>
+    <string name="demo_image_optional">"Hình ảnh demo (tùy chọn)"</string>
+    <string name="generate_now">"Tạo ngay bây giờ"</string>
+    <string name="watch_video_ads">"Xem video quảng cáo"</string>
+    <string name="all_styles">"Tất cả các phong cách"</string>
+    <string name="result">"Kết quả"</string>
+    <string name="skip">"Bỏ qua"</string>
+    <string name="camera">"Máy ảnh"</string>
+    <string name="save">"Lưu"</string>
+    <string name="create_more">"Tạo ra nhiều hơn"</string>
+    <string name="re_generate">"Tạo lại"</string>
+    <string name="generate_more_style">"Tạo ra nhiều phong cách hơn"</string>
+    <string name="save_image_success">"Lưu hình ảnh thành công"</string>
+    <string name="explore_various_styles">"Khám phá các phong cách khác nhau"</string>
+    <string name="advanced_ai_technology">"Công nghệ AI nâng cao"</string>
+    <string name="modern_trends">"Xu hướng hiện đại"</string>
+    <string name="update_now">"Cập nhật ngay"</string>
+    <string name="later">"Để sau"</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+	<string name="show_wifi_password">"WiFiパスワードを表示します"</string>
+	<string name="all_connect_devices">"すべての接続デバイス"</string>
+	<string name="available_wifi_list">"利用可能なWiFiリスト"</string>
+	<string name="available_network">"利用可能なネットワーク"</string>
+	<string name="wifi_shown">"接続にWiFiパスワードが表示されます"</string>
+	<string name="detect_devices">"WiFiに接続しているすべてのデバイスを検出します"</string>
+	<string name="scan_wifi">"近くのWiFiネットワークをスキャンして分析します"</string>
+	<string name="next">"次"</string>
+	<string name="contain_ads">"このアクションには広告が含まれている場合があります"</string>
+	<string name="ask_grant_permission">"WiFiマネージャーアプリは、アクセス場所の許可を使用します"</string>
+	<string name="grant_permission">"壮大な許可"</string>
+	<string name="grant_permission_description">"開始するには、あなたの場所にアクセスする許可が必要です。"</string>
+	<string name="ok">"わかりました"</string>
+	<string name="cancel">"キャンセル"</string>
+	<string name="enter_password">"パスワードを入力する"</string>
+	<string name="connect">"接続する"</string>
+	<string name="show_password">"パスワードを表示します"</string>
+	<string name="we_are_working_hard_for_a_better_user_experience">"私たちは、より良いユーザーエクスペリエンスのために一生懸命働いています"</string>
+	<string name="the_best_rating_star">"最高の評価スター"</string>
+	<string name="exit_popup_message">"私たちはあなたから聞くのが大好きです。アプリをさらに素晴らしいものにするのを手伝ってください"</string>
+	<string name="no_exit">"いいえ、アプリを終了します"</string>
+</resources>

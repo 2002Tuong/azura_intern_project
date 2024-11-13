@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/subscriptionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/background_subscription"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvSubscriptionName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_7dp"
+            android:layout_marginTop="@dimen/margin_1p5"
+            android:gravity="center_horizontal|bottom"
+            android:lineSpacingExtra="1sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/icChoose"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Annually" />
+
+        <ImageView
+            android:id="@+id/icChoose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/premium_icon_state"
+            android:layout_marginStart="@dimen/margin_1p5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <FrameLayout
+            android:id="@+id/subscriptionPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_7dp"
+            android:layout_marginTop="@dimen/margin_1"
+            android:layout_marginBottom="@dimen/margin_1p5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/icChoose"
+            app:layout_constraintTop_toBottomOf="@+id/tvSubscriptionName"
+            app:layout_constraintVertical_bias="0">
+
+            <TextView
+                android:id="@+id/tvSubscriptionPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|bottom"
+                android:lines="1"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/orange_900"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvSubscriptionName"
+                app:layout_constraintVertical_bias="0"
+                tools:text="19.999999$" />
+
+            <TextView
+                android:id="@+id/tvDiscountPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|bottom"
+                android:lines="1"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/orange_900"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvSubscriptionName"
+                tools:text="19.999999$" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tvOriginalPrice"
+            style="@style/text_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:textColor="@color/greyscale_500"
+            app:layout_constraintBottom_toBottomOf="@id/subscriptionPrice"
+            app:layout_constraintStart_toEndOf="@id/subscriptionPrice"
+            app:layout_constraintTop_toTopOf="@id/subscriptionPrice"
+            tools:text="$24.49" />
+
+        <TextView
+            android:id="@+id/tvDiscountPercent"
+            style="@style/text_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:background="@drawable/filled_button"
+            android:gravity="center"
+            android:paddingHorizontal="4dp"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="@id/tvOriginalPrice"
+            app:layout_constraintStart_toEndOf="@id/tvOriginalPrice"
+            app:layout_constraintTop_toTopOf="@id/tvOriginalPrice"
+            tools:text="Save 40%" />
+
+        <TextView
+            android:id="@+id/tvDescription"
+            style="@style/text_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="@dimen/margin_1p5"
+            android:textColor="@color/greyscale_500"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/subscriptionPrice"
+            app:layout_constraintTop_toBottomOf="@id/subscriptionPrice"
+            tools:text="Just $19.99 for the first year" />
+
+        <TextView
+            android:id="@+id/tvFreeTrialDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_7dp"
+            android:layout_marginTop="@dimen/margin_1"
+            android:layout_marginBottom="@dimen/margin_1p5"
+            android:gravity="center_horizontal|bottom"
+            android:lineSpacingExtra="1sp"
+            android:textColor="@color/greyscale_500"
+            app:layout_constraintBottom_toBottomOf="@+id/subscriptionPrice"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/subscriptionPrice"
+            tools:text="3 days free" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tvPromoted"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="@dimen/margin_5"
+        android:background="@drawable/background_subscription_best_deal"
+        android:gravity="center"
+        android:paddingHorizontal="@dimen/space_small"
+        android:paddingVertical="@dimen/space_tiny"
+        android:text="@string/premium_plan_best_deal_title"
+        android:textAllCaps="true"
+        android:textColor="@color/greyscale_200"
+        android:textSize="10sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.pangle.global:gecko:adsdk-gecko-1.0.0.3-rc.3@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2046f6027f351f59d46d4954ad76a28e/transformed/gecko-adsdk-gecko-1.0.0.3-rc.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2046f6027f351f59d46d4954ad76a28e/transformed/gecko-adsdk-gecko-1.0.0.3-rc.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

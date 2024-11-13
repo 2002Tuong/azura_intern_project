@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/margin_1"
+    android:layout_marginBottom="@dimen/margin_1"
+    android:padding="1dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageThumb"
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/shape_rounded_corner_12dp" />
+
+    <View
+        android:id="@+id/grayBg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/regular_bg_corner_6dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@id/imageThumb"
+        app:layout_constraintEnd_toEndOf="@id/imageThumb"
+        app:layout_constraintStart_toStartOf="@id/imageThumb"
+        app:layout_constraintTop_toTopOf="@id/imageThumb" />
+
+    <ImageView
+        android:id="@+id/icOpenMenu"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:padding="6dp"
+        android:src="@drawable/round_more_vert"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/greyscale_500" />
+
+
+    <ImageView
+        android:id="@+id/icShare"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:padding="6dp"
+        android:src="@drawable/icon_share"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icOpenMenu"
+        app:tint="@color/greyscale_200" />
+
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:gravity="start"
+        android:textColor="@color/white"
+        android:textSize="@dimen/normalTextSize"
+        app:layout_constraintEnd_toStartOf="@+id/icOpenMenu"
+        app:layout_constraintStart_toEndOf="@+id/imageThumb"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="1234" />
+
+    <TextView
+        android:id="@+id/sizeLabel"
+        style="@style/text_small"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:gravity="start"
+        android:textColor="@color/greyscale_500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageThumb"
+        app:layout_constraintTop_toBottomOf="@+id/nameLabel"
+        tools:text="1234" />
+
+    <TextView
+        android:id="@+id/dateLabel"
+        style="@style/text_small"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:gravity="start"
+        android:textColor="@color/greyscale_500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageThumb"
+        app:layout_constraintTop_toBottomOf="@+id/sizeLabel"
+        tools:text="1234" />
+
+    <TextView
+        android:id="@+id/durationLabel"
+        style="@style/text_small"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:gravity="start"
+        android:textColor="@color/greyscale_500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="1234" />
+
+    <ImageView
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/icon_check_box"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@id/imageThumb"
+        app:layout_constraintTop_toTopOf="@id/imageThumb" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

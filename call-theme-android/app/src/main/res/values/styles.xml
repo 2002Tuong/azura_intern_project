@@ -1,0 +1,46 @@
+<resources>
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/colorPrimary</item>
+    </style>
+
+    <style name="OutlinedButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="strokeColor">@color/colorPrimary</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="FilledButtonStyle" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="backgroundColor">@color/colorPrimary</item>
+        <item name="icon">@drawable/icon_check</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="CustomRatingBarStyle" parent="Widget.AppCompat.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_selector</item>
+    </style>
+
+    <style name="CustomRadioButtonStyle" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/radio_button_background</item>
+        <item name="android:outlineProvider">@null</item>
+    </style>
+
+    <style name="CategoryChipStyle" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="checkedIconEnabled">false</item>
+        <item name="checkedIcon">@null</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipStrokeColor">@color/white_with_opacity_20</item>
+        <item name="chipBackgroundColor">@android:color/holo_red_dark</item>
+    </style>
+
+    <style name="AdTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:background">#EDF1F4</item>
+        <item name="android:windowBackground">#EDF1F4</item>
+        <item name="android:windowExitAnimation">@null</item>
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+</resources>

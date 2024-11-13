@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundedView">
+        <attr name="cornerRadius" format="dimension"/>
+        <attr name="borderColor" format="color" />
+        <attr name="borderWidth" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="IndicatorView">
+        <attr name="radius" format="dimension" />
+        <attr name="spacing" format="dimension" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="color" format="color" />
+        <attr name="selectedColor" format="color" />
+        <attr name="styleStroke" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="RotationImageView">
+        <attr name="image" format="reference" />
+        <attr name="size" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="SearchView">
+        <attr name="text" format="string" />
+        <attr name="tabColor" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="RatingBar">
+        <attr name="ratting" format="integer" />
+        <attr name="widthStar" format="dimension" />
+        <attr name="heightStar" format="dimension" />
+        <attr name="marginStar" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="AutoResizeButton">
+        <attr name="maxTextSize" format="dimension" />
+        <attr name="minTextSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="FlowLayout">
+        <attr name="flFlow" format="boolean"/>
+        <attr name="flChildSpacing" format="enum|dimension">
+            <enum name="auto" value="-65536"/>
+        </attr>
+        <attr name="flMinChildSpacing" format="dimension"/>
+        <attr name="flChildSpacingForLastRow" format="enum|dimension">
+            <enum name="auto" value="-65536"/>
+            <enum name="align" value="-65537"/>
+        </attr>
+        <attr name="flRowSpacing" format="enum|dimension">
+            <enum name="auto" value="-65536"/>
+        </attr>
+        <attr name="flRtl" format="boolean"/>
+        <attr name="flMaxRows" format="integer" />
+        <attr name="flRowVerticalGravity" format="enum">
+            <enum name="auto" value="-65536" />
+            <enum name="top" value="0x30" />
+            <enum name="center" value="0x10" />
+            <enum name="bottom" value="0x50" />
+        </attr>
+        <attr name="android:gravity" />
+    </declare-styleable>
+
+    <declare-styleable name="BubbleToggleView">
+        <attr name="bt_icon" format="reference" />
+        <attr name="bt_iconWidth" format="dimension" />
+        <attr name="bt_iconHeight" format="dimension" />
+        <attr name="bt_shape" format="reference" />
+        <attr name="bt_shapeColor" format="color" />
+        <attr name="bt_showShapeAlways" format="boolean" />
+        <attr name="bt_title" format="string" />
+        <attr name="bt_titleSize" format="dimension" />
+        <attr name="bt_colorActive" format="color" />
+        <attr name="bt_colorInactive" format="color" />
+        <attr name="bt_active" format="boolean" />
+        <attr name="bt_duration" format="integer" />
+        <attr name="bt_padding" format="dimension" />
+        <attr name="bt_titlePadding" format="dimension" />
+        <attr name="bt_badgeTextSize" format="dimension" />
+        <attr name="bt_badgeBackgroundColor" format="color" />
+        <attr name="bt_badgeTextColor" format="color" />
+        <attr name="bt_badgeText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="BubbleNavigationConstraintView">
+        <attr name="bnc_mode">
+            <enum name="spread" value="0" />
+            <enum name="inside" value="1" />
+            <enum name="packed" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="MaxHeightScrollView">
+        <attr name="maxHeight" format="dimension" />
+    </declare-styleable>
+</resources>

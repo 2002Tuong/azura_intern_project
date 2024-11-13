@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "923066906531",
+    "project_id": "anti-thief-stag",
+    "storage_bucket": "anti-thief-stag.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923066906531:android:8a019de9d4599627898c16",
+        "android_client_info": {
+          "package_name": "com.emopass.antitheftalarm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsKfGvNLDL2TuWmnSWQe25L667jWJ9GN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

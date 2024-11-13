@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="@dimen/margin_7"
+        android:src="@drawable/background_empty_image" />
+
+    <TextView
+        android:id="@+id/tvLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_7"
+        android:layout_marginTop="@dimen/margin_2"
+        android:gravity="center"
+        android:text="@string/image_picker_prompt_no_media" />
+
+    <LinearLayout
+        android:id="@+id/vAddPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_2"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/background_rounded_add_photo"
+        android:backgroundTint="@color/ink_100"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/margin_2"
+        android:paddingVertical="@dimen/margin_1">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_add_photo_x" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_small"
+            android:text="@string/camera" />
+    </LinearLayout>
+</LinearLayout>

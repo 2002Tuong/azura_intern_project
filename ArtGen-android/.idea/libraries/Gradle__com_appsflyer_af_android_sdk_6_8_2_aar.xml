@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.appsflyer:af-android-sdk:6.8.2@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c02dab34c36cde24faaf0b2fd0bc6ea1/transformed/af-android-sdk-6.8.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c02dab34c36cde24faaf0b2fd0bc6ea1/transformed/af-android-sdk-6.8.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c02dab34c36cde24faaf0b2fd0bc6ea1/transformed/af-android-sdk-6.8.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.appsflyer/af-android-sdk/6.8.2/48ec565b40b4893fce4958fcf0818b1d5b5bd55/af-android-sdk-6.8.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

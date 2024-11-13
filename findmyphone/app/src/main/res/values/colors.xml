@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="morning">#FFBA7C</color>
+    <color name="eclipse">#573353</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="text_color_1">#191D30</color>
+    <color name="text_color_2">#1892FA</color>
+    <color name="text_color_3">#E8F4FE</color>
+    <color name="divider_background">#ECEDEF</color>
+    <color name="orange_900">#FB7609</color>
+    <color name="greyscale_200">#2E3646</color>
+    <color name="black">#000000</color>
+    <color name="grayA01">#BEBEBE</color>
+    <color name="blue_100">#E8F4FE</color>
+    <color name="blue_200">#A9D6FB</color>
+    <color name="blue_500">#38ACFA</color>
+    <color name="blue_600">#1892FA</color>
+    <color name="blue_900">#2935DD</color>
+
+    <color name="colorPrimary">#2D63E5</color>
+    <color name="colorSecondary">#1892FA</color>
+    <color name="neutral_700">#8C8E97</color>
+    <color name="grey_600">#C4CACF</color>
+    <color name="red_800">#F95721</color>
+    <color name="greyscale_600">#EDF1F4</color>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="bmi_info_title_healthy_body_weight">น้ำหนักตัวที่ดีต่อสุขภาพ</string>
+    <string name="bmi_info_title_obesity">โรคอ้วน</string>
+    <string name="bmi_info_title_obesity_causes">โรคอ้วนเป็นสาเหตุ</string>
+    <string name="bmi_info_title_obesity_diagnosis">การวินิจฉัยโรคอ้วน</string>
+    <string name="bmi_info_title_lifestyle_for_obesity">ไลฟ์สไตล์สำหรับโรคอ้วน</string>
+    <string name="bmi_info_title_weight_loss_tips">เคล็ดลับการลดน้ำหนัก</string>
+</resources>

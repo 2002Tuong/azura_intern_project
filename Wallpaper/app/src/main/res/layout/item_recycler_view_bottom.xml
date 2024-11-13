@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:foreground="@drawable/bg_item_bottom_recycler_view_re"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="1dp"
+        android:paddingStart="1dp"
+        android:paddingEnd="1dp"
+        style="@style/ItemBottomRecyclerViewStyle"
+        android:scaleType="fitXY" />
+
+    <View
+        android:id="@+id/strokeView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_stroke_item_bottom_recycler_view_re" />
+
+</FrameLayout>

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.ads.mediation:mintegral:16.4.91.0@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9889fdde6587e454f83d6d46431cddf9/transformed/mintegral-16.4.91.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9889fdde6587e454f83d6d46431cddf9/transformed/mintegral-16.4.91.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9889fdde6587e454f83d6d46431cddf9/transformed/mintegral-16.4.91.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.ads.mediation/mintegral/16.4.91.0/702ab0701db36b8713c32200d585b925ba9eb701/mintegral-16.4.91.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

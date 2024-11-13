@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@color/scrim">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/greyscale900">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_2"
+            android:layout_marginTop="@dimen/margin_2"
+            android:layout_marginBottom="@dimen/margin_2"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/rangeSeekbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tvStart"
+                style="@style/text_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/greyscale900"
+                tools:text="00:04" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tvEnd"
+                style="@style/text_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/greyscale900"
+                tools:text="00:09" />
+        </LinearLayout>
+
+        <com.slideshowmaker.slideshow.ui.custom.SeekBarRangedView
+            android:id="@+id/rangeSeekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_3"
+            app:backgroundColor="@color/greyscale600"
+            app:backgroundHeight="4dp"
+            app:currentMin="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:progressHeight="4dp"
+            app:rounded="true"
+            app:thumbNormalResource="@drawable/ic_thumb_handler" />
+
+        <ImageButton
+            android:id="@+id/ibPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_2"
+            android:layout_marginTop="@dimen/margin_1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/icon_play_circle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rangeSeekbar" />
+
+        <TextView
+            android:id="@+id/tvMusicName"
+            style="@style/text_body"
+            android:textColor="@color/white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_1"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textSize="12sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toStartOf="@+id/btnApply"
+            app:layout_constraintStart_toEndOf="@+id/ibPlay"
+            app:layout_constraintTop_toTopOf="@+id/ibPlay"
+            tools:text="Clear day" />
+
+        <TextView
+            android:id="@+id/tvMusicDuration"
+            style="@style/text_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_1"
+            android:textColor="@color/greyscale_500"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            app:layout_constraintStart_toEndOf="@+id/ibPlay"
+            app:layout_constraintTop_toBottomOf="@+id/tvMusicName"
+            tools:text="Clear day" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnApply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_2"
+            android:background="@drawable/filled_button"
+            android:minHeight="0dp"
+            android:paddingHorizontal="@dimen/margin_1"
+            android:paddingVertical="@dimen/margin_0p5"
+            android:text="@string/regular_ok"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/ibPlay"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ibPlay" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

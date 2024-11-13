@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="water_info_title_avoid_drink_mistake">এই জল পান করার ভুলগুলি এড়িয়ে চলুন</string>
+    <string name="water_info_title_best_time_to_drink">পানি পান করার সেরা সময়</string>
+    <string name="water_info_title_replace_with_water">স্বাস্থ্যের জন্য জল দিয়ে পানীয় প্রতিস্থাপন</string>
+    <string name="water_info_title_drink_on_empty_stomach">খালি পেটে পানি পান করবেন?</string>
+    <string name="water_info_title_benefit_lemon_water">লেবু পানি পানের উপকারিতা</string>
+    <string name="water_info_title_is_ok_drink_during_meal">খাবারের সময় পানি পান করা কি ঠিক?</string>
+    <string name="water_info_title_benefit_for_health">পানি পান করুন: স্বাস্থ্যের জন্য উপকারিতা</string>
+    <string name="water_info_title_why_should_give_baby_water">কেন আপনার বাচ্চাদের জল দেওয়া উচিত নয়?</string>
+</resources>

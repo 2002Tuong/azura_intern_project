@@ -1,0 +1,62 @@
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        android:key="language_preference"
+        android:layout="@layout/item_layout_preference"
+        app:icon="@drawable/icon_language"
+        app:title="@string/language" />
+
+    <SwitchPreferenceCompat
+        android:defaultValue="true"
+        app:allowDividerBelow="true"
+        app:icon="@drawable/icon_flash"
+        app:iconSpaceReserved="true"
+        app:key="caller_flash_preference"
+        app:layout="@layout/item_layout_switch_preference_compat"
+        app:singleLineTitle="false"
+        app:title="@string/caller_flash"
+        app:widgetLayout="@layout/item_layout_switch_preference_compat" />
+
+    <SwitchPreferenceCompat
+        android:defaultValue="true"
+        app:allowDividerBelow="true"
+        app:icon="@drawable/icon_vibrate"
+        app:iconSpaceReserved="true"
+        app:key="vibrate_preference"
+        app:layout="@layout/item_layout_switch_preference_compat"
+        app:singleLineTitle="false"
+        app:title="@string/vibrate"
+        app:widgetLayout="@layout/item_layout_switch_preference_compat" />
+
+    <Preference
+        android:key="share_preference"
+        android:layout="@layout/item_layout_preference"
+        app:icon="@drawable/icon_share"
+        app:title="@string/share" />
+
+    <Preference
+        android:key="feedback_preference"
+        android:layout="@layout/item_layout_preference"
+        app:icon="@drawable/icon_bubble_chat_notification"
+        app:title="@string/feedback" />
+
+    <Preference
+        android:key="rate_us_preference"
+        android:layout="@layout/item_layout_preference"
+        app:icon="@drawable/icon_star_circle"
+        app:title="@string/rate_us" />
+
+    <Preference
+        android:key="policy_preference"
+        android:layout="@layout/item_layout_preference"
+        app:icon="@drawable/icon_policy"
+        app:title="@string/policy" />
+
+    <Preference
+        android:key="cmp_policy"
+        android:layout="@layout/item_layout_preference"
+        app:icon="@drawable/icon_settings"
+        app:title="@string/privacy_policy" />
+
+</androidx.preference.PreferenceScreen>

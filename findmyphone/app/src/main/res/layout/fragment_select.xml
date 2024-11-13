@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/rltPreviewSound"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_177dp"
+                android:layout_marginStart="@dimen/margin_16_dp"
+                android:layout_marginTop="@dimen/margin_16_dp"
+                android:layout_marginEnd="@dimen/margin_16_dp"
+                android:background="@drawable/bg_sound_preview">
+
+                <ImageView
+                    android:id="@+id/imgSoundAvatar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/margin_16_dp"
+                    android:contentDescription="@string/app_name"
+                    android:minWidth="@dimen/size_90_dp"
+                    android:minHeight="@dimen/size_90_dp"
+                    android:src="@drawable/icon_sound_police" />
+
+                <ImageView
+                    android:id="@+id/imgPlayPausePreviewSound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/margin_5_dp"
+                    android:background="@drawable/icon_play_pause_selector"
+                    android:contentDescription="@string/app_name"
+                    android:padding="@dimen/padding_18dp" />
+            </RelativeLayout>
+
+            <FrameLayout
+                android:id="@+id/frAdsNative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:visibility="gone"
+                android:layout_below="@id/rltPreviewSound">
+
+                <include
+                    android:id="@+id/includeNative"
+                    layout="@layout/native_ad_select_shimmer"
+                    android:visibility="visible" />
+            </FrameLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rclSounds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/frAdsNative"
+                android:layout_marginStart="@dimen/margin_16_dp"
+                android:layout_marginTop="@dimen/margin_16_dp"
+                android:layout_marginEnd="@dimen/margin_16_dp"
+                android:orientation="horizontal"
+                android:scrollbars="horizontal"
+                tools:listitem="@layout/item_sound" />
+
+            <RelativeLayout
+                android:id="@+id/rclSoundSetting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rclSounds"
+                android:layout_marginStart="@dimen/margin_16_dp"
+                android:layout_marginTop="@dimen/margin_16_dp"
+                android:layout_marginEnd="@dimen/margin_16_dp"
+                android:background="@drawable/bg_sound_setting"
+                android:padding="@dimen/padding_4_dp">
+
+                <com.example.claptofindphone.presenter.common.ItemSoundSetting
+                    android:id="@+id/settingFlash"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:isFlash="true" />
+
+                <com.example.claptofindphone.presenter.common.ItemSoundSetting
+                    android:id="@+id/settingVibration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/settingFlash"
+                    app:isVibration="true" />
+
+                <com.example.claptofindphone.presenter.common.ItemSoundSetting
+                    android:id="@+id/settingSound"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/settingVibration"
+                    app:isSound="true" />
+
+                <com.example.claptofindphone.presenter.common.ItemSoundSetting
+                    android:id="@+id/settingVolume"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/settingSound"
+                    app:isVolume="true" />
+
+                <include
+                    android:id="@+id/settingDuration"
+                    layout="@layout/layout_select_sound_duration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/settingVolume" />
+            </RelativeLayout>
+            <LinearLayout
+                android:id="@+id/banner_shimmer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rclSoundSetting"
+                android:layout_alignParentBottom="true">
+                <include
+                    layout="@layout/load_fb_banner"
+                    android:visibility="invisible"
+                    />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>
+

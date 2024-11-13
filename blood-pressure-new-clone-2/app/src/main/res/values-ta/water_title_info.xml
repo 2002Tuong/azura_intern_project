@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="water_info_title_avoid_drink_mistake">இந்த தண்ணீர் குடிக்கும் தவறுகளை தவிர்க்கவும்</string>
+    <string name="water_info_title_best_time_to_drink">தண்ணீர் குடிக்க சிறந்த நேரம்</string>
+    <string name="water_info_title_replace_with_water">ஆரோக்கியத்திற்காக பானங்களை தண்ணீருடன் மாற்றுதல்</string>
+    <string name="water_info_title_drink_on_empty_stomach">வெறும் வயிற்றில் தண்ணீர் குடிப்பதா?</string>
+    <string name="water_info_title_benefit_lemon_water">எலுமிச்சை தண்ணீர் குடிப்பதால் கிடைக்கும் நன்மைகள்</string>
+    <string name="water_info_title_is_ok_drink_during_meal">உணவின் போது தண்ணீர் குடிப்பது சரியா?</string>
+    <string name="water_info_title_benefit_for_health">தண்ணீர் குடிக்கவும்: ஆரோக்கியத்திற்கான நன்மைகள்</string>
+    <string name="water_info_title_danger_of_overhydration">அதிகப்படியான நீரேற்றத்தின் ஆபத்துகள்</string>
+    <string name="water_info_title_why_should_give_baby_water">ஏன் குழந்தைகளுக்கு தண்ணீர் கொடுக்க கூடாது?</string>
+</resources>

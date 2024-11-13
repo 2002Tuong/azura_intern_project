@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="water_info_title_avoid_drink_mistake">Vermeiden Sie diese Fehler beim Wassertrinken</string>
+    <string name="water_info_title_best_time_to_drink">Beste Zeiten, um Wasser zu trinken</string>
+    <string name="water_info_title_replace_with_water">Getränke durch Wasser für die Gesundheit ersetzen</string>
+    <string name="water_info_title_drink_on_empty_stomach">Wasser auf nüchternen Magen trinken?</string>
+    <string name="water_info_title_benefit_lemon_water">Vorteile des Trinkens von Zitronenwasser</string>
+    <string name="water_info_title_is_ok_drink_during_meal">Darf man während einer Mahlzeit Wasser trinken?</string>
+    <string name="water_info_title_benefit_for_health">Wasser trinken: Die Vorteile für die Gesundheit</string>
+    <string name="water_info_title_danger_of_overhydration">Gefahren einer Überhydrierung</string>
+    <string name="water_info_title_why_should_give_baby_water">Warum sollten Sie Babys kein Wasser geben?</string>
+</resources>

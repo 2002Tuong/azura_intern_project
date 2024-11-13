@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="water_info_title_avoid_drink_mistake">물을 마시는 실수를 피하세요</string>
+    <string name="water_info_title_best_time_to_drink">물을 마시는 가장 좋은 시간</string>
+    <string name="water_info_title_replace_with_water">건강을 위해 음료를 물로 대체하기</string>
+    <string name="water_info_title_drink_on_empty_stomach">빈속에 물을 마셔라?</string>
+    <string name="water_info_title_benefit_lemon_water">레몬 물을 마시는 것의 이점</string>
+    <string name="water_info_title_is_ok_drink_during_meal">식사 중에 물을 마셔도 괜찮나요?</string>
+    <string name="water_info_title_benefit_for_health">물 마시기: 건강에 대한 이점</string>
+    <string name="water_info_title_danger_of_overhydration">과잉수분공급의 위험</string>
+    <string name="water_info_title_why_should_give_baby_water">왜 아기에게 물을 주면 안되나요?</string>
+</resources>

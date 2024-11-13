@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_16_dp"
+    android:background="@drawable/bg_setting_vibration_section"
+    android:paddingStart="@dimen/margin_16_dp">
+
+    <ImageView
+        android:id="@+id/imgVibrationMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_17_dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/icon_vibration_mode" />
+
+    <TextView
+        android:id="@+id/txtVibrationMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_9_dp"
+        android:layout_marginTop="@dimen/margin_16_dp"
+        android:layout_toEndOf="@id/imgVibrationMode"
+        android:text="@string/vibration_mode"
+        android:textColor="@color/text_color_1"
+        android:textSize="@dimen/text_size_16_sp"
+        android:textStyle="bold" />
+
+    <com.example.claptofindphone.presenter.common.ItemSetting
+        android:id="@+id/settingVibrationModeDefault"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgVibrationMode"
+        app:isDefaultVibration="true" />
+
+    <com.example.claptofindphone.presenter.common.ItemSetting
+        android:id="@+id/settingVibrationModeStrong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settingVibrationModeDefault"
+        app:isStrongVibration="true" />
+
+    <com.example.claptofindphone.presenter.common.ItemSetting
+        android:id="@+id/settingVibrationModeHeartBeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settingVibrationModeStrong"
+        app:isHeartBeat="true" />
+
+    <com.example.claptofindphone.presenter.common.ItemSetting
+        android:id="@+id/settingVibrationModeTicktock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settingVibrationModeHeartBeat"
+        app:isTicktock="true" />
+</RelativeLayout>

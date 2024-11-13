@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.squareup.okhttp3:okhttp-dnsoverhttps:4.10.0" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-dnsoverhttps/4.10.0/6097293e5003ed7715941d0620a23c8fa79afd1c/okhttp-dnsoverhttps-4.10.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-dnsoverhttps/4.10.0/a99721fd1c768efca0d54431c9178356940e4ee2/okhttp-dnsoverhttps-4.10.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-dnsoverhttps/4.10.0/9bb7b59e48c8cfaf56812d5d12f04b0a891cf726/okhttp-dnsoverhttps-4.10.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "605177920813",
+    "project_id": "artgen-12885",
+    "storage_bucket": "artgen-12885.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605177920813:android:6d3fefe490d9833eec27a4",
+        "android_client_info": {
+          "package_name": "com.artgen.aiart.artgenerator.aiphoto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605177920813-0em8run3rbec96au1qgk07a9vkvtqkn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOwhIW5UzqXldQZB4-rLT9lPRWNA3-ZwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605177920813-0em8run3rbec96au1qgk07a9vkvtqkn6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

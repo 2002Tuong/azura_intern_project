@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name" translatable="false">ArtGen</string>
+    <string name="cw_next">"Next"</string>
+    <string name="cw_get_started">"Get Started"</string>
+    <string name="setting_language">"Language"</string>
+    <string name="splash_loading_message">"This action may contain ads"</string>
+    <string name="loading_ads">"Loading ads"</string>
+    <string name="pick_a_style">Pick a style</string>
+    <string name="crop_photo">Crop photo</string>
+    <string name="text_continue">Continue</string>
+    <string name="genart_ai">GenArt AI</string>
+    <string name="policy">Policy</string>
+    <string name="setting">Setting</string>
+    <string name="selected_style_title">Picked style (%s)</string>
+    <string name="loading_gen_art_title">AI Is Making Magic Art</string>
+    <string name="loading_gen_art_message">Please wait…</string>
+    <string name="gen_art_success_title">All Done! Your Art Is Ready </string>
+    <string name="view_now">View now</string>
+    <string name="see_all">See all</string>
+    <string name="input_prompt">Input Prompt</string>
+    <string name="ex_beautiful_girl_in_the_dream_world">Ex: beautiful girl in the dream world</string>
+    <string name="demo_image_optional">Demo Image (optional)</string>
+    <string name="generate_now">Generate now</string>
+    <string name="watch_video_ads">Watch video ads</string>
+    <string name="all_styles">All styles</string>
+    <string name="result">Result</string>
+    <string name="skip">Skip</string>
+    <string name="camera">Camera</string>
+    <string name="image_cropper" translatable="false">Image Cropper</string>
+    <string name="save">Save</string>
+    <string name="create_more">Create more</string>
+    <string name="re_generate">Re-Generate</string>
+    <string name="generate_more_style">Generate more style</string>
+    <string name="save_image_success">Save image success</string>
+    <string name="explore_various_styles">Explore various styles</string>
+    <string name="advanced_ai_technology">Advanced AI technology</string>
+    <string name="modern_trends">Modern trends</string>
+    <string name="ai_overloaded">AI overloaded!</string>
+    <string name="too_much_request_right_now_please_wait">Too much request right now. Please wait</string>
+    <string name="ok">OK</string>
+    <string name="sample">Sample</string>
+    <string name="update_now">"Update now"</string>
+    <string name="later">"Later"</string>
+    <string name="notification_channel_name">Artgen Notification</string>
+    <string name="notification_channle_des">ArtGen Notification Channel</string>
+    <string name="reminder_channel_des">Artgen Reminder</string>
+    <string name="new_style_updated">New style updated</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="update_the_latest_styles">Update the latest trendy styles</string>
+    <string name="last_updated_style">Have you ever tried this art?</string>
+    <string name="let_create_your_magic">Let’s create your magic artwork now! Enjoy it!</string>
+    <string name="notification_your_best">Your Best &lt;font color=#ff000000&gt;&lt;b&gt;AI Art!&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_your_best_ai_art">AI Art!</string>
+    <string name="notification_create_artwork">Create artworks using the power of AI.</string>
+    <string name="try_this_style">Try this style</string>
+
+    <string name="premium_item_des">Start with %s-day trial then</string>
+    <string name="term_of_service">Terms of Service</string>
+    <string name="privacy">Privacy</string>
+    <string name="discount_off">SAVE %1$d%%</string>
+    <string name="popup_premium_title">Start %s with %s-day free trial</string>
+    <string name="popup_premium_free_trial_des">%s days free trial then %s</string>
+    <string name="cancel_anytime">Cancel Anytime</string>
+    <string name="ultra_high_resolution">Ultra high resolution</string>
+    <string name="high_speed_ai_draw">High-speed AI draw</string>
+    <string name="no_ad_experience">No-ad experience</string>
+    <string name="unlimited_feature">Unlimited access to all features</string>
+    <string name="remove_all_ads">Remove all ads</string>
+    <string name="cancel_any_time">Cancel any time</string>
+    <string name="artgen_pro">ArtGen Pro</string>
+    <string name="start_with">Start %s with</string>
+    <string name="then_pay">Then %s</string>
+    <string name="you_have_subcribed">You have subscribed!</string>
+    <string name="unlock_pro">Unlock Pro</string>
+    <string name="no_ads_best_quality"><![CDATA[No ads & best quality]]></string>
+    <string name="pro">PRO</string>
+    <string name="artgen_pro_unlock">ArtGen Pro has been unlock</string>
+    <string name="no_ads_unlimited_access"><![CDATA[No ads & Unlimited access]]></string>
+    <string name="hasnot_save_yet">\"Your photo hasn\'t been saved yet\"</string>
+    <string name="do_you_really_want_to_exit">Do you really want to exit?</string>
+    <string name="lose_it">Lose it</string>
+    <string name="contact_email" translatable="false">product@azuraglobal.app</string>
+</resources>

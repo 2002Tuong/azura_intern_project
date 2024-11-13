@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    android:layout_marginEnd="@dimen/margin_1">
+
+    <View
+        android:id="@+id/colorPreview"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/background_shape_circle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/strokeInColor"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/background_stroke_white"
+        app:layout_constraintBottom_toBottomOf="@id/colorPreview"
+        app:layout_constraintEnd_toEndOf="@id/colorPreview"
+        app:layout_constraintStart_toStartOf="@id/colorPreview"
+        app:layout_constraintTop_toTopOf="@id/colorPreview"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/ivSelected"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin_1p5"
+        android:background="@drawable/icon_check_circle_gray"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/colorPreview"
+        app:layout_constraintEnd_toEndOf="@id/colorPreview"
+        app:layout_constraintStart_toStartOf="@id/colorPreview"
+        app:layout_constraintTop_toTopOf="@id/colorPreview"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

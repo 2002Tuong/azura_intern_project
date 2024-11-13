@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constrainInvite"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="10dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bg_dialog_rounded_re"
+        android:orientation="vertical"
+        android:paddingTop="100dp"
+        android:paddingBottom="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtInviteMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="@font/bevietnampro_regular"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/popup_request_wall_msg"
+            android:textColor="@color/color_selected_home_menu"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@id/btnLikeInvite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/shapeableImageView" />
+
+        <TextView
+            android:id="@+id/btnRequestWall"
+            style="@style/style_btn_dialog_rate"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/bg_btn_send_request_re"
+            android:text="@string/requested_wall_title"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/btnDislikeInvite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/btnSkip"
+            style="@style/style_btn_dialog_rate"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/bg_btn_dislike_rate_re"
+            android:gravity="center"
+            android:text="@string/skip_action"
+            android:textAllCaps="false"
+            android:textColor="#536295"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtDirectSearchMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/bevietnampro_regular"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:textColor="@color/color_selected_home_menu"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@id/btnLikeInvite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/shapeableImageView"
+            tools:text="@string/popup_request_wall_msg_direct_search" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ivHeader"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_above="@id/constrainInvite"
+        app:layout_constraintDimensionRatio="h,312:223"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/ImageInviteDialogStyle"
+        tools:src="@drawable/img_requestwall" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+

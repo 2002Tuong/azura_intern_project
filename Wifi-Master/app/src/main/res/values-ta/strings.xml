@@ -1,0 +1,23 @@
+<resources>
+	<string name="show_wifi_password">"வைஃபை கடவுச்சொல்லைக் காட்டு"</string>
+	<string name="all_connect_devices">"அனைத்து இணைக்க சாதனங்களும்"</string>
+	<string name="available_wifi_list">"கிடைக்கும் வைஃபை பட்டியல்"</string>
+	<string name="available_network">"கிடைக்கும் நெட்வொர்க்"</string>
+	<string name="wifi_shown">"உங்கள் இணைப்பிற்கு வைஃபை கடவுச்சொற்கள் காட்டப்பட்டுள்ளன"</string>
+	<string name="detect_devices">"உங்கள் வைஃபை உடன் இணைக்கும் அனைத்து சாதனங்களையும் கண்டறியவும்"</string>
+	<string name="scan_wifi">"அருகிலுள்ள வைஃபை நெட்வொர்க்கை ஸ்கேன் செய்து பகுப்பாய்வு செய்யுங்கள்"</string>
+	<string name="next">"அடுத்தது"</string>
+	<string name="contain_ads">"இந்த செயலில் விளம்பரங்கள் இருக்கலாம்"</string>
+	<string name="ask_grant_permission">"வைஃபை மேலாளர் பயன்பாடு அணுகல் இருப்பிட அனுமதியைப் பயன்படுத்துகிறது"</string>
+	<string name="grant_permission">"பெரிய அனுமதி"</string>
+	<string name="grant_permission_description">"தொடங்குவதற்கு, உங்கள் இருப்பிடத்தை அணுக எங்களுக்கு உங்கள் அனுமதி தேவை."</string>
+	<string name="ok">"சரி"</string>
+	<string name="cancel">"ரத்துசெய்"</string>
+	<string name="enter_password">"கடவுச்சொல்லை உள்ளிடவும்"</string>
+	<string name="connect">"இணைக்கவும்"</string>
+	<string name="show_password">"கடவுச்சொல்லை காட்டவும்"</string>
+	<string name="we_are_working_hard_for_a_better_user_experience">"சிறந்த பயனர் அனுபவத்திற்காக நாங்கள் கடுமையாக உழைக்கிறோம்"</string>
+	<string name="the_best_rating_star">"சிறந்த மதிப்பீட்டு நட்சத்திரம்"</string>
+	<string name="exit_popup_message">"உங்களிடமிருந்து கேட்க நாங்கள் விரும்புகிறோம். எங்கள் பயன்பாட்டை இன்னும் அருமையாக மாற்ற எங்களுக்கு உதவுங்கள்"</string>
+	<string name="no_exit">"இல்லை, வெளியேறு பயன்பாடு"</string>
+</resources>

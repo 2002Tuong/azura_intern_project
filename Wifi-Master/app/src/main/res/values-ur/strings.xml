@@ -1,0 +1,23 @@
+<resources>
+	<string name="show_wifi_password">"وائی ​​فائی پاس ورڈ دکھائیں"</string>
+	<string name="all_connect_devices">"تمام کنیکٹ ڈیوائسز"</string>
+	<string name="available_wifi_list">"وائی ​​فائی کی دستیاب فہرست"</string>
+	<string name="available_network">"دستیاب نیٹ ورک"</string>
+	<string name="wifi_shown">"آپ کے کنکشن کے لئے وائی فائی پاس ورڈ دکھائے گئے ہیں"</string>
+	<string name="detect_devices">"آپ کے وائی فائی سے منسلک تمام آلات کا پتہ لگائیں"</string>
+	<string name="scan_wifi">"قریبی وائی فائی نیٹ ورک کو اسکین اور تجزیہ کریں"</string>
+	<string name="next">"اگلے"</string>
+	<string name="contain_ads">"اس کارروائی میں اشتہارات شامل ہوسکتے ہیں"</string>
+	<string name="ask_grant_permission">"وائی ​​فائی مینیجر ایپ تک رسائی کی اجازت کی اجازت استعمال کرتی ہے"</string>
+	<string name="grant_permission">"عظیم الشان اجازت"</string>
+	<string name="grant_permission_description">"شروع کرنے کے ل we ، ہمیں آپ کے مقام تک رسائی کے ل your آپ کی اجازت کی ضرورت ہے۔"</string>
+	<string name="ok">"ٹھیک ہے"</string>
+	<string name="cancel">"منسوخ کریں"</string>
+	<string name="enter_password">"پاس ورڈ درج کریں"</string>
+	<string name="connect">"جڑیں"</string>
+	<string name="show_password">"پاسورڈ دکھاو"</string>
+	<string name="we_are_working_hard_for_a_better_user_experience">"ہم بہتر صارف کے تجربے کے لئے سخت محنت کر رہے ہیں"</string>
+	<string name="the_best_rating_star">"بہترین درجہ بندی کا ستارہ"</string>
+	<string name="exit_popup_message">"ہمیں آپ سے سننا پسند ہے۔ ہماری ایپ کو اور بھی خوفناک بنانے میں ہماری مدد کریں"</string>
+	<string name="no_exit">"نہیں ، ایگزٹ ایپ"</string>
+</resources>

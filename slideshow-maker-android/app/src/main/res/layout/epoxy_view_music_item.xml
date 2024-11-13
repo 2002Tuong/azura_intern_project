@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/greyscale_900"
+    android:gravity="start|center_vertical"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/frameThumbnail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/ivImage"
+                android:layout_width="@dimen/music_item_size"
+                android:layout_height="@dimen/music_item_size"
+                android:layout_gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearance="@style/shape_circle"
+                tools:src="@drawable/icon_empty_media" />
+
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                android:id="@+id/playingProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/shape_circle_overlay"
+                android:progress="40"
+                app:indicatorColor="@color/orange_900"
+                app:indicatorSize="48dp"
+                app:trackColor="@color/white"
+                app:trackThickness="2dp" />
+
+            <ImageButton
+                android:id="@+id/btnPause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/icon_play_24_white" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tvTitle"
+            style="@style/text_body2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_1p5"
+            android:layout_weight="1"
+            android:text="@string/camera" />
+
+        <ImageButton
+            android:id="@+id/btnTrim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_trim_sound" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnUse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/outline_secondary_btn"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:paddingHorizontal="@dimen/margin_2"
+            android:paddingVertical="@dimen/margin_1"
+            android:text="@string/use_label"
+            android:textColor="@color/greyscale_200" />
+
+        <FrameLayout
+            android:id="@+id/layoutDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                android:id="@+id/progressDownload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:progress="40"
+                app:indicatorColor="@color/orange_900"
+                app:indicatorSize="24dp"
+                app:trackColor="@color/white"
+                app:trackThickness="2dp" />
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_baseline_arrow_downward_24" />
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layoutAudioStat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvStart"
+            style="@style/text_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="00:04" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tvEnd"
+            style="@style/text_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="00:09" />
+    </LinearLayout>
+
+    <com.slideshowmaker.slideshow.ui.custom.SeekBarRangedView
+        android:id="@+id/audioSeekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_1"
+        app:backgroundColor="@color/greyscale_500"
+        app:backgroundHeight="4dp"
+        app:currentMin="10"
+        app:progressColor="@color/orange_900"
+        app:progressHeight="4dp"
+        app:rounded="true"
+        app:thumbNormalResource="@drawable/ic_thumb_handler" />
+</LinearLayout>

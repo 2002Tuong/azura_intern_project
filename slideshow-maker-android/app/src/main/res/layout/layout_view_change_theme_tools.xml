@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/greyscale900">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/themeListView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_0p5"
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toTopOf="@id/icAddPhotoInChangeTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:listitem="@layout/item_view_gs_transition_list" />
+
+        <ImageView
+            android:id="@+id/icAddPhotoInChangeTheme"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_marginBottom="@dimen/margin_1"
+            android:src="@drawable/round_add_photo_alternate"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/imageOfSlideShowListViewInChangeTheme"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/margin_0p5"
+            app:layout_constraintBottom_toBottomOf="@id/icAddPhotoInChangeTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/icAddPhotoInChangeTheme"
+            app:layout_constraintTop_toTopOf="@id/icAddPhotoInChangeTheme"
+            tools:listitem="@layout/item_view_image_list_in_slide_show" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="bs_info_title_normal_blood_sugar_level">सामान्य रक्त शर्करा स्तर</string>
+    <string name="bs_info_title_diabetes">मधुमेह</string>
+    <string name="bs_info_title_how_common_is_diabetes">मधुमेह कितना आम है?</string>
+    <string name="bs_info_title_diabetes_symptoms">मधुमेह के लक्षण</string>
+    <string name="bs_info_title_diabetes_types">मधुमेह के प्रकार</string>
+</resources>

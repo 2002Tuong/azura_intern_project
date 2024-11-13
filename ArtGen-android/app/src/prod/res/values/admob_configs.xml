@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_id" translatable="false">ca-app-pub-1073738218381839~6990311221</string>
+    <string name="banner" translatable="false">ca-app-pub-1073738218381839/6416376403</string>
+    <string name="app_open_ad" translatable="false">ca-app-pub-1073738218381839/9816565363</string>
+    <string name="inter_splash" translatable="false">ca-app-pub-1073738218381839/7437960794</string>
+    <string name="native_language" translatable="false">ca-app-pub-1073738218381839/9951516484</string>
+    <string name="native_onboarding" translatable="false">ca-app-pub-1073738218381839/5103294732</string>
+    <string name="native_style" translatable="false">ca-app-pub-1073738218381839/2477131396</string>
+    <string name="native_all_styles" translatable="false">ca-app-pub-1073738218381839/6012271479</string>
+    <string name="native_select_photo" translatable="false">ca-app-pub-1073738218381839/8503483692</string>
+    <string name="native_all_done" translatable="false">ca-app-pub-1073738218381839/9731707402</string>
+    <string name="reward_create" translatable="false">ca-app-pub-1073738218381839/2675344466</string>
+    <string name="reward_save" translatable="false">ca-app-pub-1073738218381839/5545692959</string>
+    <string name="native_result" translatable="false">ca-app-pub-1073738218381839/1362905360</string>
+</resources>

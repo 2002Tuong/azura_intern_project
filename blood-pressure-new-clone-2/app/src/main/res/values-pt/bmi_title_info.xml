@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="bmi_info_title_healthy_body_weight">Peso corporal saudável</string>
+    <string name="bmi_info_title_obesity">Obesidade</string>
+    <string name="bmi_info_title_obesity_causes">Causas da obesidade</string>
+    <string name="bmi_info_title_obesity_diagnosis">Diagnóstico de obesidade</string>
+    <string name="bmi_info_title_lifestyle_for_obesity">Estilo de vida para obesidade</string>
+    <string name="bmi_info_title_weight_loss_tips">Dicas para perder peso</string>
+</resources>

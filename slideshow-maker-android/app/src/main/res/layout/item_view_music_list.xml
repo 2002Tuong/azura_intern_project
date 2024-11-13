@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/greyscale_900">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/editMusicToolsArea"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:background="@color/greyscale900"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@id/musicInfoArea"
+        app:layout_constraintStart_toStartOf="@id/musicInfoArea"
+        app:layout_constraintTop_toBottomOf="@id/musicInfoArea">
+
+        <ImageView
+            android:id="@+id/icPlayAndPause"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_pause_24"
+            app:cornerRadiusImageView="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.slideshowmaker.slideshow.ui.custom.ControlSliderStartEnd
+            android:id="@+id/audioControllerEdit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/icPlayAndPause"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/musicInfoArea"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:background="@color/greyscale900"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iconMusic"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/icon_music_list_normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearance="@style/shape_circle" />
+
+        <TextView
+            android:id="@+id/musicNameLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/roboto_regular"
+            android:lines="1"
+            android:text="Music name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/normalTextSize"
+            app:layout_constraintBottom_toBottomOf="@id/iconMusic"
+            app:layout_constraintEnd_toStartOf="@id/btnTrim"
+            app:layout_constraintStart_toEndOf="@id/iconMusic"
+            app:layout_constraintTop_toTopOf="@id/iconMusic" />
+
+        <TextView
+            android:id="@+id/musicDurationLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/roboto_light"
+            android:lines="1"
+            android:text="03:10"
+            android:textColor="@color/grayA02"
+            android:textSize="@dimen/smallTextSize"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/iconMusic"
+            app:layout_constraintEnd_toEndOf="@id/musicNameLabel"
+            app:layout_constraintStart_toStartOf="@id/musicNameLabel" />
+
+        <ImageButton
+            android:id="@+id/btnTrim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_2"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_trim_sound"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/iconMusic"
+            app:layout_constraintEnd_toStartOf="@+id/buttonUseMusic"
+            app:layout_constraintTop_toTopOf="@id/iconMusic" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonUseMusic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_2"
+            android:background="@drawable/outline_secondary_btn"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:paddingHorizontal="@dimen/margin_2"
+            android:paddingVertical="@dimen/margin_1"
+            android:text="@string/use_label"
+            android:textColor="@color/orange_900"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@id/iconMusic"
+            app:layout_constraintEnd_toStartOf="@+id/layoutDownload"
+            app:layout_constraintTop_toTopOf="@id/iconMusic"
+            tools:visibility="visible" />
+
+        <FrameLayout
+            android:id="@+id/layoutDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_2"
+            app:layout_constraintBottom_toBottomOf="@id/iconMusic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/iconMusic">
+
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                android:id="@+id/progressDownload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:progress="0"
+                android:visibility="gone"
+                app:indicatorColor="@color/orange_900"
+                app:indicatorSize="24dp"
+                app:trackColor="@color/greyscale_800"
+                app:trackThickness="2dp" />
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_download"
+                app:tint="@color/white"/>
+        </FrameLayout>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="0dp"
+            android:layout_height="0.5dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/grayA02"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

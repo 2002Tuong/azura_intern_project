@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:behavior_draggable="true"
+    android:background="@drawable/bg_bottom_sheet_bar"
+    android:paddingHorizontal="@dimen/_12sdp"
+    android:paddingVertical="8dp"
+    android:layout_height="wrap_content">
+
+<!--    <com.google.android.material.bottomsheet.BottomSheetDragHandleView-->
+<!--        android:layout_width="@dimen/_32sdp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:background="#6B6F93"-->
+<!--        android:layout_height="@dimen/_4sdp"/>-->
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie"
+        android:layout_gravity="center"
+        app:lottie_rawRes="@raw/arrow_bounce"
+        android:layout_width="@dimen/_80sdp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:layout_height="@dimen/_80sdp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/btn_watch_ads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:background="@drawable/corner_radius_gradient_ripple"
+        android:orientation="vertical"
+        android:padding="@dimen/_8sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/tv_gen_art_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:text="@string/set_call_theme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_gen_art_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="watch video ads"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_gen_art_title" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:id="@+id/btn_premium"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginHorizontal="@dimen/_16sdp"-->
+<!--        android:layout_marginBottom="@dimen/_8sdp"-->
+<!--        android:background="@drawable/corner_radius_gradient_red"-->
+<!--        android:backgroundTint="#191D30"-->
+<!--        android:padding="@dimen/_8sdp"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/frAdsBanner"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imv_see_ads"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/ic_premium"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_premium_title"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/unlock_pro"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_premium_subtitle"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/no_ads_unlimited_access"-->
+<!--            app:layout_constraintEnd_toEndOf="@+id/tv_premium_title"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/tv_premium_title"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/tv_premium_title" />-->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+</androidx.appcompat.widget.LinearLayoutCompat>

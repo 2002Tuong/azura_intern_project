@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="hr_info_title_info_hr_heart_rate">心拍数</string><string name="hr_info_title_info_hr_resting_heart_rate">安静時の心拍数</string><string name="hr_info_title_info_hr_measure_resting_heart_rate">安静時の心拍数を測定する</string><string name="hr_info_title_info_hr_when_to_check_resting_heart_rate">安静時の心拍数をいつチェックするか?</string><string name="hr_info_title_info_hr_target_heart_rate">目標心拍数</string><string name="hr_info_title_info_hr_tachycardia">頻脈</string></resources>

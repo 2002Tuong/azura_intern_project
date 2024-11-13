@@ -1,0 +1,23 @@
+<resources>
+	<string name="show_wifi_password">"显示WiFi密码"</string>
+	<string name="all_connect_devices">"所有连接设备"</string>
+	<string name="available_wifi_list">"可用的WiFi列表"</string>
+	<string name="available_network">"可用网络"</string>
+	<string name="wifi_shown">"为您的连接显示WiFi密码"</string>
+	<string name="detect_devices">"检测连接到您的WiFi的所有设备"</string>
+	<string name="scan_wifi">"扫描和分析附近的WiFi网络"</string>
+	<string name="next">"下一个"</string>
+	<string name="contain_ads">"此操作可能包含广告"</string>
+	<string name="ask_grant_permission">"WiFi Manager应用程序使用访问位置许可"</string>
+	<string name="grant_permission">"盛大的许可"</string>
+	<string name="grant_permission_description">"要开始，我们需要您的许可才能访问您的位置。"</string>
+	<string name="ok">"好的"</string>
+	<string name="cancel">"取消"</string>
+	<string name="enter_password">"输入密码"</string>
+	<string name="connect">"连接"</string>
+	<string name="show_password">"显示密码"</string>
+	<string name="we_are_working_hard_for_a_better_user_experience">"我们正在努力争取更好的用户体验"</string>
+	<string name="the_best_rating_star">"最好的评分明星"</string>
+	<string name="exit_popup_message">"我们喜欢收到您的来信。帮助我们使我们的应用程序更加棒极了"</string>
+	<string name="no_exit">"不，退出应用"</string>
+</resources>

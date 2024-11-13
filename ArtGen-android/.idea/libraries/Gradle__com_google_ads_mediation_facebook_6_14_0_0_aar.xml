@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.ads.mediation:facebook:6.14.0.0@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/43bd95f01646f771d66f3033f95b6f70/transformed/facebook-6.14.0.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/43bd95f01646f771d66f3033f95b6f70/transformed/facebook-6.14.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/43bd95f01646f771d66f3033f95b6f70/transformed/facebook-6.14.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.ads.mediation/facebook/6.14.0.0/3c6a6c90dc7f1218cd7aa8d1af7b7ef17be22fab/facebook-6.14.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

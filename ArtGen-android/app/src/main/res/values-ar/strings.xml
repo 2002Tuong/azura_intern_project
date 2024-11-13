@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cw_next">"التالي"</string>
+    <string name="cw_get_started">"البدء"</string>
+    <string name="setting_language">"لغة"</string>
+    <string name="splash_loading_message">"قد يحتوي هذا الإجراء على إعلانات"</string>
+    <string name="loading_ads">"تحميل الإعلانات"</string>
+    <string name="pick_a_style">"اختر نمطًا"</string>
+    <string name="crop_photo">"قص الصورة"</string>
+    <string name="text_continue">"يكمل"</string>
+    <string name="genart_ai">"Genart AI"</string>
+    <string name="policy">"سياسة"</string>
+    <string name="setting">"إعدادات"</string>
+    <string name="selected_style_title">"النمط المختار (%s)"</string>
+    <string name="loading_gen_art_title">"منظمة العفو الدولية تصنع الفن السحري"</string>
+    <string name="loading_gen_art_message">"انتظر من فضلك…"</string>
+    <string name="gen_art_success_title">"كله تمام! فنك جاهز"</string>
+    <string name="view_now">"عرض الآن"</string>
+    <string name="see_all">"اظهار الكل"</string>
+    <string name="input_prompt">"موجه الإدخال"</string>
+    <string name="ex_beautiful_girl_in_the_dream_world">"على سبيل المثال: فتاة جميلة في عالم الأحلام"</string>
+    <string name="demo_image_optional">"الصورة التجريبية (اختياري)"</string>
+    <string name="generate_now">"توليد الآن"</string>
+    <string name="watch_video_ads">"شاهد إعلانات الفيديو"</string>
+    <string name="all_styles">"جميع الأنماط"</string>
+    <string name="result">"نتيجة"</string>
+    <string name="skip">"يتخطى"</string>
+    <string name="camera">"آلة تصوير"</string>
+    <string name="save">"يحفظ"</string>
+    <string name="create_more">"إنشاء المزيد"</string>
+    <string name="re_generate">"إعادة الجين"</string>
+    <string name="generate_more_style">"توليد المزيد من الأناقة"</string>
+    <string name="save_image_success">"حفظ نجاح الصورة"</string>
+    <string name="explore_various_styles">"استكشاف أنماط مختلفة"</string>
+    <string name="advanced_ai_technology">"تقنية AI المتقدمة"</string>
+    <string name="modern_trends">"الاتجاهات الحديثة"</string>
+    <string name="update_now">"تحديث الآن"</string>
+    <string name="later">"لاحقًا"</string>
+</resources>

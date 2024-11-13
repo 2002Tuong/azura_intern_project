@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_id" translatable="false">ca-app-pub-3120091646523605~9848376373</string>
+    <string name="inter_splash" translatable="false">ca-app-pub-3120091646523605/5091745852</string>
+    <string name="banner" translatable="false">ca-app-pub-3120091646523605/6732130583</string>
+    <string name="native_language" translatable="false">ca-app-pub-3120091646523605/4513161353</string>
+    <string name="appopen_resume" translatable="false">ca-app-pub-3120091646523605/1320817967</string>
+    <string name="native_onboarding" translatable="false">ca-app-pub-3120091646523605/5634671338</string>
+    <string name="inter_add" translatable="false">ca-app-pub-3120091646523605/8699818372</string>
+    <string name="native_edit" translatable="false">ca-app-pub-3120091646523605/2362436899</string>
+    <string name="native_history" translatable="false">ca-app-pub-3120091646523605/4274284362</string>
+    <string name="inter_history" translatable="false">ca-app-pub-3120091646523605/1914918170</string>
+    <string name="inter_info" translatable="false">ca-app-pub-3120091646523605/7119939554</string>
+    <string name="native_info" translatable="false">ca-app-pub-3120091646523605/5195687633</string>
+    <string name="native_language_setting" translatable="false">ca-app-pub-3120091646523605/1256442621</string>
+    <string name="inter_heart_rate" translatable="false">ca-app-pub-3120091646523605/5690511658</string>
+    <string name="native_heart_rate" translatable="false">ca-app-pub-3120091646523605/8353130178</string>
+    <string name="native_blood_pressure" translatable="false">ca-app-pub-3120091646523605/3746874598</string>
+    <string name="native_blood_sugar" translatable="false">ca-app-pub-3120091646523605/1120711259</string>
+    <string name="native_bmi" translatable="false">ca-app-pub-3120091646523605/4413885160</string>
+    <string name="inter_bmi" translatable="false">ca-app-pub-3120091646523605/9143467668</string>
+    <string name="inter_sugar" translatable="false">ca-app-pub-3120091646523605/3891140988</string>
+    <string name="inter_water" translatable="false">ca-app-pub-3120091646523605/4496564077</string>
+    <string name="inter_exit_app" translatable="false">ca-app-pub-5502309187737198/7159154039</string>
+    <string name="native_exit_app" translatable="false">ca-app-pub-5502309187737198/8336504336</string>
+    <string name="native_home" translatable="false">ca-app-pub-5502309187737198/6721180465</string>
+</resources>

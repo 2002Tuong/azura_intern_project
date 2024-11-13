@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_rounded_re"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/popup_feedback_app_title"
+                android:textColor="#343E60"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:id="@+id/checkBox1"
+                style="@style/CheckboxStyleDialogFeedback"
+                android:layout_marginTop="22dp"
+                android:text="@string/feedback_default_1"
+                android:button="@drawable/bg_checkbox_feedback_re"
+                android:paddingStart="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:id="@+id/checkBox4"
+                style="@style/CheckboxStyleDialogFeedback"
+                android:layout_marginTop="18dp"
+                android:text="@string/feedback_default_6"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:button="@drawable/bg_checkbox_feedback_re"
+                android:paddingStart="12dp"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/checkBox1" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:id="@+id/checkBox2"
+                style="@style/CheckboxStyleDialogFeedback"
+                android:layout_marginTop="18dp"
+                android:text="@string/feedback_default_2"
+                android:button="@drawable/bg_checkbox_feedback_re"
+                android:paddingStart="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/checkBox3" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/detailForCheckBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginEnd="12dp"
+                android:hint="@string/feedback_detail_2"
+                android:maxLines="3"
+                style="@style/TextViewContentStyle"
+                android:singleLine="true"
+                android:visibility="gone"
+                android:backgroundTint="#DBDDE0"
+                android:textColor="#343E60"
+                android:textSize="14sp"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:id="@+id/checkBox3"
+                style="@style/CheckboxStyleDialogFeedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="@string/feedback_default_3"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:button="@drawable/bg_checkbox_feedback_re"
+                android:paddingStart="12dp"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/checkBox4" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:id="@+id/checkBox5"
+                style="@style/CheckboxStyleDialogFeedback"
+                android:layout_marginTop="22dp"
+                android:button="@drawable/bg_checkbox_feedback_re"
+                android:paddingStart="12dp"
+                android:text="@string/feedback_default_5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/detailForCheckBox2" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:hint="@string/popup_feedback_app_others"
+        android:maxLines="3"
+        android:backgroundTint="#DBDDE0"
+        android:fontFamily="@font/bevietnampro_regular"
+        android:textColor="#343E60"
+        android:textSize="16sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/ratingButton"
+        style="@style/PositiveButton"
+        android:layout_width="160dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/bg_btn_send_request_re"
+        android:text="@string/popup_feedback_app_send"
+        android:textColor="@color/white"
+        app:backgroundTint="@null" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnOk"
+        style="@style/OutlinedButton"
+        android:layout_width="160dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/bg_btn_dislike_rate_re"
+        android:text="@string/close_popup_rate_msg"
+        android:textColor="#536295"
+        app:backgroundTint="@null" />
+
+</LinearLayout>

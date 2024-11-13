@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <include
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/nav_bar"
+        layout="@layout/layout_app_bar"/>
+
+    <com.wifi.wificharger.ui.speedtest.GaugeView
+        android:id="@+id/gaugeView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:gauge_angles="360"
+        app:gauge_backgroundColor="@color/gaugesBackground"
+        app:gauge_fillColor="@color/blue_800"
+        app:gauge_startAngle="-90"
+        app:gauge_strokeWidth="@dimen/gaugeThickness"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/_16sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nav_bar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/gaugeView"
+        app:layout_constraintBottom_toBottomOf="@id/gaugeView"
+        app:layout_constraintStart_toStartOf="@id/gaugeView"
+        app:layout_constraintEnd_toEndOf="@id/gaugeView"
+        android:id="@+id/tv_gauge"
+        android:textColor="@color/blue_800"
+        android:textSize="42sp"
+        tools:text="207.08"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_ping"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:layout_height="wrap_content"
+        android:text="Ping"
+        android:textAllCaps="true"
+        android:textColor="@color/grey_800"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_dl"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gaugeView" />
+
+    <ImageView
+        android:id="@+id/ic_ping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:src="@drawable/ic_ping"
+        app:layout_constraintEnd_toEndOf="@+id/tv_ping"
+        app:layout_constraintStart_toStartOf="@id/tv_ping"
+        app:layout_constraintTop_toBottomOf="@id/tv_ping" />
+
+    <TextView
+        android:id="@+id/tv_ping_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-- Mbps"
+        android:textAllCaps="false"
+        android:textColor="@color/grey_900"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintEnd_toEndOf="@+id/ic_ping"
+        app:layout_constraintStart_toStartOf="@+id/ic_ping"
+        app:layout_constraintTop_toBottomOf="@id/ic_ping" />
+
+    <TextView
+        android:id="@+id/tv_dl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download"
+        android:textAllCaps="true"
+        android:textColor="@color/grey_800"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_ul"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_ping"
+        app:layout_constraintTop_toTopOf="@+id/tv_ping" />
+
+    <ImageView
+        android:id="@+id/ic_dl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_download"
+        android:layout_marginTop="@dimen/_8sdp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_dl"
+        app:layout_constraintStart_toStartOf="@id/tv_dl"
+        app:layout_constraintTop_toBottomOf="@id/tv_dl" />
+
+    <TextView
+        android:id="@+id/tv_dl_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-- Mbps"
+        android:textAllCaps="false"
+        android:textColor="@color/grey_900"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintEnd_toEndOf="@+id/ic_dl"
+        app:layout_constraintStart_toStartOf="@+id/ic_dl"
+        app:layout_constraintTop_toBottomOf="@id/ic_dl" />
+
+    <TextView
+        android:id="@+id/tv_ul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:textAllCaps="true"
+        android:textColor="@color/grey_800"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_dl"
+        app:layout_constraintTop_toTopOf="@+id/tv_dl" />
+
+    <ImageView
+        android:id="@+id/ic_ul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_upload"
+        android:layout_marginTop="@dimen/_8sdp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_ul"
+        app:layout_constraintStart_toStartOf="@id/tv_ul"
+        app:layout_constraintTop_toBottomOf="@id/tv_ul" />
+
+    <TextView
+        android:id="@+id/tv_ul_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-- Mbps"
+        android:textAllCaps="false"
+        android:textColor="@color/grey_900"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintEnd_toEndOf="@+id/ic_ul"
+        app:layout_constraintStart_toStartOf="@+id/ic_ul"
+        app:layout_constraintTop_toBottomOf="@id/ic_ul" />
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="@dimen/_16sdp"
+        android:paddingVertical="@dimen/_8sdp"
+        android:text="Begin Test"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_24sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dl_value" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

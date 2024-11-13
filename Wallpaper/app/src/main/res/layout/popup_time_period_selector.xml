@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_dialog_rounded_re"
+    android:elevation="2dp"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/dialogConfirmTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="start"
+        android:text="@string/title_wallpaper_automatically_change_time"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/roboto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/dialogConfirmTitle"
+        tools:ignore="RtlSymmetry">
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/option15Minutes"
+            style="@style/RadioButton"
+            android:checked="true"
+            android:text="@string/fifteen_minutes"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/option30Minutes"
+            style="@style/RadioButton"
+            android:text="@string/thirty_minutes"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/option1Hour"
+            style="@style/RadioButton"
+            android:text="@string/one_hour"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/option2Hours"
+            style="@style/RadioButton"
+            android:text="@string/two_hours"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/option6Hours"
+            style="@style/RadioButton"
+            android:text="@string/six_hours"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/option12Hours"
+            style="@style/RadioButton"
+            android:text="@string/twelve_hours"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/option1Day"
+            style="@style/RadioButton"
+            android:text="@string/one_day"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/option3Days"
+            style="@style/RadioButton"
+            android:text="@string/three_days"
+            android:textStyle="bold"/>
+
+    </RadioGroup>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/confirmButton"
+        style="@style/PositiveButton"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:text="@string/accept_action"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/radioOptions" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

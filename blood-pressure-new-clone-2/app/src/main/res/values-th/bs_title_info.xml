@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="bs_info_title_normal_blood_sugar_level">ระดับน้ำตาลในเลือดปกติ</string>
+    <string name="bs_info_title_diabetes">โรคเบาหวาน</string>
+    <string name="bs_info_title_how_common_is_diabetes">เบาหวานพบได้บ่อยแค่ไหน?</string>
+    <string name="bs_info_title_diabetes_symptoms">อาการเบาหวาน</string>
+    <string name="bs_info_title_diabetes_types">ประเภทของโรคเบาหวาน</string>
+</resources>

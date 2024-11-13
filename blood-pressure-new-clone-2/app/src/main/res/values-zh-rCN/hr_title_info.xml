@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="hr_info_title_info_hr_heart_rate">心率</string><string name="hr_info_title_info_hr_resting_heart_rate">静息心率</string><string name="hr_info_title_info_hr_measure_resting_heart_rate">测量静息心率</string><string name="hr_info_title_info_hr_when_to_check_resting_heart_rate">何时检查您的静息心率？</string><string name="hr_info_title_info_hr_target_heart_rate">目标心率</string><string name="hr_info_title_info_hr_tachycardia">心动过速</string></resources>

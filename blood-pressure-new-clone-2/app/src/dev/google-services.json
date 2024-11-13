@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "231363703906",
+    "project_id": "blood-pressure-22815",
+    "storage_bucket": "blood-pressure-22815.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231363703906:android:65c49d21568f837ac40d3b",
+        "android_client_info": {
+          "package_name": "com.bloodpressure.app.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpLhnvKLMoiHAjpHkF0LICRoxzXKi6npI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

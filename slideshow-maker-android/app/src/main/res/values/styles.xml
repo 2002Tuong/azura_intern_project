@@ -1,0 +1,185 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/greyscale_200</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/greyscale900</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:editTextColor">@android:color/white</item>
+        <item name="android:itemBackground">@color/white</item>
+        <item name="popupMenuStyle">@style/VideoMaker_PopupMenu</item>
+
+    </style>
+
+    <style name="SplashScreen" parent="AppTheme">
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+
+    </style>
+
+    <style name="AdTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:background">#EDF1F4</item>
+        <item name="android:windowBackground">#EDF1F4</item>
+        <item name="android:windowExitAnimation">@null</item>
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+
+    <style name="PickPhotoScreenTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+    </style>
+
+
+    <style name="button_tools_in_slide_show_activity">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:layout_marginStart">6dp</item>
+        <item name="android:layout_marginEnd">6dp</item>
+    </style>
+
+    <style name="ChooseStickerLayout_TopBar_CollectionIcon">
+        <item name="android:padding">6dp</item>
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+    </style>
+
+    <style name="Button_In_Dialog">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">42dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:elevation">1dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="MineCustomTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="LoadingDialogStyle" parent="Theme.MaterialComponents.Light.Dialog" />
+
+    <style name="FullScreenDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+
+    <style name="CenterDialog" parent="Base.Theme.AppCompat.Dialog">
+        <item name="android:windowMinWidthMajor">80%</item>
+        <item name="android:windowMinWidthMinor">80%</item>
+    </style>
+
+
+    <style name="rounded_corner_image_view">
+        <item name="cornerSize">4dp</item>
+    </style>
+
+    <style name="rounded_corner_16_image_view">
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="text_body">
+        <item name="android:textColor">@color/greyscale_200</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_body2">
+        <item name="android:textColor">@color/greyscale_200</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="shape_rounded_corner_8dp">
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="shape_rounded_corner_12dp">
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="text_small">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="text_heading_5">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/greyscale_200</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="text_large">
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/greyscale_200</item>
+    </style>
+
+    <style name="RatingBarStyle" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="colorControlNormal">@color/greyscale_200</item>
+        <item name="colorControlActivated">@color/white</item>
+
+    </style>
+
+    <style name="shape_circle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="text_h1">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="VideoMaker_PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:itemBackground">@color/greyscale_800</item>
+        <item name="android:popupBackground">@color/greyscale_800</item>
+        <item name="colorPrimary">@color/greyscale_800</item>
+
+    </style>
+
+    <style name="BottomSheetStyle" parent="Theme.Design.BottomSheetDialog">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+    </style>
+    <style name="DialogTheme" >
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowFrame">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="img_round_corner">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+</resources>

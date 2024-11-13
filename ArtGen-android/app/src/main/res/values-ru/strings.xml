@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cw_next">"Следующий"</string>
+    <string name="cw_get_started">"Начать"</string>
+    <string name="setting_language">"Язык"</string>
+    <string name="splash_loading_message">"Это действие может содержать рекламу"</string>
+    <string name="loading_ads">"Загрузка рекламы"</string>
+    <string name="pick_a_style">"Выберите стиль"</string>
+    <string name="crop_photo">"Кадрировать фотографию"</string>
+    <string name="text_continue">"Продолжать"</string>
+    <string name="genart_ai">"Дженарт Ай"</string>
+    <string name="policy">"Политика"</string>
+    <string name="setting">"Настройки"</string>
+    <string name="selected_style_title">"Выбранный стиль (%s)"</string>
+    <string name="loading_gen_art_title">"ИИ делает магическое искусство"</string>
+    <string name="loading_gen_art_message">"Пожалуйста, подождите…"</string>
+    <string name="gen_art_success_title">"Все сделано! Ваше искусство готово"</string>
+    <string name="view_now">"Смотри сейчас"</string>
+    <string name="see_all">"Увидеть все"</string>
+    <string name="input_prompt">"Ввод подсказка"</string>
+    <string name="ex_beautiful_girl_in_the_dream_world">"Пример: Красивая девушка в мире мечты"</string>
+    <string name="demo_image_optional">"Демо -изображение (необязательно)"</string>
+    <string name="generate_now">"Генерировать сейчас"</string>
+    <string name="watch_video_ads">"Смотреть видеообъявления"</string>
+    <string name="all_styles">"Все стили"</string>
+    <string name="result">"Результат"</string>
+    <string name="skip">"Пропускать"</string>
+    <string name="camera">"Камера"</string>
+    <string name="save">"Сохранять"</string>
+    <string name="create_more">"Создать больше"</string>
+    <string name="re_generate">"Перегенерировать"</string>
+    <string name="generate_more_style">"Генерировать больше стиля"</string>
+    <string name="save_image_success">"Сохранить успех изображения"</string>
+    <string name="explore_various_styles">"Исследуйте различные стили"</string>
+    <string name="advanced_ai_technology">"Усовершенствованная технология ИИ"</string>
+    <string name="modern_trends">"Современные тенденции"</string>
+    <string name="update_now">"Обновить сейчас"</string>
+    <string name="later">"Позже"</string>
+</resources>

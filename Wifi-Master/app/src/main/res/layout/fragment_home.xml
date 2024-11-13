@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F8F9">
+
+    <include
+        android:id="@+id/nav_bar"
+        layout="@layout/layout_app_bar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:background="@drawable/rounded_background"
+        android:layout_margin="@dimen/_12sdp"
+        android:layout_marginHorizontal="@dimen/_16sdp"
+        app:layout_constraintTop_toBottomOf="@id/nav_bar"
+        app:layout_constraintBottom_toTopOf="@id/frAds"
+        android:layout_height="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.wifi.wificharger.ui.speedtest.GaugeView
+                android:id="@+id/gaugeView"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/rounded_background"
+                app:gauge_angles="270"
+                app:gauge_backgroundColor="@color/gaugesBackground"
+                app:gauge_fillColor="@color/blue_800"
+                app:gauge_startAngle="135"
+                app:gauge_strokeWidth="@dimen/gaugeThickness"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_gauge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue_800"
+                android:textSize="36sp"
+                app:layout_constraintBottom_toBottomOf="@id/gaugeView"
+                app:layout_constraintEnd_toEndOf="@id/gaugeView"
+                app:layout_constraintStart_toStartOf="@id/gaugeView"
+                app:layout_constraintTop_toTopOf="@id/gaugeView"
+                tools:text="96%" />
+
+            <TextView
+                android:id="@+id/tv_gauge_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Signals"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@id/tv_gauge"
+                app:layout_constraintStart_toStartOf="@id/tv_gauge"
+                app:layout_constraintTop_toBottomOf="@id/tv_gauge" />
+
+            <FrameLayout
+                android:id="@+id/frAdsNative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/gaugeView">
+
+                <include
+                    android:id="@+id/includeNative"
+                    layout="@layout/small_ads_native_non_media_shimmer"
+                    android:visibility="visible" />
+            </FrameLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/homeRecyclerView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:background="@drawable/rounded_background"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/frAdsNative"
+                app:layout_constraintVertical_bias="0" />
+
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/gaugeGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:constraint_referenced_ids="gaugeView,tv_gauge,tv_gauge_des" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+
+
+    <LinearLayout
+        android:id="@+id/frAds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/grey_600"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/grey_600" />
+
+        <include
+            android:id="@+id/banner_ads"
+            layout="@layout/layout_banner_control" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.emopass.antitheftalarm.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_setting"
+            app:destination="@+id/nav_setting"
+            app:enterAnim="@anim/pull_in_right"
+            app:exitAnim="@anim/push_out_left"
+            app:popEnterAnim="@anim/pull_in_left"
+            app:popExitAnim="@anim/push_out_right" />
+
+        <action
+            android:id="@+id/action_home_to_kidzone"
+            app:destination="@+id/nav_kidzone"
+            app:enterAnim="@anim/pull_in_right"
+            app:exitAnim="@anim/push_out_left"
+            app:popEnterAnim="@anim/pull_in_left"
+            app:popExitAnim="@anim/push_out_right" />
+
+        <action
+            android:id="@+id/action_home_to_detection"
+            app:destination="@+id/nav_detection"
+            app:enterAnim="@anim/pull_in_right"
+            app:exitAnim="@anim/push_out_left"
+            app:popEnterAnim="@anim/pull_in_left"
+            app:popExitAnim="@anim/push_out_right" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.emopass.antitheftalarm.ui.setting.SetttingFragment"
+        tools:layout="@layout/fragment_setting">
+        <action
+            android:id="@+id/action_setting_to_lock_options"
+            app:destination="@+id/nav_lock_option"
+            app:enterAnim="@anim/pull_in_right"
+            app:exitAnim="@anim/push_out_left"
+            app:popEnterAnim="@anim/pull_in_left"
+            app:popExitAnim="@anim/push_out_right" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_kidzone"
+        android:name="com.emopass.antitheftalarm.ui.kidZone.KidZoneFragment"
+        tools:layout="@layout/fragment_kidzone" />
+
+    <fragment
+        android:id="@+id/nav_detection"
+        android:name="com.emopass.antitheftalarm.ui.dectection.DetectionFragment"
+        tools:layout="@layout/fragment_detection" />
+
+    <fragment
+        android:id="@+id/nav_intruder"
+        android:name="com.emopass.antitheftalarm.ui.intruderSelfie.IntruderSelfieFragment"
+        tools:layout="@layout/fragment_intruder_selfie" />
+
+    <fragment
+        android:id="@+id/nav_lock_option"
+        android:name="com.emopass.antitheftalarm.ui.lockOption.LockOptionFragment"
+        tools:layout="@layout/fragment_lock_option">
+        <action
+            android:id="@+id/action_lock_option_to_intruder"
+            app:destination="@+id/nav_intruder"
+            app:enterAnim="@anim/pull_in_right"
+            app:exitAnim="@anim/push_out_left"
+            app:popEnterAnim="@anim/pull_in_left"
+            app:popExitAnim="@anim/push_out_right" />
+    </fragment>
+
+</navigation>

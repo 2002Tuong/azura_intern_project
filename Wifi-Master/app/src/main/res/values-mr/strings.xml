@@ -1,0 +1,23 @@
+<resources>
+	<string name="show_wifi_password">"वायफाय संकेतशब्द दर्शवा"</string>
+	<string name="all_connect_devices">"सर्व कनेक्ट डिव्हाइस"</string>
+	<string name="available_wifi_list">"उपलब्ध वायफाय यादी"</string>
+	<string name="available_network">"उपलब्ध नेटवर्क"</string>
+	<string name="wifi_shown">"आपल्या कनेक्शनसाठी वायफाय संकेतशब्द दर्शविले आहेत"</string>
+	<string name="detect_devices">"आपल्या वायफायशी कनेक्ट होणारी सर्व डिव्हाइस शोधा"</string>
+	<string name="scan_wifi">"जवळील वायफाय नेटवर्क स्कॅन आणि विश्लेषण करा"</string>
+	<string name="next">"पुढे"</string>
+	<string name="contain_ads">"या क्रियेमध्ये जाहिराती असू शकतात"</string>
+	<string name="ask_grant_permission">"वायफाय मॅनेजर अ‍ॅप प्रवेश स्थान परवानगी वापरते"</string>
+	<string name="grant_permission">"भव्य परवानगी"</string>
+	<string name="grant_permission_description">"प्रारंभ करण्यासाठी, आम्हाला आपल्या स्थानावर प्रवेश करण्यासाठी आपल्या परवानगीची आवश्यकता आहे."</string>
+	<string name="ok">"ठीक आहे"</string>
+	<string name="cancel">"रद्द करा"</string>
+	<string name="enter_password">"पासवर्ड टाका"</string>
+	<string name="connect">"कनेक्ट करा"</string>
+	<string name="show_password">"संकेतशब्द दर्शवा"</string>
+	<string name="we_are_working_hard_for_a_better_user_experience">"आम्ही चांगल्या वापरकर्त्याच्या अनुभवासाठी कठोर परिश्रम करीत आहोत"</string>
+	<string name="the_best_rating_star">"सर्वोत्कृष्ट रेटिंग स्टार"</string>
+	<string name="exit_popup_message">"आम्हाला आपल्याकडून ऐकायला आवडते. आम्हाला आमचा अॅप आणखी छान बनविण्यात मदत करा"</string>
+	<string name="no_exit">"नाही, एक्झिट अॅप"</string>
+</resources>

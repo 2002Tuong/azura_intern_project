@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cw_next">"Próximo"</string>
+    <string name="cw_get_started">"Iniciar"</string>
+    <string name="setting_language">"Linguagem"</string>
+    <string name="splash_loading_message">"Esta ação pode conter anúncios"</string>
+    <string name="loading_ads">"Anúncios de carregamento"</string>
+    <string name="pick_a_style">"Escolha um estilo"</string>
+    <string name="crop_photo">"Foto da colheita"</string>
+    <string name="text_continue">"Continuar"</string>
+    <string name="genart_ai">"Genart AI"</string>
+    <string name="policy">"Política"</string>
+    <string name="setting">"Configurações"</string>
+    <string name="selected_style_title">"Estilo escolhido (%s)"</string>
+    <string name="loading_gen_art_title">"Ai está fazendo arte mágica"</string>
+    <string name="loading_gen_art_message">"Por favor, aguarde…"</string>
+    <string name="gen_art_success_title">"Tudo feito! Sua arte está pronta"</string>
+    <string name="view_now">"Veja Agora"</string>
+    <string name="see_all">"Veja tudo"</string>
+    <string name="input_prompt">"Prompt de entrada"</string>
+    <string name="ex_beautiful_girl_in_the_dream_world">"Ex: linda garota no mundo dos sonhos"</string>
+    <string name="demo_image_optional">"Imagem de demonstração (opcional)"</string>
+    <string name="generate_now">"Gerar agora"</string>
+    <string name="watch_video_ads">"Assista a anúncios de vídeo"</string>
+    <string name="all_styles">"Todos os estilos"</string>
+    <string name="result">"Resultado"</string>
+    <string name="skip">"Pular"</string>
+    <string name="camera">"Câmera"</string>
+    <string name="save">"Salvar"</string>
+    <string name="create_more">"Crie mais"</string>
+    <string name="re_generate">"Regenerado"</string>
+    <string name="generate_more_style">"Gerar mais estilo"</string>
+    <string name="save_image_success">"Salve o sucesso da imagem"</string>
+    <string name="explore_various_styles">"Explore vários estilos"</string>
+    <string name="advanced_ai_technology">"Tecnologia avançada de IA"</string>
+    <string name="modern_trends">"Tendências modernas"</string>
+    <string name="update_now">"Atualizar agora"</string>
+    <string name="later">"Mais tarde"</string>
+</resources>

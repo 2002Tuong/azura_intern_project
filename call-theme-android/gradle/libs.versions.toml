@@ -1,0 +1,97 @@
+[versions]
+agp = "8.2.1"
+androidSpinkit = "1.4.0"
+androidx-test-ext-junit = "1.1.5"
+appcompat = "1.6.1"
+applovin = "12.1.0.0"
+billing-ktx = "6.1.0"
+circleimageview = "3.1.0"
+core-ktx = "1.12.0"
+espresso-core = "3.5.1"
+facebook = "6.16.0.0"
+firebase-config-ktx = "21.6.0"
+fyber = "8.2.5.0"
+glide = "4.16.0"
+gradle-versions = "0.50.0"
+gson = "2.10.1"
+inmobi = "10.6.2.0"
+ironsource = "7.6.1.0"
+jodaTime = "2.10.14"
+junit = "4.13.2"
+koin-android = "3.5.3"
+kotlin = "1.9.22"
+kotlinx-serialization-json = "1.5.0"
+legacy-support-v4 = "1.0.0"
+lifecycle-livedata-ktx = "2.7.0"
+material = "1.11.0"
+mintegral = "16.5.91.0"
+navigation-fragment-ktx = "2.7.6"
+pangle = "5.7.0.1.0"
+play-services-ads = "22.6.0"
+preference-ktx = "1.2.1"
+review-ktx = "2.0.1"
+shimmer = "0.5.0"
+timber = "5.0.1"
+unity = "4.9.2.0"
+unityAds = "4.8.0"
+user-messaging-platform = "2.1.0"
+version-catalog-update = "0.8.3"
+vungle = "7.1.0.0"
+lottie="6.3.0"
+
+[libraries]
+android-spinKit = { module = "com.github.ybq:Android-SpinKit", version.ref = "androidSpinkit" }
+androidx-legacy-support-v4 = { module = "androidx.legacy:legacy-support-v4", version.ref = "legacy-support-v4" }
+androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle-livedata-ktx" }
+androidx-lifecycle-process = { module = "androidx.lifecycle:lifecycle-process", version.ref = "lifecycle-livedata-ktx" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle-livedata-ktx" }
+androidx-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigation-fragment-ktx" }
+androidx-navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigation-fragment-ktx" }
+androidx-preference-ktx = { module = "androidx.preference:preference-ktx", version.ref = "preference-ktx" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+billing = { module = "com.android.billingclient:billing", version.ref = "billing-ktx" }
+billing-ktx = { module = "com.android.billingclient:billing-ktx", version.ref = "billing-ktx" }
+circleimageview = { module = "de.hdodenhof:circleimageview", version.ref = "circleimageview" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+firebase-analytics-ktx = { module = "com.google.firebase:firebase-analytics-ktx" }
+firebase-bom = "com.google.firebase:firebase-bom:32.7.0"
+firebase-config-ktx = { module = "com.google.firebase:firebase-config-ktx", version.ref = "firebase-config-ktx" }
+firebase-crashlytics-ktx = { module = "com.google.firebase:firebase-crashlytics-ktx" }
+firebase-messaging-ktx = { module = "com.google.firebase:firebase-messaging-ktx" }
+firebase-perf-ktx = { module = "com.google.firebase:firebase-perf-ktx" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+joda-time = { module = "joda-time:joda-time", version.ref = "jodaTime" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+koin-android = { module = "io.insert-koin:koin-android", version.ref = "koin-android" }
+koin-android-compat = { module = "io.insert-koin:koin-android-compat", version.ref = "koin-android" }
+koin-core = { module = "io.insert-koin:koin-core", version.ref = "koin-android" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization-json" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+mediation-applovin = { group = "com.google.ads.mediation", name = "applovin", version.ref = "applovin" }
+mediation-facebook = { group = "com.google.ads.mediation", name = "facebook", version.ref = "facebook" }
+mediation-fyber = { group = "com.google.ads.mediation", name = "fyber", version.ref = "fyber" }
+mediation-inmobi = { group = "com.google.ads.mediation", name = "inmobi", version.ref = "inmobi" }
+mediation-ironsource = { group = "com.google.ads.mediation", name = "ironsource", version.ref = "ironsource" }
+mediation-mintegral = { group = "com.google.ads.mediation", name = "mintegral", version.ref = "mintegral" }
+mediation-pangle = { group = "com.google.ads.mediation", name = "pangle", version.ref = "pangle" }
+mediation-unity = { group = "com.google.ads.mediation", name = "unity", version.ref = "unity" }
+mediation-unity-ads = { module = "com.unity3d.ads:unity-ads", version.ref = "unityAds" }
+mediation-vungle = { group = "com.google.ads.mediation", name = "vungle", version.ref = "vungle" }
+play-services-ads = { module = "com.google.android.gms:play-services-ads", version.ref = "play-services-ads" }
+review-ktx = { module = "com.google.android.play:review-ktx", version.ref = "review-ktx" }
+shimmer = { module = "com.facebook.shimmer:shimmer", version.ref = "shimmer" }
+timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
+user-messaging-platform = { module = "com.google.android.ump:user-messaging-platform", version.ref = "user-messaging-platform" }
+lottie = {module = "com.airbnb.android:lottie", version.ref="lottie"}
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+devtoolKsp = { id = "com.google.devtools.ksp", version = "1.9.22-1.0.16" }
+firebaseCrashlytics = { id = "com.google.firebase.crashlytics",version = "2.9.9" }
+firebasePerf = { id = "com.google.firebase.firebase-perf", version = "1.4.2" }
+gmsGoogleServices = { id = "com.google.gms.google-services", version = "4.4.0" }
+versionCatalogUpdate = { id = "nl.littlerobots.version-catalog-update", version.ref = "version-catalog-update" }
+gradle-versions = { id = "com.github.ben-manes.versions", version.ref = "gradle-versions" }

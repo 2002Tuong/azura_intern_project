@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="bs_info_title_normal_blood_sugar_level">正常な血糖値</string>
+    <string name="bs_info_title_diabetes">糖尿病</string>
+    <string name="bs_info_title_how_common_is_diabetes">糖尿病はどのくらい一般的ですか?</string>
+    <string name="bs_info_title_diabetes_symptoms">糖尿病の症状</string>
+    <string name="bs_info_title_diabetes_types">糖尿病の種類</string>
+</resources>

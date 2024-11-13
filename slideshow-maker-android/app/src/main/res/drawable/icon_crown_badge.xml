@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="20dp"
+    android:height="20dp"
+    android:viewportWidth="20"
+    android:viewportHeight="20">
+    <path
+        android:fillColor="@color/greyscale_200"
+        android:pathData="M10,10m-9.5,0a9.5,9.5 0,1 1,19 0a9.5,9.5 0,1 1,-19 0"
+        android:strokeWidth="1"
+        android:strokeColor="@color/white" />
+    <group>
+        <clip-path android:pathData="M4,4h12v12h-12z" />
+        <path android:pathData="M15.851,7.569C15.732,7.502 15.573,7.5 15.453,7.565L13.435,8.629C13.358,8.67 13.303,8.735 13.286,8.808C13.267,8.881 13.286,8.957 13.339,9.019C13.455,9.158 13.516,9.319 13.516,9.486C13.516,9.952 13.042,10.33 12.461,10.33C11.879,10.33 11.406,9.952 11.406,9.486C11.406,9.213 11.575,8.955 11.857,8.796C12.016,8.707 12.054,8.532 11.943,8.405L10.288,6.513C10.157,6.362 9.843,6.362 9.712,6.513L8.057,8.405C7.946,8.532 7.984,8.707 8.143,8.796C8.425,8.955 8.594,9.213 8.594,9.487C8.594,9.952 8.121,10.33 7.539,10.33C6.957,10.33 6.484,9.952 6.484,9.487C6.484,9.319 6.545,9.158 6.662,9.019C6.714,8.957 6.733,8.881 6.714,8.808C6.697,8.735 6.642,8.67 6.565,8.629L4.547,7.565C4.426,7.5 4.268,7.502 4.149,7.569C4.03,7.636 3.975,7.755 4.01,7.867L5.44,12.367C5.484,12.509 5.656,12.604 5.839,12.576C8.601,12.208 11.399,12.208 14.161,12.576C14.18,12.579 14.2,12.58 14.219,12.58C14.377,12.58 14.52,12.494 14.56,12.367L15.99,7.867C16.025,7.755 15.97,7.636 15.851,7.569Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:endX="10"
+                    android:endY="6.4"
+                    android:startX="10"
+                    android:startY="12.581"
+                    android:type="linear">
+                    <item
+                        android:color="#FFF37A39"
+                        android:offset="0" />
+                    <item
+                        android:color="#FFFFE600"
+                        android:offset="0.677" />
+                </gradient>
+            </aapt:attr>
+        </path>
+    </group>
+</vector>

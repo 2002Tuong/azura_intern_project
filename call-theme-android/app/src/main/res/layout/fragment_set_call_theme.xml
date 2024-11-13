@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/neutral_900">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/call_background"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:scaleType="centerCrop" />-->
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="#33000000" />-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/call_holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/scrollViewPreview"
+            android:layout_width="match_parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:fillViewport="true"
+            app:layout_constraintBottom_toTopOf="@id/frAds"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/call_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop" />
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:orientation="horizontal"
+            android:background="@color/white_with_opacity_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <ImageButton
+                android:id="@+id/btGoBack"
+                android:layout_width="@dimen/toolbar_button_size_large"
+                android:layout_height="@dimen/toolbar_button_size_large"
+                android:background="@drawable/icon_goback"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/white" />
+
+            <View
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/toolbar_button_size_large"/>
+
+            <ImageButton
+                android:id="@+id/btGoPremium"
+                android:layout_width="@dimen/toolbar_button_size_large"
+                android:layout_height="@dimen/toolbar_button_size_large"
+                android:background="@drawable/icon_go_premium"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                app:tint="@color/white" />
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/pickRingtoneButton"-->
+<!--                android:layout_width="@dimen/toolbar_button_size_large"-->
+<!--                android:layout_height="@dimen/toolbar_button_size_large"-->
+<!--                android:background="@drawable/ic_pick_ringtone"-->
+<!--                android:foreground="?attr/selectableItemBackgroundBorderless"-->
+<!--                app:tint="@color/white" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/editThemeButton"-->
+<!--                android:layout_width="@dimen/toolbar_button_size_large"-->
+<!--                android:layout_height="@dimen/toolbar_button_size_large"-->
+<!--                android:layout_marginHorizontal="10dp"-->
+<!--                android:background="@drawable/ic_edit_theme"-->
+<!--                android:foreground="?attr/selectableItemBackgroundBorderless"-->
+<!--                app:tint="@color/white" />-->
+
+            <ImageButton
+                android:id="@+id/previewButton"
+                android:layout_width="@dimen/toolbar_button_size_large"
+                android:layout_height="@dimen/toolbar_button_size_large"
+                android:background="@drawable/icon_eye"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                app:tint="@color/white" />
+
+            <ImageButton
+                android:id="@+id/doneButton"
+                android:layout_width="@dimen/toolbar_button_size_large"
+                android:layout_height="@dimen/toolbar_button_size_large"
+                android:background="@drawable/icon_check_done"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                app:tint="@color/white" />
+        </LinearLayout>
+
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/caller_avatar"
+            android:layout_width="@dimen/incoming_call_avatar_size"
+            android:layout_height="@dimen/incoming_call_avatar_size"
+            android:layout_marginTop="100dp"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/avatar_basic" />
+
+        <TextView
+            android:id="@+id/caller_name_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/caller_name_text_size"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/caller_avatar"
+            tools:text="Caller name" />
+
+        <TextView
+            android:id="@+id/caller_number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textSize="@dimen/call_status_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/caller_name_label"
+            tools:text="0934 511 246" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintBottom_toTopOf="@+id/frAds"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_percent="0.8">
+
+
+            <ImageView
+                android:id="@+id/call_end"
+                android:layout_width="@dimen/call_button_size"
+                android:layout_height="@dimen/call_button_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/call_accept"
+                android:layout_width="@dimen/call_button_size"
+                android:layout_height="@dimen/call_button_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--        <androidx.appcompat.widget.AppCompatButton-->
+<!--            android:id="@+id/setCallThemeButton"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:layout_marginStart="@dimen/_16sdp"-->
+<!--            android:layout_marginEnd="@dimen/_8sdp"-->
+<!--            android:background="@drawable/set_call_theme_button_bg_outline"-->
+<!--            android:foreground="?attr/selectableItemBackgroundBorderless"-->
+<!--            android:text="@string/set_call_theme"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textColor="#7E49E8"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintBottom_toTopOf="@+id/frAds"-->
+<!--            app:layout_constraintEnd_toStartOf="@id/previewCallThemeButton"-->
+<!--            app:layout_constraintHorizontal_chainStyle="spread_inside"-->
+<!--            app:layout_constraintStart_toStartOf="parent" />-->
+
+<!--        <androidx.appcompat.widget.AppCompatButton-->
+<!--            android:id="@+id/previewCallThemeButton"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:layout_marginStart="@dimen/_8sdp"-->
+<!--            android:layout_marginEnd="@dimen/_16sdp"-->
+<!--            android:background="@drawable/preview_theme_button_bg"-->
+<!--            android:foreground="?attr/selectableItemBackgroundBorderless"-->
+<!--            android:text="Preview"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintBottom_toTopOf="@+id/frAds"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toEndOf="@id/setCallThemeButton" />-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/frAds"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@color/grey_600"-->
+<!--            android:orientation="vertical"-->
+<!--            android:visibility="visible"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent">-->
+
+<!--            <View-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="@dimen/_1sdp"-->
+<!--                android:background="@color/grey_600" />-->
+
+<!--            <include-->
+<!--                android:id="@+id/banner_ads"-->
+<!--                layout="@layout/layout_banner_control" />-->
+<!--        </LinearLayout>-->
+
+        <FrameLayout
+            android:id="@+id/frAds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <include
+                android:id="@+id/includeNative"
+                layout="@layout/native_ads_small_full_shimmer"
+                android:visibility="visible" />
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>
+

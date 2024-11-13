@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "323723637669",
+    "project_id": "clap-to-find-phone-1f0ce",
+    "storage_bucket": "clap-to-find-phone-1f0ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323723637669:android:2f9ac91d9603a4ddccee4c",
+        "android_client_info": {
+          "package_name": "com.findphone.claptofind.phonewhistle.flash"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9Y4aAhkkBHSt0iushWEyIIUUsjq-xuiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

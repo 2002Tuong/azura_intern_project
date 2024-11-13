@@ -1,0 +1,23 @@
+<resources>
+	<string name="show_wifi_password">"वाईफाई पासवर्ड दिखाएं"</string>
+	<string name="all_connect_devices">"सभी कनेक्ट डिवाइस"</string>
+	<string name="available_wifi_list">"उपलब्ध वाईफाई सूची"</string>
+	<string name="available_network">"उपलब्ध नेटवर्क"</string>
+	<string name="wifi_shown">"वाईफाई पासवर्ड आपके कनेक्शन के लिए दिखाए गए हैं"</string>
+	<string name="detect_devices">"उन सभी उपकरणों का पता लगाएं जो आपके वाईफाई से जुड़ रहे हैं"</string>
+	<string name="scan_wifi">"पास के वाईफाई नेटवर्क को स्कैन और विश्लेषण करें"</string>
+	<string name="next">"अगला"</string>
+	<string name="contain_ads">"इस कार्रवाई में विज्ञापन हो सकते हैं"</string>
+	<string name="ask_grant_permission">"वाईफाई मैनेजर ऐप एक्सेस स्थान की अनुमति का उपयोग करता है"</string>
+	<string name="grant_permission">"भव्य अनुमति"</string>
+	<string name="grant_permission_description">"शुरू करने के लिए, हमें आपके स्थान तक पहुंचने के लिए आपकी अनुमति की आवश्यकता है।"</string>
+	<string name="ok">"ठीक है"</string>
+	<string name="cancel">"रद्द करना"</string>
+	<string name="enter_password">"पास वर्ड दर्ज करें"</string>
+	<string name="connect">"जोड़ना"</string>
+	<string name="show_password">"पासवर्ड दिखाए"</string>
+	<string name="we_are_working_hard_for_a_better_user_experience">"हम एक बेहतर उपयोगकर्ता अनुभव के लिए कड़ी मेहनत कर रहे हैं"</string>
+	<string name="the_best_rating_star">"सबसे अच्छा रेटिंग स्टार"</string>
+	<string name="exit_popup_message">"हमें आपके उत्तर की प्रतीक्षा रहती है। हमारे ऐप को और भी अधिक भयानक बनाने में हमारी मदद करें"</string>
+	<string name="no_exit">"नहीं, बाहर निकलें ऐप"</string>
+</resources>

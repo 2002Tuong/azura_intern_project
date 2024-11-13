@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/greyscale900"
+    android:layoutDirection="ltr">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonAddText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/filled_button"
+        android:gravity="center"
+        android:paddingHorizontal="@dimen/margin_5"
+        android:text="@string/text_add_button"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/cancelAddTextSticker"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="@dimen/margin_1"
+        android:layout_marginEnd="@dimen/margin_1"
+        android:layout_marginBottom="@dimen/margin_1"
+        android:src="@drawable/icon_close_circle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/confirmAddText"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:background="@drawable/background_shape_circle"
+        android:backgroundTint="@color/orange_900"
+        android:padding="12dp"
+        android:layout_marginEnd="@dimen/margin_1"
+        android:layout_marginBottom="@dimen/margin_1"
+        android:src="@drawable/icon_confirm_added_sticker"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cancelAddTextSticker" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/textStickerAddedListView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/cancelAddTextSticker"
+        app:layout_constraintEnd_toStartOf="@id/confirmAddText"
+        app:layout_constraintStart_toEndOf="@id/cancelAddTextSticker"
+        app:layout_constraintTop_toTopOf="@id/cancelAddTextSticker"
+        tools:listitem="@layout/item_view_text_sticker_added" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        android:background="@color/greyscale800"
+        android:layout_marginBottom="@dimen/margin_1"
+        app:layout_constraintBottom_toTopOf="@id/confirmAddText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/buttonPlayAndPauseInText"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="12dp"
+        android:src="@drawable/icon_play_circle"
+        android:visibility="invisible"
+        tools:visibility="visible"
+        app:cornerRadiusImageView="100dp"
+        app:layout_constraintBottom_toBottomOf="@id/cropTimeViewInText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cropTimeViewInText"
+        app:rippleColor="@color/whiteAlpha70" />
+
+    <com.slideshowmaker.slideshow.ui.custom.CropVideoTimeView
+        android:id="@+id/cropTimeViewInText"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="20dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@id/buttonAddText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/buttonPlayAndPauseInText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

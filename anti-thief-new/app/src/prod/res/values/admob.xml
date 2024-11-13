@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="native_language" translatable="false">ca-app-pub-4619049509334064/5142201377</string>
+    <string name="native_onboarding" translatable="false">ca-app-pub-4619049509334064/2516038036</string>
+    <string name="native_home" translatable="false">ca-app-pub-4619049509334064/2923216235</string>
+    <string name="native_function" translatable="false">ca-app-pub-4619049509334064/4759057998</string>
+    <string name="native_setting" translatable="false">ca-app-pub-4619049509334064/2212823693</string>
+    <string name="banner" translatable="false">ca-app-pub-4619049509334064/4527995840</string>
+    <string name="inter_function" translatable="false">ca-app-pub-4619049509334064/2036675820</string>
+    <string name="app_open_splash" translatable="false">ca-app-pub-4619049509334064/3732900871</string>
+    <string name="app_open_resume" translatable="false">ca-app-pub-4619049509334064/9397179144</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-4619049509334064~7189818201</string>
+</resources>

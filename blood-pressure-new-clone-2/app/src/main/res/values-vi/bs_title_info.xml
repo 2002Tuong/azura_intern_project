@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="bs_info_title_normal_blood_sugar_level">Mức đường huyết bình thường</string>
+    <string name="bs_info_title_diabetes">Bệnh tiểu đường</string>
+    <string name="bs_info_title_how_common_is_diabetes">Bệnh tiểu đường phổ biến như thế nào?</string>
+    <string name="bs_info_title_diabetes_symptoms">Triệu chứng bệnh tiểu đường</string>
+    <string name="bs_info_title_diabetes_types">Các loại bệnh tiểu đường</string>
+</resources>

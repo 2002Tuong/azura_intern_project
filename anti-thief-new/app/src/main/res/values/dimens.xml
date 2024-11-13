@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="pv_pin_view_item_size">48dp</dimen>
+    <dimen name="pv_pin_view_item_radius">5dp</dimen>
+    <dimen name="pv_pin_view_item_spacing">5dp</dimen>
+    <dimen name="pv_pin_view_item_line_width">2dp</dimen>
+    <dimen name="pv_pin_view_cursor_width">2dp</dimen>
+
+    <dimen name="margin_16_dp">16dp</dimen>
+    <dimen name="margin_5_dp">5dp</dimen>
+    <dimen name="margin_32_dp">32</dimen>
+    <dimen name="text_size_16_sp">16sp</dimen>
+    <dimen name="margin_8_dp">8dp</dimen>
+    <dimen name="size_1_dp">1dp</dimen>
+    <dimen name="margin_10_dp">10dp</dimen>
+    <dimen name="margin_17_dp">17dp</dimen>
+    <dimen name="text_size_20_sp">20sp</dimen>
+    <dimen name="text_size_24_sp">24sp</dimen>
+    <dimen name="text_size_14_sp">14sp</dimen>
+    <dimen name="margin_30_dp">30dp</dimen>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "793328982915",
+    "project_id": "batterychargeranimation",
+    "storage_bucket": "batterychargeranimation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793328982915:android:c01b1b1a47baf99aa734b6",
+        "android_client_info": {
+          "package_name": "com.example.videoart.batterychargeranimation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOpPgqZ_hFS_yGqAK-pv-FgAJ9rMPa3do"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

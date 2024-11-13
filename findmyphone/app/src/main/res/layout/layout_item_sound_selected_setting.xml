@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rltSupport"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@drawable/bg_billing_method">
+
+    <ImageView
+        android:id="@+id/imgSettingIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/margin_16_dp"
+        android:layout_marginTop="@dimen/margin_16_dp"
+        android:layout_marginBottom="@dimen/margin_16_dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/icon_flash" />
+
+    <TextView
+        android:id="@+id/txtSettingTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/margin_9_dp"
+        android:layout_toEndOf="@id/imgSettingIcon"
+        android:text="Bill methods"
+        android:textColor="@color/text_color_1"
+        android:textSize="@dimen/text_size_14_sp" />
+
+    <Switch
+        android:id="@+id/swSoundSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin_16_dp"
+        android:thumb="@drawable/switch_thumb_selector"
+        android:track="@drawable/switch_bg_selector"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <SeekBar
+        android:id="@+id/seekBarSoundVolume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/margin_40_dp"
+        android:thumb="@drawable/icon_seekbar_thumb"
+        android:layout_marginEnd="@dimen/margin_16_dp"
+        android:progressBackgroundTint="@color/text_color_3"
+        android:progressTint="@color/text_color_2"
+        android:layout_toEndOf="@id/txtSettingTitle" />
+
+    <View
+        android:id="@+id/dividerVibration"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_1_dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/divider_background" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="water_info_title_avoid_drink_mistake">水の飲み方の間違いを避ける</string>
+    <string name="water_info_title_best_time_to_drink">水を飲むのに最適な時間帯</string>
+    <string name="water_info_title_replace_with_water">健康のために飲み物を水に置き換える</string>
+    <string name="water_info_title_drink_on_empty_stomach">胃が空っぽのときに水を飲む？</string>
+    <string name="water_info_title_benefit_lemon_water">レモン水を飲むことの利点</string>
+    <string name="water_info_title_is_ok_drink_during_meal">食事中に水を飲んでも大丈夫ですか？</string>
+    <string name="water_info_title_benefit_for_health">水を飲む: 健康への利点</string>
+    <string name="water_info_title_danger_of_overhydration">過剰な水分補給の危険性</string>
+    <string name="water_info_title_why_should_give_baby_water">なぜ赤ちゃんに水を与えてはいけないのでしょうか？</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaults>
+    <entry>
+        <key>version_ads_enable</key>
+        <value>10.0.0</value>
+    </entry>
+</defaults>
